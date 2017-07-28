@@ -1,19 +1,17 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+You are going to make a game in which you play the notes of a song as they scroll down the stage.
 
 ### What you will make
 
-Add something here to showcase here, for example:
+Click the green flag to play. Use z, x, c and v to play the correct notes when they reach the bottom of the stage. You'll score 10 points for every correct note you play.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/169972197/?autostart=false" frameborder="0"></iframe>
 </div>
-
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
 
 ### What you will learn
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
