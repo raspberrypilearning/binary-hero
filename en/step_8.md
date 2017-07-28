@@ -6,4 +6,8 @@
 
 ![Choosing a song](images/song-choice.png)
 
+You could even use different instruments for different songs!
+
+![Set instrument](images/set0instrument.png)
+
 --- /challenge ---

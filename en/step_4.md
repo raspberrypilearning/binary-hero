@@ -2,15 +2,24 @@
 
 Let's play notes when keys are pressed.
 
-+ Broadcast a 'note change' message whenever a key is pressed.
++ Broadcast a 'note change' message whenever __each of the 4 keys__ are pressed.
 
 ![Broadcasting a note change](images/broadcast-note-change.png)
 
-+ Add code to the **stage** to play a note (starting with Middle C -- note 60) when a combination of keys are pressed.
++ Add code to the **stage** to play a note when a combination of keys are pressed.
+
+Your notes should start at Middle C, which is note 60.
+
+![Middle C](images/middle-c.png)
 
 --- hints ---
 --- hint ---
 When your stage __receives__ the 'change note' message, it should __stop all sounds__ before __playing a note__ based on the value of your __note__ variabe.
+
++ When your `note` variable is 1, note 60 should be played.
++ When your `note` variable is 2, note 61 should be played.
++ When your `note` variable is 3, note 62 should be played.
++ etc...
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:

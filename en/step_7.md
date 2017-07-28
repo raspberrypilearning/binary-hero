@@ -10,15 +10,15 @@ Improve your game by giving the player points each time the correct note is play
 
 --- hints ---
 --- hint ---
-...
+__Before each clone is deleted__, it should check to see __if__ the __note__ is __equal to__ the __costume number__. If they are the same, the score can be __changed__.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![screenshot](images/.png)
+![screenshot](images/score-blocks.png)
 --- /hint ---
 --- hint ---
 This is what your code should look like:
-![screenshot](images/.png)
+![screenshot](images/score-code.png)
 --- /hint ---
 --- /hints ---
 
@@ -30,14 +30,14 @@ This is what your code should look like:
 
 --- hints ---
 --- hint ---
-...
+When your stage __receives__ the 'got' message, it should __change color__, __wait__ for a short time before __clearing the graphic effects__.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![screenshot](images/.png)
+![screenshot](images/stage-score-blocks.png)
 --- /hint ---
 --- hint ---
 This is what your code should look like:
-![screenshot](images/.png)
+![screenshot](images/stage-score-code.png)
 --- /hint ---
 --- /hints ---
