@@ -8,6 +8,6 @@
 
 You could even use different instruments for different songs!
 
-![Set instrument](images/set0instrument.png)
+![Set instrument](images/set-instrument.png)
 
 --- /challenge ---
