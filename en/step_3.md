@@ -9,7 +9,7 @@ How many notes can you play with 4 keys? It might be more than you think!
 title: I'm using Scratch online
 image: images/image.png
 ---
-Open the 'Binary Hero' Scratch starter project at  [http://jumpto.cc/binary-go"](jumpto.cc/binary-go){:target="_blank"}.
+Open the 'Binary Hero' Scratch starter project at  [jumpto.cc/binary-go](http://jumpto.cc/binary-go){:target="_blank"}.
 --- /collapse ---
 
 --- collapse ---
@@ -17,7 +17,7 @@ Open the 'Binary Hero' Scratch starter project at  [http://jumpto.cc/binary-go"]
 title: I'm using Scratch offline
 image: images/image.png
 ---
-Download the 'Binary Hero' Scratch starter project from [resources/binary-hero](resources/binary-hero){:target="_blank"} and then open it using the offline editor.
+Download the [binary-hero.sb2](resources/binary-hero.sb2){:target="_blank"}) Scratch starter project from the 'resources' folder and open it using the offline editor.
 --- /collapse ---
 
 + Binary intro???
@@ -46,13 +46,19 @@ This is what your code should look like:
 
 + Do the same for the other 3 sprites, so that they light up when the c, x and z key are pressed.
 
+![](images/all-key-presses.png)
+
 + Create a new variable called `note`, and drag it next to the 4 note sprites.
 
 ![Note variable](images/note-create.png)
 
 [[[generic-scratch-add-variable]]]
 
-+ Add code to the **stage** to used the keys pressed to calculate the value of the note to be played.
++ Add code to the **stage** to use the keys pressed to calculate the value of the note to be played.
+
+For example, when c and v are pressed the value of `note` should be 3.
+
+![Testing the note variable](images/note-test.png)
 
 --- hints ---
 --- hint ---

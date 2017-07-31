@@ -1,13 +1,12 @@
 --- challenge ---
 
-## Challenge: Create your own song
+## Challenge: Incorrect notes
 
-+ Can you add your own song to the game? You could even allow the player to choose a song at the start of the game.
+Can you add code to change how the stage looks if the correct note isn't played?
 
-![Choosing a song](images/song-choice.png)
+![Playing an incorrect note](images/incorrect-challenge.png)
 
-You could even use different instruments for different songs!
+You'll need to add code very similar to the code for when a correct note is played.
 
-![Set instrument](images/set-instrument.png)
 
 --- /challenge ---

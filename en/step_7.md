@@ -14,30 +14,32 @@ __Before each clone is deleted__, it should check to see __if__ the __note__ is 
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![screenshot](images/score-blocks.png)
+![Blocks for keeping score](images/score-blocks.png)
 --- /hint ---
 --- hint ---
 This is what your code should look like:
-![screenshot](images/score-code.png)
+![Code for keeping score](images/score-code.png)
 --- /hint ---
 --- /hints ---
 
-+ Broadcast a message called 'got' when the correct note is played.
++ Broadcast a message called 'correct' when the correct note is played.
 
-![Broadcasting a 'got' message](images/broadcast-got.png)
+![Broadcasting a 'correct' message](images/broadcast-correct.png)
 
 + Add code to your **stage** to briefly change how it looks when the player plays the correct note.
 
 --- hints ---
 --- hint ---
-When your stage __receives__ the 'got' message, it should __change color__, __wait__ for a short time before __clearing the graphic effects__.
+When your stage __receives__ the 'correct' message, it should __switch costume__, __wait__ for a short time before __switching back__.
+
+You might also need to add code to __set the costume__ to normal when the __flag is clicked__.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![screenshot](images/stage-score-blocks.png)
+![Blocks for playing the correct note](images/stage-correct-blocks.png)
 --- /hint ---
 --- hint ---
 This is what your code should look like:
-![screenshot](images/stage-score-code.png)
+![Code for playing the correct note](images/stage-correct-code.png)
 --- /hint ---
 --- /hints ---
