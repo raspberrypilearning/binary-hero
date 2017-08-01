@@ -15,9 +15,9 @@ Scroll notes down the stage so that the player knows which keys to press.
     + The `notes` list stores the notes of the song, in order (from 1 to 15).
     + The `times` list is used to store the times that each note is played.
 
-![Explaining lists](images/lists-explain.png)
+    ![Explaining lists](images/lists-explain.png)
 
-So for the data above:
+    So for the data above:
 
     + Note 1 (Middle C) should be played at 5 seconds
     + Note 1 should be played again at 5.5 seconds
