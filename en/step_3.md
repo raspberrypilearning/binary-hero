@@ -17,10 +17,8 @@ Open the 'Binary Hero' Scratch starter project at  [jumpto.cc/binary-go](http://
 title: I'm using Scratch offline
 image: images/image.png
 ---
-Download the [binary-hero.sb2](resources/binary-hero.sb2){:target="_blank"}) Scratch starter project from the 'resources' folder and open it using the offline editor.
+Download the [binary-hero.sb2](resources/binary-hero.sb2){:target="_blank"} Scratch starter project and open it using the offline editor.
 --- /collapse ---
-
-+ Binary intro???
 
 + Let's start by showing which keys have been pressed. Click on the sprite called '1' and add code to change its costume when the v key is pressed.
 
@@ -46,7 +44,15 @@ This is what your code should look like:
 
 + Do the same for the other 3 sprites, so that they light up when the c, x and z key are pressed.
 
-![](images/all-key-presses.png)
+![All keys pressed](images/all-key-presses.png)
+
++ In this project you'll be using combinations of the 4 different keys to play different notes. You can think of each of the keys as either on (pressed) or off (not pressed). This means that we can think of each combination of keys as a __binary number__.
+
+This means that moving from right-to-left the keys double in value, and are 1, 2, 4 and 8. By adding up the numbers above each key you can work out the value of the note.
+
+![Note value examples](images/note-values.png)
+
+There are 2<sup>4</sup> = __16 combinations__ that can be made with the 4 keys. This means that we can play 15 different notes, as 0 will mean that no note is played.
 
 + Create a new variable called `note`, and drag it next to the 4 note sprites.
 

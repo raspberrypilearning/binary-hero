@@ -14,7 +14,7 @@ Your notes should start at Middle C, which is note 60.
 
 --- hints ---
 --- hint ---
-When your stage __receives__ the 'change note' message, it should __stop all sounds__ before __playing a note__ based on the value of your __note__ variabe.
+When your stage __receives__ the 'change note' message, it should __stop all sounds__ before __playing a note__ based on the value of your `note` variabe.
 
 + When your `note` variable is 1, note 60 should be played.
 + When your `note` variable is 2, note 61 should be played.
@@ -33,13 +33,16 @@ This is what your code should look like:
 
 + Test your code and you'll notice that the note is repeatedly played when a key is held down.
 
-...video?
+<video width="400" controls>
+  <source src="video/play-note-bug.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
 
 + Can you add code to only play a note __once__ when a key is held down?
 
 --- hints ---
 --- hint ---
-When the z, x, c and c keys are pressed, your code should __wait until__ the __key is not pressed__ before continuing.
+When each of the z, x, c and c keys are pressed, your code should __wait until__ the __key is not pressed__ before continuing.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
