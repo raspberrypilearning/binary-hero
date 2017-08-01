@@ -46,9 +46,9 @@ This is what your code should look like:
 
 ![All keys pressed](images/all-key-presses.png)
 
-+ In this project you'll be using combinations of the 4 different keys to play different notes. You can think of each of the keys as either on (pressed) or off (not pressed). This means that we can think of each combination of keys as a __binary number__.
++ In this project you'll be using combinations of the 4 different keys to play different notes. You can think of each of the keys as either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a __binary number__.
 
-This means that moving from right-to-left the keys double in value, and are 1, 2, 4 and 8. By adding up the numbers above each key you can work out the value of the note.
+Moving from right-to-left the keys double in value, and are 1, 2, 4 and 8. By adding up the numbers above each key you can work out the value of the note.
 
 ![Note value examples](images/note-values.png)
 
