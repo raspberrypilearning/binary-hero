@@ -38,8 +38,6 @@ This is what your code should look like:
 
 When you test your code, it should work just as it did before.
 
-[[[generic-scratch-make-block-parameters]]]
-
 --- hints ---
 --- hint ---
 Make a block called 'clear song' that __deletes__ all items from both lists.
@@ -55,6 +53,8 @@ This is what your code should look like:
 ![Custom block for adding a note](images/custom-note-test.png)
 
 When you test your code, it should work just as it did before.
+
+[[[generic-scratch-make-block-parameters]]]
 
 --- hints ---
 --- hint ---
