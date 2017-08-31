@@ -26,7 +26,9 @@ This is what your code should look like:
 
 ![Broadcasting a 'correct' message](images/broadcast-correct.png)
 
-+ Add code to your **stage** to briefly change how it looks when the player plays the correct note.
++ Add code to your **stage** to briefly change how it looks when the player plays the correct note. A costume has been provided for you.
+
+![Correct stage background](images/correct-costume.png)
 
 --- hints ---
 --- hint ---

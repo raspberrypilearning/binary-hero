@@ -34,6 +34,8 @@ Scroll notes down the stage so that the player knows which keys to press.
 
 + Add code to create a clone of the 'note' sprite for every note to be played. Each clone should be created 2 seconds before the time the note should be played, and should then move down the stage.
 
+This then gives the sprite 2 seconds to move down the screen; something you'll code later!
+
 Nothing will seem to happen when you test your code, because the 'note' sprite is hidden. If you show (or don't hide) the sprite then you should see clones being created on top of each other.
 
 ![Testing clones](images/clones-test.png)

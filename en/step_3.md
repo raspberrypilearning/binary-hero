@@ -18,6 +18,8 @@ title: I'm using Scratch offline
 image: images/image.png
 ---
 Download the [binary-hero.sb2](resources/binary-hero.sb2){:target="_blank"} Scratch starter project and open it using the offline editor.
+
+If you have a Scratch account, you can click on __Remix__ in the top right-hand corner to save a copy of the project to your account.
 --- /collapse ---
 
 + Let's start by showing which keys have been pressed. Click on the sprite called '1' and add code to change its costume when the v key is pressed.
@@ -46,7 +48,9 @@ This is what your code should look like:
 
 ![All keys pressed](images/all-key-presses.png)
 
-+ In this project you'll be using combinations of the 4 different keys to play different notes. You can think of each of the keys as either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a __binary number__.
+### Binary numbers
+
+In this project you'll be using combinations of the 4 different keys to play different notes. You can think of each of the keys as either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a __binary number__.
 
 Moving from right-to-left the keys double in value, and are 1, 2, 4 and 8. By adding up the numbers above each key you can work out the value of the note.
 

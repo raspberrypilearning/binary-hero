@@ -38,7 +38,7 @@ This is what your code should look like:
   Your browser does not support HTML5 video.
 </video>
 
-+ Can you add code to only play a note __once__ when a key is held down?
++ Can you add code to the **key sprites** only play a note __once__ when a key is held down?
 
 --- hints ---
 --- hint ---
