@@ -38,6 +38,8 @@ This is what your code should look like:
 
 When you test your code, it should work just as it did before.
 
+[[[generic-scratch-make-block-parameters]]]
+
 --- hints ---
 --- hint ---
 Make a block called 'clear song' that __deletes__ all items from both lists.
