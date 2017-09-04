@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Challenge: Create your own song
+## Challenge: create your own song
 
 Can you add your own song to the game? Showing the timer will help you get an idea of when the notes of your song should be played.
 
