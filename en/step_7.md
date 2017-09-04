@@ -10,7 +10,7 @@ Improve your game by giving the player points each time the correct note is play
 
 --- hints ---
 --- hint ---
-__Before each clone is deleted__, it should check to see __if__ the __note__ is __equal to__ the __costume number__. If they are the same, the score can be __changed__.
+`Before each clone is deleted`, it should check to see `if` the `note` is `equal to` the `costume number`. If they are the same, the score can be `changed`.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
@@ -26,15 +26,15 @@ This is what your code should look like:
 
 ![Broadcasting a 'correct' message](images/broadcast-correct.png)
 
-+ Add code to your **stage** to briefly change how it looks when the player plays the correct note. A costume has been provided for you.
++ Add code to your Stage to briefly change how it looks when the player plays the correct note. A costume has been provided for you.
 
 ![Correct stage background](images/correct-costume.png)
 
 --- hints ---
 --- hint ---
-When your stage __receives__ the 'correct' message, it should __switch costume__, __wait__ for a short time before __switching back__.
+When your stage receives the 'correct' message, it should `switch costume`, `wait` for a short time before `switching back`.
 
-You might also need to add code to __set the costume__ to normal when the __flag is clicked__.
+You might also need to add code to `set the costume` to normal when the `flag is clicked`.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
