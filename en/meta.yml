@@ -1,6 +1,6 @@
 title: Binary Hero
 hero_image: images/banner.png
-description: Score points by playing the notes of a song as they scroll down the stage.
+description: Score points by playing the notes of a song as they scroll down the Stage
 theme: violet # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2 # possible values: 1, 2 or 3
 listed: false
@@ -18,5 +18,5 @@ steps:
   - title: Scrolling notes
   - title: Storing songs
   - title: Keeping score
-  - title: "Challenge: Incorrect notes"
-  - title: "Challenge: Create your own song"
+  - title: "Challenge: incorrect notes"
+  - title: "Challenge: create your own song"
