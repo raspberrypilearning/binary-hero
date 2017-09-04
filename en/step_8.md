@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Challenge: Incorrect notes
+## Challenge: incorrect notes
 
 Can you add code to change how the stage looks if the correct note isn't played?
 
