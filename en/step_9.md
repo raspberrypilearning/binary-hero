@@ -15,3 +15,6 @@ You could even use different instruments for different songs!
 ![Set instrument](images/set-instrument.png)
 
 --- /challenge ---
+
+### Hour of Code
+[I've finished my Hour of Code!](https://code.org/api/hour/finish)
