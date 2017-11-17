@@ -16,4 +16,4 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 + [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
 
-[Hour of Code pixel](http://code.org/api/hour/begin_codeclub_binary.png)
+![Hour of Code pixel](http://code.org/api/hour/begin_codeclub_binary.png)
