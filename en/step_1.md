@@ -15,3 +15,5 @@ Click the green flag to play. Use `z`, `x`, `c` and `v` to play the correct note
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder/)
+
+![Hour of Code pixel](http://code.org/api/hour/begin_codeclub_binary.png)
