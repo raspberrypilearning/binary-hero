@@ -53,8 +53,13 @@ add [9] to [notes v]
 
 --- task ---
 Test your new block by running it at the start of your project.
-
-![Testing a custom block](images/load-block-test.png)
+![notes-sprite](images/note-sprite.png)
+```blocks
+when flag clicked
++load 'happy birthday' ::custom
+hide
+reset timer
+```
 
 Each of your lists should now contain five numbers.
 

@@ -9,7 +9,7 @@ Create two lists called `notes`{:class="blockdata"} and `times`{:class="blockdat
 --- /task ---
 
 --- task ---
-Add the following numbers to your `notes` and `times` lists. Note: make sure to add these exact numbers in the right order.
+Add the following numbers to your `notes`{:class="blockdata"} and `times`{:class="blockdata"} lists. Note: make sure to add these exact numbers in the right order.
 
 ![Add notes and times to lists](images/lists-add.png)
 --- /task ---
@@ -115,3 +115,4 @@ show
 glide (2) secs to x: (20) y:(-130)
 delete this clone
 ```
+--- /task ---

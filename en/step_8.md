@@ -9,7 +9,7 @@ Create a new variable called `score`{:class="blockdata"}, and place it at the to
 --- /task ---
 
 --- task ---
-Add to the player's score whenever they play the correct note at the correct time. Remember to set their score to `0` at the start of the game.
+Add to the player's score whenever they play the correct note at the correct time. Remember to set their score to `0`{:class="blockdata"} at the start of the game.
 
 --- hints ---
 --- hint ---
@@ -65,9 +65,9 @@ delete this clone
 --- /task ---
 
 --- task ---
-Add code to your Stage to briefly change how it looks when the player plays the correct note. A costume has been provided for you.
-
 ![Correct stage background](images/correct-costume.png)
+
+Add code to your Stage to briefly change how it looks when the player plays the correct note. A costume has been provided for you.
 
 ![stage](images/stage.png)
 ```blocks

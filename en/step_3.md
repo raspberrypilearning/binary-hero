@@ -9,7 +9,7 @@ Moving from right to left the keys double in value, and are `1`, `2`, `4`, and `
 There are 2<sup>4</sup> = __16 combinations__ that can be made with the four keys. This means that we can play 15 different notes, as `0` will mean that no note is played.
 
 --- task ---
-Create a new variable called `note`, and drag it next to the 4 note sprites.
+Create a new variable called `note`{:class="blockdata"}, and drag it next to the 4 note sprites.
 
 ![Note variable](images/note-create.png)
 
@@ -20,7 +20,7 @@ Create a new variable called `note`, and drag it next to the 4 note sprites.
 --- task ---
 Add code to the Stage to use the keys pressed to calculate the value of the note to be played.
 
-For example, when `c` and `v` are pressed, the value of `note` should be `3`.
+For example, when `c` and `v` are pressed, the value of `note`{:class="blockdata"} should be `3`.
 
 ![Testing the note variable](images/note-test.png)
 
@@ -33,7 +33,7 @@ When the `flag is clicked`{:class="blockevents"}, the `note`{:class="blockdata"}
 + `if`{:class="blockcontrol"} the `x key is pressed`{:class="blocksensing"}, the `note`{:class="blockdata"} should be `changed by 4`{:class="blockdata"}
 + `if`{:class="blockcontrol"} the `z key is pressed`{:class="blocksensing"}, the `note`{:class="blockdata"} should be `changed by 8`{:class="blockdata"}
 
-All of this code should be repeated `forever`.{:class="blockcontrol"}
+All of this code should be repeated `forever`{:class="blockcontrol"}.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need (but you'll need more than one of some of the blocks):

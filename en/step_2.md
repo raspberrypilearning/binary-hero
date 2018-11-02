@@ -19,7 +19,7 @@ When you test your sprite by pressing the `v` key, the sprite should light up.
 
 --- hints ---
 --- hint ---
-When the `flag is clicked`{:class="blockevents"}, your sprite should check `forever`{:class="blockcontrol"} whether the `v key is pressed`{:class="sensing"}. `if`{:class="blockcontrol"} the key is pressed, the 'on' `costume`{:class="blocklooks"} should be shown, `else`{:class="blockcontrol"} the 'off' `costume`{:class="blockshow"} should be shown.
+When the `flag is clicked`{:class="blockevents"}, your sprite should check `forever`{:class="blockcontrol"} whether the `v key is pressed`{:class="blocksensing"}. `if`{:class="blockcontrol"} the key is pressed, the 'on' `costume`{:class="blocklooks"} should be shown, `else`{:class="blockcontrol"} the 'off' `costume`{:class="blocklooks"} should be shown.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:

@@ -3,7 +3,7 @@
 The code in the last step is difficult to read, so let's use more custom blocks to simplify it.
 
 --- task ---
- Make another block called `clear song`, which deletes all items from both lists. Use this block before adding to the lists.
+ Make another block called `clear song`{:class="blockmoreblocks"}, which deletes all items from both lists. Use this block before adding to the lists.
 
 ![note-sprite](images/note-sprite.png)
 ```blocks
@@ -20,6 +20,8 @@ define load 'happy birthday'
 add [1] to [notes v]
 add [5] to [notes v]
 ```
+--- /task ---
+
 --- task ---
 You could make your code even easier to read by making another block which allows you to specify a note to be played along with a time.
 

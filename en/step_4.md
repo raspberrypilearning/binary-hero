@@ -29,7 +29,7 @@ play note (60 v) for (1) beats
 
 --- hints ---
 --- hint ---
-When your stage `receives`{:class="blockevents"} the 'change note' message, it should `stop all sounds`{:class="blocksounds"} before `playing a note`{:class="blocksounds"} based on the value of your `note`{:class="blocksounds"} variabe.
+When your stage `receives`{:class="blockevents"} the 'change note' message, it should `stop all sounds`{:class="blocksound"} before `playing a note`{:class="blocksound"} based on the value of your `note`{:class="blockdata"} variable.
 
 + When your `note`{:class="blocksounds"} variable is `1`{:class="blockdata"}, note 60 should be played
 + When your `note`{:class="blocksounds"} variable is `2`{:class="blockdata"}, note 61 should be played
@@ -38,9 +38,9 @@ When your stage `receives`{:class="blockevents"} the 'change note' message, it s
 
 --- /hint ---
 --- hint ---
+Here are the code blocks you'll need:
 ![stage](images/stage.png)
 ```blocks
-Here are the code blocks you'll need:
 play note (60 v) for (1) beats
 when I receive [note change v]
 () + ()
@@ -71,7 +71,7 @@ Test your code. You'll notice that the note is repeatedly played when a key is h
 --- /task ---
 
 --- task ---
-Can you add code so that the key sprites only play a note `once` when a key is held down?
+Can you add code so that the key sprites only play a note *once* when a key is held down?
 
 --- hints ---
 --- hint ---
