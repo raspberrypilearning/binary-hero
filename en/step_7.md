@@ -1,47 +1,50 @@
-## Keeping score
+## More custom blocks
 
-Improve your game by giving the player points each time the correct note is played.
+The code in the last step is difficult to read, so let's use more custom blocks to simplify it.
 
-+ Create a new variable called `score`, and place it at the top of your stage.
+--- task ---
+ Make another block called `clear song`, which deletes all items from both lists. Use this block before adding to the lists.
 
-![Add a score](images/add-score.png)
+![note-sprite](images/note-sprite.png)
+```blocks
+define clear song
+delete (all v) of [notes v]
+delete (all v) of [times v]
+```
 
-+ Add to the player's score whenever they play the correct note at the correct time. Remember to set their score to `0` at the start of the game.
+When you test your code, it should work just as it did before.
 
---- hints ---
---- hint ---
-`Before each clone is deleted`, it should check to see `if` the `note` is `equal to` the `costume number`. If they are the same, the score can be `changed`.
---- /hint ---
---- hint ---
-Here are the code blocks you'll need:
-![Blocks for keeping score](images/score-blocks.png)
---- /hint ---
---- hint ---
-This is what your code should look like:
-![Code for keeping score](images/score-code.png)
---- /hint ---
---- /hints ---
+```blocks
+define load 'happy birthday'
++clear song ::custom
+add [1] to [notes v]
+add [5] to [notes v]
+```
+--- task ---
+You could make your code even easier to read by making another block which allows you to specify a note to be played along with a time.
 
-+ Broadcast a message called 'correct' when the correct note is played.
-
-![Broadcasting a 'correct' message](images/broadcast-correct.png)
-
-+ Add code to your Stage to briefly change how it looks when the player plays the correct note. A costume has been provided for you.
-
-![Correct stage background](images/correct-costume.png)
+[[[generic-scratch-make-block-parameters]]]
 
 --- hints ---
 --- hint ---
-When your stage receives the 'correct' message, it should `switch costume`, `wait` for a short time before `switching back`.
-
-You might also need to add code to `set the costume` to normal when the `flag is clicked`.
---- /hint ---
---- hint ---
-Here are the code blocks you'll need:
-![Blocks for playing the correct note](images/stage-correct-blocks.png)
+Make a block that takes a `note`{:class="blockdata"} and a `time`{:class="blockdata"} and `adds`{:class="blockdata"} both numbers to the lists.
 --- /hint ---
 --- hint ---
 This is what your code should look like:
-![Code for playing the correct note](images/stage-correct-code.png)
+```blocks
+define Add note (note) at (time) secs
+add (note) to [notes v]
+add (time) to [times v]
+
+define load 'happy birthday'
+clear song ::custom
++Add note (1) at (5) secs
++Add note (1) at (5.5) secs
++Add note (3) at (6) secs
++Add note (1) at (7) secs
++Add note (6) at (8) secs
++Add note (5) at (9) secs
+```
 --- /hint ---
 --- /hints ---
+
