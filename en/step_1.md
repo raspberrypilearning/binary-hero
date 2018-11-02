@@ -11,19 +11,17 @@ Click the green flag to play. Use `z`, `x`, `c` and `v` to play the correct note
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259028053/?autostart=false" frameborder="0"></iframe>
 </div>
 --- /no-print ---
+
+--- print-only ---
 The notes will fall from above and you will have to press keys to "catch" the notes as they fall.
 ![showcase](images/showcase.png)
---- print-only ---
-
-
 --- /print-only ---
 --- collapse ---
 ---
 title: What you will learn
 ---
-- 
-- 
-- 
+- How to use lists to store sequences of notes and timings
+- How to use custom blocks with inputs
 --- /collapse ---
 
 --- collapse ---
