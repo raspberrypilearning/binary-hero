@@ -1,20 +1,21 @@
---- challenge ---
+## Challenge: taking it further
 
-## Challenge: create your own song
+Your Binary Hero game is done now, but there are a few things you could do to make it even better!
 
-Can you add your own song to the game? Showing the timer will help you get an idea of when the notes of your song should be played.
+For example, can you add code to change how the stage looks if the correct note isn't played?
 
-![Timer blocks](images/timer.png)
+```blocks
+when I start as a clone
+go to x: (20) y: (160)
+show
+glide (2) secs to x: (20) y:(-130)
+if <(note) = (costume #)> then
+change [score v] by (1)
+broadcast [correct v]
+else
++???
+end
+delete this clone
+```
 
-You could also allow the player to choose a song at the start of the game.
-
-![Choosing a song](images/song-choice.png)
-
-You could even use different instruments for different songs!
-
-![Set instrument](images/set-instrument.png)
-
---- /challenge ---
-
-### Hour of Code
-[I've finished my Hour of Code!](https://code.org/api/hour/finish)
+You'll need to add code very similar to the code for when a correct note is played, and a costume has been provided for you.
