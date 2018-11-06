@@ -17,7 +17,7 @@ Open the 'Binary Hero' Scratch starter project at  [jumpto.cc/binary-go](http://
 title: I'm using Scratch offline
 image: images/image.png
 ---
-Download the [binary-hero.sb2](resources/binary-hero.sb2){:target="_blank"} Scratch starter project and open it using the offline editor.
+Download the Scratch starter project at [rpf.io/binary-off](http://rpf.io/binary-off){:target="_blank"} and open it using the offline editor.
 
 If you have a Scratch account, you can click on __Remix__ in the top right-hand corner to save a copy of the project to your account.
 --- /collapse ---
