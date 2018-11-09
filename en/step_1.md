@@ -5,6 +5,7 @@ In this project you will make a game in which you play the notes of a song as th
 ### What you will make
 
 --- no-print --
+
 Click the green flag to play. Use `z`, `x`, `c` and `v` to play the correct notes when they reach the bottom of the stage. You'll score ten points for every correct note you play.
 
 <div class="scratch-preview">
