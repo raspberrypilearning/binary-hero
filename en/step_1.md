@@ -11,6 +11,7 @@ Click the green flag to play. Use `z`, `x`, `c` and `v` to play the correct note
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259028053/?autostart=false" frameborder="0"></iframe>
 </div>
+
 --- /no-print ---
 
 --- print-only ---
