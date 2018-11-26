@@ -6,6 +6,8 @@ You've made it so that notes are removed from the lists once they've been played
 
 You're now going to add code to store songs in your project, so that you don't have to add to your lists each time.
 
+![Add notes and times to lists](images/lists-add.png)
+
 --- task ---
 Make a block called `load 'happy birthday'`{:class="blockmoreblocks"} that clears both the `notes`{:class="blockdata"} and `times`{:class="blockdata"} lists, and then adds the numbers back into both lists.
 [[[generic-scratch-make-block]]]

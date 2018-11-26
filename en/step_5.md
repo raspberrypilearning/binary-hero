@@ -49,6 +49,7 @@ Nothing will seem to happen when you test your code, because the 'note' sprite i
 
 --- hints ---
 --- hint ---
+![note](images/note-sprite.png)
 When the `flag is clicked`{:class="blockevents"} the 'note' sprite should `hide`{:class="blocklooks"}, and the `timer`{:class="blockdata"} should be `reset`{:class="blockdata"}.
 
 You should then `wait until`{:class="blockcontrol"} the timer is `greater than`{:class="blockoperators"} the next note to be played, which will be the `time`{:class="blockdata"} at the `start of the list`{:class="blockdata"} (`minus 2 seconds`{:class="blockoperators"}).

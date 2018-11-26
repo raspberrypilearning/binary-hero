@@ -74,23 +74,8 @@ Test your code. You'll notice that the note is repeatedly played when a key is h
 --- /task ---
 
 --- task ---
-Can you add code so that the key sprites only play a note *once* when a key is held down?
+Add code so that the **all** the key sprites only play a note *once* when a key is held down?
 
---- hints ---
---- hint ---
-When each of the `z`, `x`, `c` and `v` keys is pressed, your code should `wait until`{:class="blockcontrol"} the `key is not pressed`{:class="blocksensing"} before continuing.
---- /hint ---
---- hint ---
-Here are the code blocks you'll need:
-![1 sprite](images/stage.png)
-```blocks
-key [v v] pressed?
-not <>
-wait until <>
-```
---- /hint ---
---- hint ---
-This is what your code should look like:
 ![1 sprite](images/1.png)
 ```blocks
 when flag clicked
@@ -103,6 +88,4 @@ else
 switch costume to [off v]
 end
 ```
---- /hint ---
---- /hints ---
 --- /task ---
