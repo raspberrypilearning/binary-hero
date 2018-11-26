@@ -14,6 +14,6 @@ steps:
 - title: Storing songs
 - title: More custom blocks
 - title: Keeping score
-- title: Challenge: taking it further
+- title: "Challenge: taking it further"
   challenge: true
 - title: "What next?"
