@@ -22,18 +22,19 @@ Add code to the Stage to play a note when a combination of keys is pressed.
 
 Your notes should start at middle C, which is note 60.
 
-![1 sprite](images/1.png)
 ```blocks
 play note (60 v) for (1) beats
 ```
 
 --- hints ---
 --- hint ---
+![1 sprite](images/stage.png)
+
 When your stage `receives`{:class="blockevents"} the 'change note' message, it should `stop all sounds`{:class="blocksound"} before `playing a note`{:class="blocksound"} based on the value of your `note`{:class="blockdata"} variable.
 
-+ When your `note`{:class="blocksounds"} variable is `1`{:class="blockdata"}, note 60 should be played
-+ When your `note`{:class="blocksounds"} variable is `2`{:class="blockdata"}, note 61 should be played
-+ When your `note`{:class="blocksounds"} variable is `3`{:class="blockdata"}, note 62 should be played
++ When your `note`{:class="blockdata"} variable is `1`{:class="blockdata"}, note 60 should be played
++ When your `note`{:class="blockdata"} variable is `2`{:class="blockdata"}, note 61 should be played
++ When your `note`{:class="blockdata"} variable is `3`{:class="blockdata"}, note 62 should be played
 + etc...
 
 --- /hint ---
@@ -62,12 +63,14 @@ play note ((59) + (note)) for (1) beats
 
 --- task ---
 Test your code. You'll notice that the note is repeatedly played when a key is held down.
+
 --- no-print ---
 <video width="400" controls>
   <source src="images/play-note-bug.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
 --- /no-print ---
+
 --- /task ---
 
 --- task ---
@@ -79,7 +82,7 @@ When each of the `z`, `x`, `c` and `v` keys is pressed, your code should `wait u
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![1 sprite](images/1.png)
+![1 sprite](images/stage.png)
 ```blocks
 key [v v] pressed?
 not <>

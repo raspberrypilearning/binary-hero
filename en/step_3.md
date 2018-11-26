@@ -26,6 +26,7 @@ For example, when `c` and `v` are pressed, the value of `note`{:class="blockdata
 
 --- hints ---
 --- hint ---
+![stage](imgages/stage.png)
 When the `flag is clicked`{:class="blockevents"}, the `note`{:class="blockdata"} variable should be `set`{:class="blockdata"} to `0`{:class="blockdata"}.
 
 + `if`{:class="blockcontrol"} the `v key is pressed`{:class="blocksensing"}, the `note`{:class="blockdata"} should be `changed by 1`{:class="blockdata"}
@@ -37,6 +38,7 @@ All of this code should be repeated `forever`{:class="blockcontrol"}.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need (but you'll need more than one of some of the blocks):
+![stage](imgages/stage.png)
 ```blocks
 forever
 end
@@ -53,6 +55,7 @@ when flag clicked
 --- /hint ---
 --- hint ---
 This is what your code should look like:
+![stage](imgages/stage.png)
 ```blocks
 when flag clicked
 forever
