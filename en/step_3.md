@@ -1,24 +1,27 @@
 ### Binary numbers
 
-In this project you'll be using combinations of the four different keys to play different notes. You can think of each of the keys as either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a __binary number__.
+You will use different combinations of pressing the four keys to play different notes. Each of the keys is either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a __binary number__.
 
-Moving from right to left the keys double in value, and are `1`, `2`, `4`, and `8`. By adding up the numbers above each key you can work out the value of the note.
+Moving from right to left the keys double in value: `1`, `2`, `4`, and `8`. By adding up the numbers above the keys that are pressed, you can work out the value of the note.
 
 ![Note value examples](images/note-values.png)
 
-There are 2<sup>4</sup> = __16 combinations__ that can be made with the four keys. This means that we can play 15 different notes, as `0` will mean that no note is played.
+There are 2<sup>4</sup> = __16 combinations__ of pressing the four keys. This means that you can play 15 different notes, as `0` will mean that no note plays.
 
 --- task ---
-Create a new variable called `note`{:class="blockdata"}, and drag it next to the 4 note sprites.
+Create a new variable called `note`{:class="blockdata"}, and drag it next to the four note sprites.
 
 ![Note variable](images/note-create.png)
 
 [[[generic-scratch-add-variable]]]
+
+
 --- /task ---
 
+`note`{:class="blockdata"} will store the value of the note that should be played.
 
 --- task ---
-Add code to the Stage to use the keys pressed to calculate the value of the note to be played.
+Add code to the Stage to use the combination of pressed keys to calculate the value of `note`{:class="blockdata"}.
 
 For example, when `c` and `v` are pressed, the value of `note`{:class="blockdata"} should be `3`.
 
@@ -37,7 +40,7 @@ When the `flag is clicked`{:class="blockevents"}, the `note`{:class="blockdata"}
 All of this code should be repeated `forever`{:class="blockcontrol"}.
 --- /hint ---
 --- hint ---
-Here are the code blocks you'll need (but you'll need more than one of some of the blocks):
+Here are the code blocks you need, and you have to add some of them more than once:
 ![stage](images/stage.png)
 ```blocks
 forever
