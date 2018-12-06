@@ -1,4 +1,4 @@
-## Store your songs
+## Store your song
 
 At the moment, notes are removed from the lists after being played, so you're left with empty lists:
 
