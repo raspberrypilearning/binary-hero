@@ -67,7 +67,7 @@ delete this clone
 --- task ---
 ![Correct stage background](images/correct-costume.png)
 
-Add code to your Stage to briefly change how it looks when the player plays the correct note. The project already contains a backdrop for this.
+Add code to your Stage to briefly change the backdrop when the player plays the correct note. The project already contains a second backdrop for this.
 
 ![stage](images/stage.png)
 ```blocks
