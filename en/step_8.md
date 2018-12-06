@@ -1,22 +1,22 @@
-## Keeping score
+## Keep a score
 
-Improve your game by giving the player points each time the correct note is played.
+Improve your game by giving the player points for playing the correct note.
 
 --- task ---
-Create a new variable called `score`{:class="blockdata"}, and place it at the top of your stage.
+Create a new variable called `score`{:class="blockdata"}, and place it at the top of your Stage.
 
 ![Add a score](images/add-score.png)
 --- /task ---
 
 --- task ---
-Add to the player's score whenever they play the correct note at the correct time. Remember to set their score to `0`{:class="blockdata"} at the start of the game.
+Add to `score`{:class="blockdata"} whenever the player plays the correct note at the correct time. Remember to set `score`{:class="blockdata"} to `0`{:class="blockdata"} at the start of the game.
 
 --- hints ---
 --- hint ---
-`Before each clone is deleted`{:class="blockcontrol"}, it should check to see `if`{:class="blockcontrol"} the `note`{:class="blockdata"} is `equal to`{:class="blockoperators"} the `costume number`{:class="blocklooks"}. If they are the same, the score can be `changed`{:class="blockdata"}.
+`Before each clone is deleted`{:class="blockcontrol"}, it should check to see `if`{:class="blockcontrol"} the `note`{:class="blockdata"} is `equal to`{:class="blockoperators"} the `costume number`{:class="blocklooks"}, and in that case, the score should be `changed`{:class="blockdata"}.
 --- /hint ---
 --- hint ---
-Here are the code blocks you'll need:
+Here are the code blocks you need:
 ![note](images/note-sprite.png)
 ```blocks
 [ ] = [ ]
@@ -67,7 +67,7 @@ delete this clone
 --- task ---
 ![Correct stage background](images/correct-costume.png)
 
-Add code to your Stage to briefly change how it looks when the player plays the correct note. A costume has been provided for you.
+Add code to your Stage to briefly change how it looks when the player plays the correct note. The project already contains a backdrop for this.
 
 ![stage](images/stage.png)
 ```blocks
