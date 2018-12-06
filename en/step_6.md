@@ -1,6 +1,6 @@
-## Storing songs
+## Store your songs
 
-You've made it so that notes are removed from the lists once they've been played, so you'll be left with empty lists:
+At the moment, notes are removed from the lists after being played, so you're left with empty lists:
 
 ![Empty lists](images/empty-lists.png)
 
@@ -9,14 +9,14 @@ You're now going to add code to store songs in your project, so that you don't h
 ![Add notes and times to lists](images/lists-add.png)
 
 --- task ---
-Make a block called `load 'happy birthday'`{:class="blockmoreblocks"} that clears both the `notes`{:class="blockdata"} and `times`{:class="blockdata"} lists, and then adds the numbers back into both lists.
+Make a new block called `load 'happy birthday'`{:class="blockmoreblocks"} that clears both the `notes`{:class="blockdata"} and `times`{:class="blockdata"} lists, and then adds the correct numbers back into both lists.
 [[[generic-scratch-make-block]]]
 --- hints ---
 --- hint ---
-When your new block is run, `all items`{:class="blockdata"} should be deleted from both the `notes`{:class="blockdata"} and `times`{:class="blockdata"} lists. Each of the five numbers should then be `added`{:class="blockdata"} to both lists.
+The `load 'happy birthday'`{:class="blockmoreblocks"} block should `delete all`{:class="blockdata"} items from both the `notes`{:class="blockdata"} and `times`{:class="blockdata"} lists and then `add`{:class="blockdata"} the correct six numbers to the list they belong in, in the correct order.
 --- /hint ---
 --- hint ---
-Here are the code blocks you'll need:
+Here are the code blocks you need:
 ![notes-sprite](images/note-sprite.png)
 ```blocks
 delete (all v) of [notes v]
@@ -63,7 +63,7 @@ hide
 reset timer
 ```
 
-Each of your lists should now contain five numbers.
+Each of your lists should now contain six numbers.
 
 ![Lists of notes and times](images/load-list-test.png)
 --- /task ---
