@@ -1,8 +1,8 @@
-## Challenge: taking it further
+## Challenge: take it further
 
-Your Binary Hero game is done now, but there are a few things you could do to make it even better!
+Your game is done now, but there are a few things you can do to make it even better if you want to!
 
-For example, can you add code to change how the stage looks if the correct note isn't played?
+For example, can you add code to change how the Stage looks if the correct note is not played?
 
 ```blocks
 when I start as a clone
@@ -18,4 +18,4 @@ end
 delete this clone
 ```
 
-You'll need to add code very similar to the code for when a correct note is played, and a costume has been provided for you.
+To do this, you need to add code that's very similar to the code that changes the backdrop when the correct note is played. The project contains another backdrop you can use.
