@@ -9,40 +9,40 @@ Moving from right to left the keys double in value: `1`, `2`, `4`, and `8`. By a
 There are 2<sup>4</sup> = __16 combinations__ of pressing the four keys. This means that you can play 15 different notes, as `0` will mean that no note plays.
 
 --- task ---
-Create a new variable called `note`{:class="blockdata"}, and drag it next to the four note sprites.
+Create a new variable called `note`{:class="block3variables"}, and drag it next to the four note sprites.
 
 ![Note variable](images/note-create.png)
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]]
 
 
 --- /task ---
 
-`note`{:class="blockdata"} will store the value of the note that should be played.
+`note`{:class="block3variables"} will store the value of the note that should be played.
 
 --- task ---
-Add code to the Stage to use the combination of pressed keys to calculate the value of `note`{:class="blockdata"}.
+Add code to the Stage to use the combination of pressed keys to calculate the value of `note`{:class="block3variables"}.
 
-For example, when `c` and `v` are pressed, the value of `note`{:class="blockdata"} should be `3`.
+For example, when `c` and `v` are pressed, the value of `note`{:class="block3variables"} should be `3`.
 
 ![Testing the note variable](images/note-test.png)
 
 --- hints ---
 --- hint ---
 ![stage](images/stage.png)
-When the `flag is clicked`{:class="blockevents"}, the `note`{:class="blockdata"} variable should be `set`{:class="blockdata"} to `0`{:class="blockdata"}.
+When the `flag is clicked`{:class="block3events"}, the `note`{:class="block3variables"} variable should be `set`{:class="block3variables"} to `0`{:class="block3variables"}.
 
-+ `if`{:class="blockcontrol"} the `v key is pressed`{:class="blocksensing"}, the `note`{:class="blockdata"} should be `changed by 1`{:class="blockdata"}
-+ `if`{:class="blockcontrol"} the `c key is pressed`{:class="blocksensing"}, the `note`{:class="blockdata"} should be `changed by 2`{:class="blockdata"}
-+ `if`{:class="blockcontrol"} the `x key is pressed`{:class="blocksensing"}, the `note`{:class="blockdata"} should be `changed by 4`{:class="blockdata"}
-+ `if`{:class="blockcontrol"} the `z key is pressed`{:class="blocksensing"}, the `note`{:class="blockdata"} should be `changed by 8`{:class="blockdata"}
++ `if`{:class="block3control"} the `v key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 1`{:class="block3variables"}
++ `if`{:class="block3control"} the `c key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 2`{:class="block3variables"}
++ `if`{:class="block3control"} the `x key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 4`{:class="block3variables"}
++ `if`{:class="block3control"} the `z key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 8`{:class="block3variables"}
 
-All of this code should be repeated `forever`{:class="blockcontrol"}.
+All of this code should be repeated `forever`{:class="block3control"}.
 --- /hint ---
 --- hint ---
 Here are the code blocks you need, and you have to add some of them more than once:
 ![stage](images/stage.png)
-```blocks
+```blocks3
 forever
 end
 if < > then
@@ -59,7 +59,7 @@ when flag clicked
 --- hint ---
 This is what your code should look like:
 ![stage](images/stage.png)
-```blocks
+```blocks3
 when flag clicked
 forever
 set [note v] to [0]

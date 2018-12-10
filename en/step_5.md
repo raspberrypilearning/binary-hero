@@ -3,21 +3,21 @@
 You need to make notes scroll down the Stage so that the player knows which keys to press and when to press them.
 
 --- task ---
-Create two lists called `notes`{:class="blockdata"} and `times`{:class="blockdata"}.
+Create two lists called `notes`{:class="block3variables"} and `times`{:class="block3variables"}.
 
-[[[generic-scratch-make-list]]]
+[[[generic-scratch3-make-list]]]
 --- /task ---
 
 --- task ---
-Add the following numbers to your `notes`{:class="blockdata"} and `times`{:class="blockdata"} lists. Note: make sure to **add these exact numbers in the right order**.
+Add the following numbers to your `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists. Note: make sure to **add these exact numbers in the right order**.
 
 ![Add notes and times to lists](images/lists-add.png)
 --- /task ---
 
 Here's how songs are stored in your game:
 
-+ The `notes`{:class="blockdata"} list stores the notes of the song (from 1 to 15), in order
-+ The `times`{:class="blockdata"} list stores the times when the notes should be played in the song
++ The `notes`{:class="block3variables"} list stores the notes of the song (from 1 to 15), in order
++ The `times`{:class="block3variables"} list stores the times when the notes should be played in the song
 
 ![Explaining lists](images/lists-explain.png)
 
@@ -41,26 +41,26 @@ Then click on **Costumes**.
 You should see that the 'note' sprite has 15 different costume, one for each different note from 1 to 15.
 
 --- task ---
-Add code to create a 'note' sprite clone for every note stored in `notes`{:class="blockdata"}. Each clone should be created at the correct time stored in `times`{:class="blockdata"}. Each clone should be created two seconds before its note needs to be played. This gives the clone two seconds to move down the screen. You'll create the code to move your clones in a little bit!
+Add code to create a 'note' sprite clone for every note stored in `notes`{:class="block3variables"}. Each clone should be created at the correct time stored in `times`{:class="block3variables"}. Each clone should be created two seconds before its note needs to be played. This gives the clone two seconds to move down the screen. You'll create the code to move your clones in a little bit!
 
 ![Testing clones](images/clones-test.png)
 
 --- hints ---
 --- hint ---
 ![note](images/note-sprite.png)
-When the `flag is clicked`{:class="blockevents"}, the 'note' sprite should `hide`{:class="blocklooks"}, and the `timer`{:class="blockdata"} should be `reset`{:class="blockdata"}.
+When the `flag is clicked`{:class="block3events"}, the 'note' sprite should `hide`{:class="block3looks"}, and the `timer`{:class="block3variables"} should be `reset`{:class="block3variables"}.
 
-The script should then `wait until`{:class="blockcontrol"} the value of `timer`{:class="blockdata"} is `greater than`{:class="blockoperators"} the next note to be played, which will be the `time`{:class="blockdata"} at the `start of the list`{:class="blockdata"} (`minus 2 seconds`{:class="blockoperators"}).
+The script should then `wait until`{:class="block3control"} the value of `timer`{:class="block3variables"} is `greater than`{:class="block3operators"} the next note to be played, which will be the `time`{:class="block3variables"} at the `start of the list`{:class="block3variables"} (`minus 2 seconds`{:class="block3operators"}).
 
-The costume for the 'note' sprite should then be set to the next `note`{:class="blockdata"} to be played (the `note`{:class="blockdata"} at the start of the list), before a `clone`{:class="blockevents"} of the 'note' sprite is created.
+The costume for the 'note' sprite should then be set to the next `note`{:class="block3variables"} to be played (the `note`{:class="block3variables"} at the start of the list), before a `clone`{:class="block3events"} of the 'note' sprite is created.
 
-The items at the start of the `notes`{:class="blockdata"} and `times`{:class="blockdata"} lists should then be `deleted`{:class="blockdata"}, and the entire process should be `repeated until`{:class="blockcontrol"} there are no items left in the `notes`{:class="blockdata"} list.
+The items at the start of the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists should then be `deleted`{:class="block3variables"}, and the entire process should be `repeated until`{:class="block3control"} there are no items left in the `notes`{:class="block3variables"} list.
 
 --- /hint ---
 --- hint ---
 Here are the code blocks you need:
 ![note](images/note-sprite.png)
-```blocks
+```blocks3
 wait until <>
 when flag clicked
 length of [notes v]
@@ -88,7 +88,7 @@ delete (1 v) of [notes v]
 --- hint ---
 This is what your code should look like:
 ![note](images/note-sprite.png)
-```blocks
+```blocks3
 when flag clicked
 reset timer
 hide
@@ -109,7 +109,7 @@ When you test your code now, nothing seems to happen, because the 'note' sprite 
 --- task ---
 Add code to make each 'note' clone glide from the top to the bottom of the Stage before being deleted.
 ![note](images/note-sprite.png)
-```blocks
+```blocks3
 when I start as a clone
 go to x: (20) y: (160)
 show

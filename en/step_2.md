@@ -16,7 +16,7 @@ Start by showing which key is being pressed.
 Click on the sprite called '1', and add code to change the sprite's costume if the `v` key is pressed.
 
 ![costume](images/1.png)
-```blocks
+```blocks3
 when flag clicked
 forever
 if < key [v v] pressed?> then

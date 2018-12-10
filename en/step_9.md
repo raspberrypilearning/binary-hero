@@ -4,7 +4,7 @@ Your game is done now, but there are a few things you can do to make it even bet
 
 For example, can you add code to change how the Stage looks if the correct note is not played?
 
-```blocks
+```blocks3
 when I start as a clone
 go to x: (20) y: (160)
 show
