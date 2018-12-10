@@ -41,7 +41,7 @@ Then click on **Costumes**.
 You should see that the 'note' sprite has 15 different costume, one for each different note from 1 to 15.
 
 --- task ---
-Add code to create a 'note' sprite clone for every note stored in `notes`{:class="blockdata"}. Each clone should be created at the correct time stored in `times`{:class="blockdata"}. Each clone should be created two seconds before its note needs to be played. This gives the clone two seconds to move down the screen. You'll create the code to move your clones in a little bit!
+Add code to create a 'note' sprite clone for every note stored in `notes`{:class="blockdata"}. Each clone should be created at the correct time stored in `times`{:class="blockdata"}. And each clone should be created two seconds before its note needs to be played. This gives the clone two seconds to move down the screen. You'll create the code to move your clones in a little bit!
 
 ![Testing clones](images/clones-test.png)
 
