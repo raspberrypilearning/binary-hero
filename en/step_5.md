@@ -11,7 +11,7 @@ Create two lists called `notes`{:class="block3variables"} and `times`{:class="bl
 --- task ---
 Add the following numbers to your `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists. Note: make sure to **add these exact numbers in the right order**.
 
-![Add notes and times to lists](images/lists-add.png)
+![Add notes and times to lists](images/lists-add-annotated.png)
 --- /task ---
 
 Here's how songs are stored in your game:
@@ -29,9 +29,9 @@ So with the two new lists:
 + etc...
 
 --- task ---
-Right-click on the 'note' sprite, and click on **show**.
+Click on the 'note' sprite and then click on **show**.
 
-![Show the bar sprite](images/note-show.png)
+![Show the bar sprite](images/note-show-annotated.png)
 
 Then click on **Costumes**.
 

@@ -6,7 +6,7 @@ At the moment, notes are removed from the lists after being played, so you're le
 
 You're now going to add code to store songs in your project, so that you don't have to add to your lists each time.
 
-![Add notes and times to lists](images/lists-add.png)
+![Add notes and times to lists](images/lists-add-annotated.png)
 
 --- task ---
 Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists.
@@ -65,5 +65,5 @@ reset timer
 
 Each of your lists should now contain six numbers.
 
-![Lists of notes and times](images/load-list-test.png)
+![Lists of notes and times](images/lists-add.png)
 --- /task ---

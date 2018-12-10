@@ -3,6 +3,14 @@
 Play notes when the keys are pressed.
 
 --- task ---
+
+Add the **Music** extension to your project.
+
+[[[generic-scratch3-add-music-extension]]]
+
+--- /task ---
+
+--- task ---
 Broadcast a 'note change' message whenever **any of the four keys** is pressed.
 ![sprite 1](images/1.png)
 ```blocks3
