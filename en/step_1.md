@@ -47,7 +47,7 @@ title: What you will need
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
-+ [Offline starter project](http://rpf.io/p/binary-hero-go){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -59,5 +59,5 @@ title: Additional notes for educators
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/binary-hero/print).
 --- /no-print ---
 
-You can [find the solution for this project here](http://rpf.io/p/binary-hero-get){:target="_blank"}.
+You can [find the solution for this project here](http://rpf.io/p/en/binary-hero-get){:target="_blank"}.
 --- /collapse ---
