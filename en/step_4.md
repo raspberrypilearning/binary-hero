@@ -4,7 +4,7 @@ Play notes when the keys are pressed.
 
 --- task ---
 
-Add the **Music** extension to your project.
+Add the Music extension to your project.
 
 [[[generic-scratch3-add-music-extension]]]
 
