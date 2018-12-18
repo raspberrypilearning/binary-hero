@@ -19,10 +19,10 @@ Click on the sprite called '1', and add code to change the sprite's costume if t
 ```blocks3
 when flag clicked
 forever
-if < key [v v] pressed?> then
-switch costume to [on v]
+if < key (v v) pressed?> then
+switch costume to (on v)
 else
-switch costume to [off v]
+switch costume to (off v)
 end
 ```
 

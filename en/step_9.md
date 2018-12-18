@@ -9,9 +9,9 @@ when I start as a clone
 go to x: (20) y: (160)
 show
 glide (2) secs to x: (20) y:(-130)
-if <(note) = (costume #)> then
+if <(note :: variables) = (costume [number v])> then
 change [score v] by (1)
-broadcast [correct v]
+broadcast (correct v)
 else
 +???
 end

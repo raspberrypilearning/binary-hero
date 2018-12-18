@@ -20,7 +20,7 @@ Here are the code blocks you need:
 ![note](images/note-sprite.png)
 ```blocks3
 [ ] = [ ]
-(costume #)
+(costume [number v])
 (note)
 change [score v] by (1)
 
@@ -37,7 +37,7 @@ when I start as a clone
 go to x: (20) y: (160)
 show
 glide (2) secs to x: (20) y:(-130)
-+if <(note) = (costume #)> then
++if <(note :: variables) = (costume [number v])> then
 change [score v] by (1)
 end
 delete this clone
@@ -54,9 +54,9 @@ when I start as a clone
 go to x: (20) y: (160)
 show
 glide (2) secs to x: (20) y:(-130)
-if <(note) = (costume #)> then
+if <(note :: variables) = (costume [number v])> then
 change [score v] by (1)
-+broadcast [correct v]
++broadcast (correct v)
 else
 end
 delete this clone
@@ -71,11 +71,11 @@ Add code to your Stage to briefly change the backdrop when the player plays the 
 ![stage](images/stage.png)
 ```blocks3
 when flag clicked
-switch backdrop to [normal v]
+switch backdrop to (normal v)
 
 when I receive [correct v]
-switch backdrop to [correct v]
+switch backdrop to (correct v)
 wait (0.3) secs
-switch backdrop to [normal v]
+switch backdrop to (normal v)
 ```
 --- /task ---

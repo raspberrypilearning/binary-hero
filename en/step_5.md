@@ -65,7 +65,7 @@ wait until <>
 when flag clicked
 length of [notes v]
 
-create clone of [myself v]
+create clone of (myself v)
 
 reset timer
 item (1 v) of [times v]
@@ -76,7 +76,7 @@ end
 [] > []
 item (1 v) of [notes v]
 () - ()
-switch costume to [ v]
+switch costume to ( v)
 [] = []
 timer
 delete (1 v) of [times v]
@@ -95,7 +95,7 @@ hide
 repeat until <(length of [notes v]) = [0]>
 wait until <(timer) > ((item (1 v) of [times v]) - (2))>
 switch costume to (item (1 v) of [notes v])
-create clone of [myself v]
+create clone of (myself v)
 delete (1 v) of [times v]
 delete (1 v) of [notes v]
 end

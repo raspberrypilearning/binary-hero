@@ -35,8 +35,8 @@ Make a block that takes a number as `note`{:class="block3variables"} and a numbe
 This is what your code should look like:
 ```blocks3
 define Add note (note) at (time) secs
-add (note) to [notes v]
-add (time) to [times v]
+add (note :: custom-arg) to [notes v]
+add (time :: custom-arg) to [times v]
 
 define load 'happy birthday'
 clear song ::custom

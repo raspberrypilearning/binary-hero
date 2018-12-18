@@ -47,7 +47,7 @@ forever
 end
 if < > then
 end
-key [ v] pressed?
+key ( v) pressed?
 
 change [note v] by ( )
 
@@ -63,16 +63,16 @@ This is what your code should look like:
 when flag clicked
 forever
 set [note v] to [0]
-if <key [v v] pressed? > then
+if <key (v v) pressed? > then
 change [note v] by (1)
 end
-if <key [c v] pressed? > then
+if <key (c v) pressed? > then
 change [note v] by (2)
 end
-if <key [x v] pressed? > then
+if <key (x v) pressed? > then
 change [note v] by (4)
 end
-if <key [z v] pressed? > then
+if <key (z v) pressed? > then
 change [note v] by (8)
 end
 end
