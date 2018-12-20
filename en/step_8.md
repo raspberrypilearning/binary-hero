@@ -74,7 +74,7 @@ switch backdrop to (normal v)
 
 when I receive [correct v]
 switch backdrop to (correct v)
-wait (0.3) secs
+wait (0.3) seconds
 switch backdrop to (normal v)
 ```
 --- /task ---
