@@ -1,47 +1,31 @@
-## Keeping score
+## More custom blocks
 
-Improve your game by giving the player points each time the correct note is played.
+The newest section of code is difficult to read, so you're going to use more custom blocks to make it simpler.
 
-+ Create a new variable called `score`, and place it at the top of your stage.
+--- task ---
+Make another block called `clear song`{:class="block3myblocks"} that deletes all items from both lists. Use this block before adding numbers back intothe lists.
 
-![Add a score](images/add-score.png)
+![note-sprite](images/note-sprite.png)
+![blocks_1545313498_991551](images/blocks_1545313498_991551.png)
 
-+ Add to the player's score whenever they play the correct note at the correct time. Remember to set their score to `0` at the start of the game.
+When you test your code, it should work just as it did before.
 
---- hints ---
---- hint ---
-`Before each clone is deleted`, it should check to see `if` the `note` is `equal to` the `costume number`. If they are the same, the score can be `changed`.
---- /hint ---
---- hint ---
-Here are the code blocks you'll need:
-![Blocks for keeping score](images/score-blocks.png)
---- /hint ---
---- hint ---
-This is what your code should look like:
-![Code for keeping score](images/score-code.png)
---- /hint ---
---- /hints ---
+![blocks_1545313500_0937805](images/blocks_1545313500_0937805.png)
+--- /task ---
 
-+ Broadcast a message called 'correct' when the correct note is played.
+--- task ---
+So that your code is even easier to read, make another block that allows you to specify a note to be played and a time to play the note at.
 
-![Broadcasting a 'correct' message](images/broadcast-correct.png)
-
-+ Add code to your Stage to briefly change how it looks when the player plays the correct note. A costume has been provided for you.
-
-![Correct stage background](images/correct-costume.png)
+[[[generic-scratch3-make-block-parameters]]]
 
 --- hints ---
 --- hint ---
-When your stage receives the 'correct' message, it should `switch costume`, `wait` for a short time before `switching back`.
-
-You might also need to add code to `set the costume` to normal when the `flag is clicked`.
---- /hint ---
---- hint ---
-Here are the code blocks you'll need:
-![Blocks for playing the correct note](images/stage-correct-blocks.png)
+Make a block that takes a number as `note`{:class="block3variables"} and a number as `time`{:class="block3variables"} and `adds`{:class="block3variables"} each number to the correct list.
 --- /hint ---
 --- hint ---
 This is what your code should look like:
-![Code for playing the correct note](images/stage-correct-code.png)
+![blocks_1545313501_2394545](images/blocks_1545313501_2394545.png)
 --- /hint ---
 --- /hints ---
+
+--- /task ---

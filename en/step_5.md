@@ -1,78 +1,80 @@
 ## Scrolling notes
 
-Scroll notes down the stage so that the player knows which keys to press.
+You need to make notes scroll down the Stage so that the player knows which keys to press and when to press them.
 
-+ Create two lists called `notes` and `times`.
+--- task ---
+Create two lists called `notes`{:class="block3variables"} and `times`{:class="block3variables"}.
 
-[[[generic-scratch-make-list]]]
+[[[generic-scratch3-make-list]]]
+--- /task ---
 
-+ Add the following numbers to your `notes` and `times` lists. Note: make sure to add these exact numbers in the right order.
+--- task ---
+Add the following numbers to your `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists. Note: make sure to **add these exact numbers in the right order**.
 
-![Add notes and times to lists](images/lists-add.png)
+![Add notes and times to lists](images/lists-add-annotated.png)
+--- /task ---
 
-+ Here's how songs will be stored:
+Here's how songs are stored in your game:
 
-    + The `notes` list stores the notes of the song, in order (from 1 to 15).
-    + The `times` list is used to store the times that each note is played.
++ The `notes`{:class="block3variables"} list stores the notes of the song (from 1 to 15), in order
++ The `times`{:class="block3variables"} list stores the times when the notes should be played in the song
 
-    ![Explaining lists](images/lists-explain.png)
+![Explaining lists](images/lists-explain.png)
 
-    So for the data above:
+So with the two new lists:
 
-    + Note 1 (middle C) should be played at 5 seconds
-    + Note 1 should be played again at 5.5 seconds
-    + Note 3 should be played at 6 seconds
-    + etc...
++ Note 1 (middle C) should be played at 5 seconds
++ Note 1 should be played again at 5.5 seconds
++ Note 3 should be played at 6 seconds
++ etc...
 
-+ Right-click on the 'note' sprite and click **show**.
+--- task ---
+Click on the 'note' sprite and then click on **show**.
 
-![Show the bar sprite](images/note-show.png)
+![Show the bar sprite](images/note-show-annotated.png)
 
-+ If you click **Costumes**, you should see that the sprite has 15 different costume, one for each note.
+Then click on **Costumes**.
 
 ![Bar sprite costumes](images/note-costumes.png)
+--- /task ---
 
-+ Add code to create a clone of the 'note' sprite for every note to be played. Each clone should be created two seconds before the time the note should be played, and should then move down the stage.
+You should see that the 'note' sprite has 15 different costume, one for each different note from 1 to 15.
 
-This will give the clone two seconds to move down the screen. You'll create the code to move your clones in a little bit!
-
-Nothing will seem to happen when you test your code, because the 'note' sprite is hidden. If you show (or don't hide) the sprite, then you should see clones being created on top of each other.
+--- task ---
+Add code to create a 'note' sprite clone for every note stored in `notes`{:class="block3variables"}. Each clone should be created at the correct time stored in `times`{:class="block3variables"}. Each clone should be created two seconds before its note needs to be played. This gives the clone two seconds to move down the screen. You'll create the code to move your clones in a little bit!
 
 ![Testing clones](images/clones-test.png)
 
 --- hints ---
 --- hint ---
-When the `flag is clicked` the 'note' sprite should `hide`, and the `timer` should be `reset`.
+![note](images/note-sprite.png)
+When the `flag is clicked`{:class="block3events"}, the 'note' sprite should `hide`{:class="block3looks"}, and the `timer`{:class="block3variables"} should be `reset`{:class="block3variables"}.
 
-You should then `wait until` the timer is `greater than` the next note to be played, which will be the `time` at the `start of the list` (`minus 2 seconds`).
+The script should then `wait until`{:class="block3control"} the value of `timer`{:class="block3variables"} is `greater than`{:class="block3operators"} the next note to be played, which will be the `time`{:class="block3variables"} at the `start of the list`{:class="block3variables"} (`minus 2 seconds`{:class="block3operators"}).
 
-The costume for the 'note' sprite should then be set to the next `note` to be played (the `note` at the start of the list), before a `clone` of the note sprite is created.
+The costume for the 'note' sprite should then be set to the next `note`{:class="block3variables"} to be played (the `note`{:class="block3variables"} at the start of the list), before a `clone`{:class="block3events"} of the 'note' sprite is created.
 
-The items at the start of the `notes` and `times` lists can then be `deleted`, and the entire process should be `repeated until` there are no notes left.
+The items at the start of the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists should then be `deleted`{:class="block3variables"}, and the entire process should be `repeated until`{:class="block3control"} there are no items left in the `notes`{:class="block3variables"} list.
 
 --- /hint ---
 --- hint ---
-Here are the code blocks you'll need:
-![screenshot](images/note-create-blocks.png)
---- /hint ---
---- hint ---
-This is what your code should look like:
-![screenshot](images/note-create-code.png)
---- /hint ---
---- /hints ---
+Here are the code blocks you need:
+![note](images/note-sprite.png)
+![blocks_1545313491_9381027](images/blocks_1545313491_9381027.png)
 
-+ Now add code to make each note clone glide from the top to the bottom of the screen before being deleted.
-
---- hints ---
---- hint ---
-When each `clone starts`, it should be `shown` and should `go to` the top of the screen. The clone should then `glide` for `2 seconds` until it reaches the four 'key' sprites, at which point the clone can be `deleted`.
---- /hint ---
---- hint ---
-Here are the code blocks you'll need:
-![screenshot](images/note-clone-blocks.png)
 --- /hint ---
 --- hint ---
 This is what your code should look like:
-![screenshot](images/note-clone-code.png)
+![note](images/note-sprite.png)
+![blocks_1545313493_2505171](images/blocks_1545313493_2505171.png)
 --- /hint ---
 --- /hints ---
+--- /task ---
+
+When you test your code now, nothing seems to happen, because the 'note' sprite is hidden. If you show (or don't hide) the sprite, then you should see clones being created on top of each other.
+
+--- task ---
+Add code to make each 'note' clone glide from the top to the bottom of the Stage before being deleted.
+![note](images/note-sprite.png)
+![blocks_1545313494_4072607](images/blocks_1545313494_4072607.png)
+--- /task ---

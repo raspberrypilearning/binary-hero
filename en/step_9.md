@@ -1,20 +1,9 @@
---- challenge ---
+## Challenge: take it further
 
-## Challenge: create your own song
+Your game is done now, but there are a few things you can do to make it even better if you want to!
 
-Can you add your own song to the game? Showing the timer will help you get an idea of when the notes of your song should be played.
+For example, can you add code to change how the Stage looks if the correct note is not played?
 
-![Timer blocks](images/timer.png)
+![blocks_1545313507_0307891](images/blocks_1545313507_0307891.png)
 
-You could also allow the player to choose a song at the start of the game.
-
-![Choosing a song](images/song-choice.png)
-
-You could even use different instruments for different songs!
-
-![Set instrument](images/set-instrument.png)
-
---- /challenge ---
-
-### Hour of Code
-[I've finished my Hour of Code!](https://code.org/api/hour/finish)
+To do this, you need to add code that's very similar to the code that changes the backdrop when the correct note is played. The project contains another backdrop you can use.
