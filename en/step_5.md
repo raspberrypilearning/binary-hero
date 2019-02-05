@@ -60,13 +60,46 @@ The items at the start of the `notes`{:class="block3variables"} and `times`{:cla
 --- hint ---
 Here are the code blocks you need:
 ![note](images/note-sprite.png)
-![blocks_1545313491_9381027](images/blocks_1545313491_9381027.png)
+```blocks3
+wait until <>
+when flag clicked
+length of [notes v]
+
+create clone of (myself v)
+
+reset timer
+item (1 v) of [times v]
+hide
+
+repeat until <>
+end
+[] > []
+item (1 v) of [notes v]
+() - ()
+switch costume to ( v)
+[] = []
+timer
+delete (1 v) of [times v]
+
+delete (1 v) of [notes v]
+```
 
 --- /hint ---
 --- hint ---
 This is what your code should look like:
 ![note](images/note-sprite.png)
-![blocks_1545313493_2505171](images/blocks_1545313493_2505171.png)
+```blocks3
+when flag clicked
+reset timer
+hide
+repeat until <(length of [notes v]) = [0]>
+wait until <(timer) > ((item (1 v) of [times v]) - (2))>
+switch costume to (item (1 v) of [notes v])
+create clone of (myself v)
+delete (1 v) of [times v]
+delete (1 v) of [notes v]
+end
+```
 --- /hint ---
 --- /hints ---
 --- /task ---
@@ -76,5 +109,11 @@ When you test your code now, nothing seems to happen, because the 'note' sprite 
 --- task ---
 Add code to make each 'note' clone glide from the top to the bottom of the Stage before being deleted.
 ![note](images/note-sprite.png)
-![blocks_1545313494_4072607](images/blocks_1545313494_4072607.png)
+```blocks3
+when I start as a clone
+go to x: (20) y: (160)
+show
+glide (2) secs to x: (20) y:(-130)
+delete this clone
+```
 --- /task ---

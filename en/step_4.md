@@ -13,7 +13,16 @@ Add the Music extension to your project.
 --- task ---
 Broadcast a 'note change' message whenever **any of the four keys** is pressed.
 ![sprite 1](images/1.png)
-![blocks_1545313486_2439885](images/blocks_1545313486_2439885.png)
+```blocks3
+when flag clicked
+forever
+if < key (v v) pressed?> then
+switch costume to (on v)
++broadcast (note change v)
+else
+switch costume to (off v)
+end
+```
 --- /task ---
 
 --- task ---
@@ -21,7 +30,9 @@ Add code to the Stage to play a note when a combination of keys is pressed.
 
 Your notes should start at middle C, which is note 60.
 
-![blocks_1545313487_3974597](images/blocks_1545313487_3974597.png)
+```blocks3
+play note (60) for (1) beats
+```
 
 --- hints ---
 --- hint ---
@@ -38,12 +49,22 @@ When your stage `receives`{:class="block3events"} the 'change note' broadcast, i
 --- hint ---
 Here are the code blocks you need:
 ![stage](images/stage.png)
-![blocks_1545313488_5041323](images/blocks_1545313488_5041323.png)
+```blocks3
+play note (60) for (1) beats
+when I receive [note change v]
+() + ()
+(note)
+stop all sounds
+```
 --- /hint ---
 --- hint ---
 This is what your code should look like:
 ![stage](images/stage.png)
-![blocks_1545313489_6514034](images/blocks_1545313489_6514034.png)
+```blocks3
+when I receive [note change v]
+stop all sounds
+play note ((59) + (note :: variables)) for (1) beats
+```
 --- /hint ---
 --- /hints ---
 --- /task ---
@@ -64,5 +85,15 @@ Test your code. Can you hear that a note is repeatedly played when you hold down
 Add code so that the **all** the key sprites only play a note **once** when a key is held down?
 
 ![1 sprite](images/1.png)
-![blocks_1545313490_768453](images/blocks_1545313490_768453.png)
+```blocks3
+when flag clicked
+forever
+if < key (v v) pressed?> then
+switch costume to (on v)
+broadcast (note change v)
++wait until <not <key (v v) pressed?>
+else
+switch costume to (off v)
+end
+```
 --- /task ---
