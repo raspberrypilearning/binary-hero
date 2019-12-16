@@ -1,0 +1,30 @@
+---
+title: Bohater binarny
+hero_image: images/banner.png
+description: Zdobywaj punkty, odtwarzając nuty przewijanego utworu
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-11-02
+steps:
+  - 
+    title: Wprowadzenie correct
+  - 
+    title: Naciśnięcia klawiszy
+  - 
+    title: Notatki binarne
+  - 
+    title: Graj w notatki
+  - 
+    title: Przewijanie notatek
+  - 
+    title: Przechowuj swoją piosenkę
+  - 
+    title: Więcej niestandardowych bloków
+  - 
+    title: Zachowaj wynik
+  - 
+    title: "Wyzwanie: pójdź dalej"
+    challenge: true
+  - 
+    title: "Co następne?"
