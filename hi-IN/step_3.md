@@ -1,37 +1,37 @@
-## Binary numbers
+## बाइनरी संख्याएँ
 
-You will use different combinations of pressing the four keys to play different notes. Each of the keys is either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a **binary number**.
+आप विभिन्न स्वरों को बजाने के लिए चार कुंजियों को दबाने वाले विभिन्न संयोजनों का उपयोग करेंगे। प्रत्येक कुंजी या तो ऑन (दबाई गई) होती है या ऑफ (न दबाई गई) होती है। इसका मतलब है कि आप कुंजियों के प्रत्येक संयोजन को **binary number** (बाइनरी संख्या) के रूप में सोच सकते हैं।
 
-Moving from right to left the keys double in value: `1`, `2`, `4`, and `8`. By adding up the numbers above the keys that are pressed, you can work out the value of the note.
+दाएँ से बाएँ ओर चलते हुए कुंजियों का मूल्य दुगुना होता चला जाता है: `1`, `2`, `4`, और `8`। दबाई गई कुंजियों के ऊपर की संख्याओं को जोड़कर, आप स्वर के मान का पता लगा सकते हैं।
 
-![Note value examples](images/note-values.png)
+![स्वर मान के उदाहरण](images/note-values.png)
 
-There are 2<sup>4</sup> = **16 combinations** of pressing the four keys. This means that you can play 15 different notes, as `0` will mean that no note plays.
+चारों कुंजियों को दबाने के 2<sup>4</sup> = **16 combinations** (संयोजन) हैं। इसका मतलब है कि आप 15 अलग-अलग स्वर बजा सकते हैं, क्योंकि `0` का मतलब होगा कि कोई स्वर नहीं बजता है।
 
-\--- task \--- Create a new variable called `note`{:class="block3variables"}, and drag it next to the four note sprites.
+\--- task \--- `note`{:class="block3variables"} नामक एक नया वेरिएबल बनाएँ, और इसे ड्रैग करके चार स्वर वाले स्प्राइट के बगल में ले जाएँ।
 
-![Note variable](images/note-create.png)
+![स्वर वेरिएबल](images/note-create.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-`note`{:class="block3variables"} will store the value of the note that should be played.
+`note`{:class="block3variables"} उस स्वर के मान को संगृहीत करेगा जिसे बजाया जाना चाहिए।
 
-\--- task \--- Add code to the Stage to use the combination of pressed keys to calculate the value of `note`{:class="block3variables"}.
+\--- task \--- `note`{:class="block3variables"} के मान की गणना करने के लिए दबाई गई कुंजियों के संयोजन का उपयोग करने के लिए स्टेज में कोड जोड़ें।
 
-For example, when `c` and `v` are pressed, the value of `note`{:class="block3variables"} should be `3`.
+उदाहरण के लिए, जब `c` और `v` को दबाया जाता है, तो `note`{:class="block3variables"} का मान `3` होना चाहिए।
 
-![Testing the note variable](images/note-test.png)
+![स्वर वेरिएबल का परीक्षण करना](images/note-test.png)
 
-\--- hints \--- \--- hint \--- ![stage](images/stage.png) When the `flag is clicked`{:class="block3events"}, the `note`{:class="block3variables"} variable should be `set`{:class="block3variables"} to `0`{:class="block3variables"}.
+\--- hints \--- \--- hint \--- ![stage](images/stage.png) `flag is clicked`{:class="block3events"} होने पर, `note`{:class="block3variables"} वेरिएबल `0`{:class="block3variables"} को `set`{:class="block3variables"} पर सेट होना चाहिए।
 
 + `if`{:class="block3control"} the `v key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 1`{:class="block3variables"}
 + `if`{:class="block3control"} the `c key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 2`{:class="block3variables"}
 + `if`{:class="block3control"} the `x key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 4`{:class="block3variables"}
 + `if`{:class="block3control"} the `z key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 8`{:class="block3variables"}
 
-All of this code should be repeated `forever`{:class="block3control"}. \--- /hint \--- \--- hint \--- Here are the code blocks you need, and you have to add some of them more than once: ![stage](images/stage.png)
+इस पूरे कोड को `forever`{:class="block3control"} दोहराया जाना चाहिए। \--- /hint \--- \--- hint \--- ये वे ब्लॉक हैं जिनकी आपको आवश्यकता है, और उनमें से कुछ कोआपको एक से अधिक बार जोड़ना होगा: ![स्टेज](images/stage.png)
 
 ```blocks3
 forever
@@ -47,7 +47,7 @@ set [note v] to [ ]
 when flag clicked
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![stage](images/stage.png)
+\--- /hint \--- \--- hint \--- यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए: ![स्टेज](images/stage.png)
 
 ```blocks3
 when flag clicked
