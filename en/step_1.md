@@ -33,6 +33,7 @@ title: What you will learn
 ---
 - How to use lists to store sequences of notes and timings
 - How to use custom blocks with inputs
+
 --- /collapse ---
 
 --- collapse ---
@@ -55,9 +56,13 @@ title: What you will need
 ---
 title: Additional notes for educators
 ---
+
 --- no-print ---
+
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/binary-hero/print).
+
 --- /no-print ---
 
 You can find the [completed project here](http://rpf.io/p/en/binary-hero-get){:target="_blank"}.
+
 --- /collapse ---

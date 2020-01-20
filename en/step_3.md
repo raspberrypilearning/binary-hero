@@ -9,6 +9,7 @@ Moving from right to left the keys double in value: `1`, `2`, `4`, and `8`. By a
 There are 2<sup>4</sup> = __16 combinations__ of pressing the four keys. This means that you can play 15 different notes, as `0` will mean that no note plays.
 
 --- task ---
+
 Create a new variable called `note`{:class="block3variables"}, and drag it next to the four note sprites.
 
 ![Note variable](images/note-create.png)
@@ -21,6 +22,7 @@ Create a new variable called `note`{:class="block3variables"}, and drag it next 
 `note`{:class="block3variables"} will store the value of the note that should be played.
 
 --- task ---
+
 Add code to the Stage to use the combination of pressed keys to calculate the value of `note`{:class="block3variables"}.
 
 For example, when `c` and `v` are pressed, the value of `note`{:class="block3variables"} should be `3`.
@@ -29,7 +31,9 @@ For example, when `c` and `v` are pressed, the value of `note`{:class="block3var
 
 --- hints ---
 --- hint ---
+
 ![stage](images/stage.png)
+
 When the `flag is clicked`{:class="block3events"}, the `note`{:class="block3variables"} variable should be `set`{:class="block3variables"} to `0`{:class="block3variables"}.
 
 + `if`{:class="block3control"} the `v key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 1`{:class="block3variables"}
@@ -38,10 +42,14 @@ When the `flag is clicked`{:class="block3events"}, the `note`{:class="block3vari
 + `if`{:class="block3control"} the `z key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 8`{:class="block3variables"}
 
 All of this code should be repeated `forever`{:class="block3control"}.
+
 --- /hint ---
 --- hint ---
+
 Here are the code blocks you need, and you have to add some of them more than once:
+
 ![stage](images/stage.png)
+
 ```blocks3
 forever
 end
@@ -55,10 +63,14 @@ set [note v] to [ ]
 
 when flag clicked
 ```
+
 --- /hint ---
 --- hint ---
+
 This is what your code should look like:
+
 ![stage](images/stage.png)
+
 ```blocks3
 when flag clicked
 forever
@@ -77,6 +89,7 @@ change [note v] by (8)
 end
 end
 ```
+
 --- /hint ---
 --- /hints ---
 --- /task ---
