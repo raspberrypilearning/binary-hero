@@ -2,51 +2,71 @@
 
 Musisz robić notatki, przewijając w dół stołu montażowego, aby gracz wiedział, które klawisze należy nacisnąć i kiedy je nacisnąć.
 
-\--- zadanie \--- Utwórz dwie listy o nazwie `notatki`{: class = "block3variables"} i `razy`{: class = "block3variables"}.
+\--- task \---
 
-[[[generic-scratch3-make-list]]] \--- / zadanie \---
+Create two lists called `notes`{:class="block3variables"} and `times`{:class="block3variables"}.
 
-\--- zadanie \--- Dodaj następujące liczby do `notatek`{: class = "block3variables"} i `razy`{: class = "block3variables"}. Uwaga: pamiętaj, aby **dodać te dokładne liczby we właściwej kolejności**.
+[[[generic-scratch3-make-list]]]
 
-![Dodaj notatki i czasy do list](images/lists-add-annotated.png) \--- /task \---
+\--- /task \---
 
-Oto, jak utwory są przechowywane w Twojej grze:
+\--- task \---
+
+Add the following numbers to your `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists. Note: make sure to **add these exact numbers in the right order**.
+
+![Add notes and times to lists](images/lists-add-annotated.png)
+
+\--- /task \---
+
+Here's how songs are stored in your game:
 
 + Lista `nut`{: class = "block3variables"} przechowuje nuty utworu (od 1 do 15), w kolejności
 + Lista `razy`{: class = "block3variables"} przechowuje czasy, w których nuty powinny być odtwarzane w utworze
 
-![Wyjaśnianie list](images/lists-explain.png)
+![Explaining lists](images/lists-explain.png)
 
-Tak więc z dwiema nowymi listami:
+So with the two new lists:
 
 + Uwaga 1 (środkowe C) powinna być odtwarzana po 5 sekundach
 + Uwaga 1 powinna zostać odtworzona ponownie po 5,5 sekundy
 + Uwaga 3 powinna być odtwarzana po 6 sekundach
 + itp...
 
-\--- zadanie \--- Kliknij ikonę „Uwaga”, a następnie kliknij **pokaż**.
+\--- task \---
 
-![Pokaż duszka paska](images/note-show-annotated.png)
+Click on the 'note' sprite and then click on **show**.
 
-Następnie kliknij **Kostiumy**.
+![Show the bar sprite](images/note-show-annotated.png)
 
-![Kostiumy barowe](images/note-costumes.png) \--- /task \---
+Then click on **Costumes**.
 
-Powinieneś zobaczyć, że duszek „nuty” ma 15 różnych kostiumów, po jednym dla każdej nuty od 1 do 15.
+![Bar sprite costumes](images/note-costumes.png)
 
-\--- zadanie \--- Dodaj kod, aby utworzyć klon duszka „notatka” dla każdej nuty przechowywanej w `notatce`{: class = "block3variables"}. Każdy klon powinien zostać utworzony we właściwym czasie przechowywanym w `razy`{: class = "block3variables"}. Każdy klon powinien zostać utworzony dwie sekundy przed odtworzeniem nuty. To daje klonowi dwie sekundy na przejście w dół ekranu. Stworzysz kod, aby trochę przenieść swoje klony!
+\--- /task \---
 
-![Testowanie klonów](images/clones-test.png)
+You should see that the 'note' sprite has 15 different costume, one for each different note from 1 to 15.
 
-\--- wskazówki \--- \--- wskazówka \--- ![note](images/note-sprite.png) Po kliknięciu flagi ``{: class = "block3events"}, ikonka "note" powinna `ukryć`{: class = "block3looks" }, a `timer`{: class = "block3variables"} powinien mieć wartość `reset`{: class = "block3variables"}.
+\--- task \---
 
-Skrypt powinien następnie `czekać, aż`{: class = "block3control"} wartość `timera`{: class = "block3variables"} będzie `większa niż`{: class = "block3operators"} następna nuta do odtworzenia, który będzie `czasem`{: class = "block3variables"} na początku `listy`{: class = "block3variables"} (`minus 2 sekundy`{: class = "block3operators"}).
+Add code to create a 'note' sprite clone for every note stored in `notes`{:class="block3variables"}. Each clone should be created at the correct time stored in `times`{:class="block3variables"}. Each clone should be created two seconds before its note needs to be played. This gives the clone two seconds to move down the screen. You'll create the code to move your clones in a little bit!
 
-Kostium dla duszka „nutowego” należy następnie ustawić na następną `nutę`{: class = "block3variables"}, która ma być odtwarzana ( `nuty`{: class = "block3variables"} na początku listy), przed utworzeniem `klonów`{: class = "block3events"} duszka 'note'.
+![Testing clones](images/clones-test.png)
 
-Pozycje na początku `uwag`{: class = "block3variables"} i `razy`{: class = "block3variables"} należy następnie usunąć ``{: class = "block3variables"}, a cały proces należy powtórzyć `aż do`{: class = "block3control"} nie ma żadnych pozycji na liście `uwag`{: class = "block3variables"}.
+\--- hints \--- \--- hint \---
 
-\--- /hint \--- \--- hint \--- Oto potrzebne bloki kodu: ![Uwaga](images/note-sprite.png)
+![note](images/note-sprite.png) When the `flag is clicked`{:class="block3events"}, the 'note' sprite should `hide`{:class="block3looks"}, and the `timer`{:class="block3variables"} should be `reset`{:class="block3variables"}.
+
+The script should then `wait until`{:class="block3control"} the value of `timer`{:class="block3variables"} is `greater than`{:class="block3operators"} the next note to be played, which will be the `time`{:class="block3variables"} at the `start of the list`{:class="block3variables"} (`minus 2 seconds`{:class="block3operators"}).
+
+The costume for the 'note' sprite should then be set to the next `note`{:class="block3variables"} to be played (the `note`{:class="block3variables"} at the start of the list), before a `clone`{:class="block3events"} of the 'note' sprite is created.
+
+The items at the start of the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists should then be `deleted`{:class="block3variables"}, and the entire process should be `repeated until`{:class="block3control"} there are no items left in the `notes`{:class="block3variables"} list.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![note](images/note-sprite.png)
 
 ```blocks3
 poczekaj aż <>
@@ -72,7 +92,11 @@ usuń (1 v) z [razy v]
 usuń (1 v ) z [uwagi v]
 ```
 
-\--- /hint \--- \--- hint \--- Twój kod powinien wyglądać tak: ![Uwaga](images/note-sprite.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![note](images/note-sprite.png)
 
 ```blocks3
 po kliknięciu flagi
@@ -89,9 +113,13 @@ koniec
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-Kiedy testujesz teraz swój kod, wydaje się, że nic się nie dzieje, ponieważ duszek „note” jest ukryty. Jeśli pokażesz (lub nie ukryjesz) duszka, powinieneś zobaczyć klony tworzone jeden na drugim.
+When you test your code now, nothing seems to happen, because the 'note' sprite is hidden. If you show (or don't hide) the sprite, then you should see clones being created on top of each other.
 
-\--- zadanie \--- Dodaj kod, aby każdy klon „notatki” przesuwał się od góry do dołu stołu montażowego przed usunięciem. ![Uwaga](images/note-sprite.png)
+\--- task \---
+
+Add code to make each 'note' clone glide from the top to the bottom of the Stage before being deleted.
+
+![note](images/note-sprite.png)
 
 ```blocks3
 kiedy zaczynam jako klon
