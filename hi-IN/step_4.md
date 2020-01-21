@@ -10,7 +10,11 @@
 
 \--- /task \---
 
-\--- task \--- जब भी **any of the four keys** (चार कुंजियों में से किसी भी कुंजी) को दबाया जाता है तो 'note change' (स्वर परिवर्तन) का संदेश प्रसारित करें। ![स्प्राइट 1](images/1.png)
+\--- task \---
+
+Broadcast a 'note change' message whenever **any of the four keys** is pressed.
+
+![sprite 1](images/1.png)
 
 ```blocks3
 when flag clicked
@@ -25,24 +29,32 @@ end
 
 \--- /task \---
 
-\--- task \--- कुंजियों का संयोजन दबाए जाने पर किसी स्वर को बजाने के लिए स्टेज में कोड जोड़ें।
+\--- task \---
 
-आपके स्वर मध्य C से शुरू होने चाहिए, जो स्वर 60 है।
+Add code to the Stage to play a note when a combination of keys is pressed.
+
+Your notes should start at middle C, which is note 60.
 
 ```blocks3
 play note (60) for (1) beats
 ```
 
-\--- hints \--- \--- hint \--- ![1 स्प्राइट](images/stage.png)
+\--- hints \--- \--- hint \---
 
-आपका स्टेज जब `receives`{:class="block3events"} 'change note' ('स्वर बदलें') प्रसारण प्राप्त करता है, तो `note`{:class="block3variables"} वेरिएबल के मान के आधार पर `playing a note`{:class="block3sound"} से पहले इसे `stop all sounds`{:class="block3sound"} सभी ध्वनियों को बंद कर देना चाहिए।
+![1 sprite](images/stage.png)
+
+When your stage `receives`{:class="block3events"} the 'change note' broadcast, it should `stop all sounds`{:class="block3sound"} before `playing a note`{:class="block3sound"} based on the value of the`note`{:class="block3variables"} variable.
 
 + जब `note`{:class="block3variables"} वेरिएबल `1`{:class="block3variables"} हो, तो स्वर 60 बजना चाहिए
 + जब `note`{:class="block3variables"} वेरिएबल `2`{:class="block3variables"} हो, तो स्वर 61 बजना चाहिए
 + जब `note`{:class="block3variables"} वेरिएबल `3`{:class="block3variables"} हो, तो स्वर 62 बजना चाहिए
 + आदि...
 
-\--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं जिनकी आपको आवश्यकता है: ![स्टेज](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![stage](images/stage.png)
 
 ```blocks3
 play note (60) for (1) beats
@@ -52,7 +64,11 @@ when I receive [note change v]
 stop all sounds
 ```
 
-\--- /hint \--- \--- hint \--- यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए: ![स्टेज](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 when I receive [note change v]
@@ -62,7 +78,9 @@ play note ((59) + (note :: variables)) for (1) beats
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- अपने कोड का परीक्षण करें। क्या आप सुन सकते हैं कि जब आप किसी कुंजी को दबाकर रखते हैं तो कोई स्वर बार-बार बजता है?
+\--- task \---
+
+Test your code. Can you hear that a note is repeatedly played when you hold down a key?
 
 \--- no-print \---
 
@@ -75,9 +93,11 @@ play note ((59) + (note :: variables)) for (1) beats
 
 \--- /task \---
 
-\--- task \--- कोड जोड़ें ताकि जब कोई कुंजी दबाई जाए तो **all** (सभी) कुंजी स्प्राइट किसी स्वर को केवल **once** (एक बार) बजाते हैं?
+\--- task \---
 
-![1 स्प्राइट](images/1.png)
+Add code so that the **all** the key sprites only play a note **once** when a key is held down?
+
+![1 sprite](images/1.png)
 
 ```blocks3
 when flag clicked
