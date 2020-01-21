@@ -2,9 +2,11 @@
 
 Najnowsza sekcja kodu jest trudna do odczytania, więc będziesz używać więcej niestandardowych bloków, aby uprościć.
 
-\--- zadanie \--- Utwórz kolejny blok o nazwie `wyczyść piosenkę`{: class = "block3myblocks"}, który usuwa wszystkie elementy z obu list. Użyj tego bloku przed dodaniem liczb z powrotem do list.
+\--- task \---
 
-![notatka-duszek](images/note-sprite.png)
+Make another block called `clear song`{:class="block3myblocks"} that deletes all items from both lists. Use this block before adding numbers back intothe lists.
+
+![note-sprite](images/note-sprite.png)
 
 ```blocks3
 zdefiniuj czysty utwór
@@ -12,7 +14,7 @@ usuń (wszystkie v) z [uwagi v]
 usuń (wszystkie v) z [razy v]
 ```
 
-Podczas testowania kodu powinien on działać tak jak wcześniej.
+When you test your code, it should work just as it did before.
 
 ```blocks3
 zdefiniuj ładowanie „wszystkiego najlepszego”
@@ -23,11 +25,19 @@ dodaj [5] do [notatek v]
 
 \--- /task \---
 
-\--- zadanie \--- Aby twój kod był jeszcze łatwiejszy do odczytania, stwórz kolejny blok, który pozwoli ci określić nutę do odtworzenia i godzinę na odtworzenie nuty.
+\--- task \---
+
+So that your code is even easier to read, make another block that allows you to specify a note to be played and a time to play the note at.
 
 [[[generic-scratch3-make-block-parameters]]]
 
-\--- wskazówki \--- \--- wskazówka \--- Zrób blok, który przyjmuje liczbę `jako notatkę`{: class = "block3variables"} i liczbę jako `razy`{: class = "block3variables"} a `dodaje`{: class = "block3variables"} każdą liczbę do poprawnej listy. \--- / hint \--- \--- hint \--- Tak powinien wyglądać Twój kod:
+\--- hints \--- \--- hint \---
+
+Make a block that takes a number as `note`{:class="block3variables"} and a number as `time`{:class="block3variables"} and `adds`{:class="block3variables"} each number to the correct list.
+
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
 
 ```blocks3
 zdefiniuj Dodaj notatkę (uwaga) w (czasie) sek.
