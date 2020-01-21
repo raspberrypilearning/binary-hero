@@ -31,7 +31,9 @@
 ## title: आप क्या सीखेंगे
 
 + स्वरों के क्रम और टाइमिंग को संगृहीत करने के लिए सूचियों का उपयोग कैसे करें
-+ इनपुट के साथ कस्टम ब्लॉकों का उपयोग कैसे करें \--- /collapse \---
++ How to use custom blocks with inputs
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -55,6 +57,12 @@
 
 ## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
 
-\--- no-print \--- यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/binary-hero/print) का उपयोग करें। \--- /no-print \---
+\--- no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/binary-hero-get){:target="_blank"}. \--- /collapse \---
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/binary-hero/print).
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/binary-hero-get){:target="_blank"}.
+
+\--- /collapse \---
