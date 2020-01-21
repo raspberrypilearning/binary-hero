@@ -2,51 +2,71 @@
 
 आपको स्वरों को स्टेज को नीचे स्क्रॉल करने की आवश्यकता है ताकि खिलाड़ी को पता चल सके कि कौन सी कुंजियों को दबाया जाए और उन्हें कब दबाया जाए।
 
-\--- task \--- `notes`{:class="block3variables"} और `times`{:class="block3variables"} नामक दो सूचियाँ बनाएँ।
+\--- task \---
 
-[[[generic-scratch3-make-list]]] \--- /task \---
+Create two lists called `notes`{:class="block3variables"} and `times`{:class="block3variables"}.
 
-\--- task \--- अपनी `notes`{:class="block3variables"} और `times`{:class="block3variables"} सूचियों में निम्नलिखित स्वर जोड़ें। टिप्पणी: **इन सही स्वरों को सही क्रम में जोड़ना** सुनिश्चित करें।
+[[[generic-scratch3-make-list]]]
 
-![सूचियों में स्वर और समय जोड़ें](images/lists-add-annotated.png) \--- /task \---
+\--- /task \---
 
-यहाँ बताया गया है कि आपके गेम में गाने कैसे संगृहीत किए जाते हैं:
+\--- task \---
+
+Add the following numbers to your `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists. Note: make sure to **add these exact numbers in the right order**.
+
+![Add notes and times to lists](images/lists-add-annotated.png)
+
+\--- /task \---
+
+Here's how songs are stored in your game:
 
 + `notes`{:class="block3variables"} सूची में गाने के स्वरों को (1 से 15 तक), क्रम से संगृहीत किया जाता है।
 + `times`{:class="block3variables"} सूची में उन समयों को संगृहीत किया जाता है जब गाने में स्वरों को बजाया जाना चाहिए।
 
-![सूचियों की व्याख्या करना](images/lists-explain.png)
+![Explaining lists](images/lists-explain.png)
 
-तो दो नई सूचियों के साथ:
+So with the two new lists:
 
 + स्वर 1 (मध्य C) 5 सेकंड पर बजाया जाना चाहिए
 + स्वर 1 को 5.5 सेकंड पर दुबारा बजाया जाना चाहिए
 + स्वर 3 को 6 सेकंड पर बजाया जाना चाहिए
 + आदि...
 
-\--- task \--- 'स्वर' स्प्राइट पर क्लिक करें और फिर **show** (दिखाएँ) पर।
+\--- task \---
 
-![बार स्प्राइट दिखाएँ](images/note-show-annotated.png)
+Click on the 'note' sprite and then click on **show**.
 
-फिर **Costumes** (परिधान) पर क्लिक करें।
+![Show the bar sprite](images/note-show-annotated.png)
 
-![बार स्प्राइट परिधान](images/note-costumes.png) \--- /task \---
+Then click on **Costumes**.
 
-आप देखेंगे कि 'स्वर' स्प्राइट में 15 अलग-अलग परिधान हैं, 1 से 15 तक के प्रत्येक अलग स्वर के लिए एक।
+![Bar sprite costumes](images/note-costumes.png)
 
-\--- task \--- `notes`{:class="block3variables"} में संगृहीत प्रत्येक स्वर के लिए एक 'स्वर' स्प्राइट क्लोन बनाने के लिए कोड जोड़ें। प्रत्येक क्लोन `times`{:class="block3variables"} में संगृहीत सही समय पर बनाया जाना चाहिए। प्रत्येक क्लोन उसके स्वर को चलाने की आवश्यकता से दो सेकंड पहले बनाया जाना चाहिए। यह क्लोन को स्क्रीन पर नीचे जाने के लिए दो सेकंड देता है। आप अपने क्लोन को थोड़े से समय में ले जाने के लिए कोड बनाएँगे!
+\--- /task \---
 
-![क्लोन का परीक्षण](images/clones-test.png)
+You should see that the 'note' sprite has 15 different costume, one for each different note from 1 to 15.
 
-\--- hints \--- \--- hint \--- ![note](images/note-sprite.png) `flag is clicked`{:class="block3events"} की स्थिति में, 'स्वर' स्प्राइट को `hide`{:class="block3looks"} होना चाहिए, और `timer`{:class="block3variables"} को `reset`{:class="block3variables"} किया जाना चाहिए।
+\--- task \---
 
-फिर स्क्रिप्ट को `wait until`{:class="block3control"} तब तक प्रतीक्षा करनी चाहिए जब तक `timer`{:class="block3variables"} का मान अगले बजाए जाने वाले स्वर से `greater than`{:class="block3operators"} अधिक न हो, जो सूची के प्रारंभ के समय `time`{:class="block3variables"} से `start of the list`{:class="block3variables"} (`minus 2 seconds`{:class="block3operators"}) कम होगा।
+Add code to create a 'note' sprite clone for every note stored in `notes`{:class="block3variables"}. Each clone should be created at the correct time stored in `times`{:class="block3variables"}. Each clone should be created two seconds before its note needs to be played. This gives the clone two seconds to move down the screen. You'll create the code to move your clones in a little bit!
 
-'स्वर' स्प्राइट के लिए परिधान को फिर अगले बजाए जाने वाले स्वर `note`{:class="block3variables"}(the `note`{:class="block3variables"} at the start of the list) पर सेट किया जाना चाहिए, 'note' स्प्राइट का `clone`{:class="block3events"} क्लोन बनाए जाने से पहले।
+![Testing clones](images/clones-test.png)
 
-`notes`{:class="block3variables"} और `times`{:class="block3variables"} सूचियों के आरंभ की आइटमों को `deleted`{:class="block3variables"} हटा देना चाहिए, और पूरी प्रक्रिया को तब तक `repeated until`{:class="block3control"} दोहराया जाना चाहिए जब तक स्वर `notes`{:class="block3variables"} सूची में कोई भी आइटमें बाकी न रह जाएँ।
+\--- hints \--- \--- hint \---
 
-\--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं जिनकी आपको आवश्यकता है: ![स्वर](images/note-sprite.png)
+![note](images/note-sprite.png) When the `flag is clicked`{:class="block3events"}, the 'note' sprite should `hide`{:class="block3looks"}, and the `timer`{:class="block3variables"} should be `reset`{:class="block3variables"}.
+
+The script should then `wait until`{:class="block3control"} the value of `timer`{:class="block3variables"} is `greater than`{:class="block3operators"} the next note to be played, which will be the `time`{:class="block3variables"} at the `start of the list`{:class="block3variables"} (`minus 2 seconds`{:class="block3operators"}).
+
+The costume for the 'note' sprite should then be set to the next `note`{:class="block3variables"} to be played (the `note`{:class="block3variables"} at the start of the list), before a `clone`{:class="block3events"} of the 'note' sprite is created.
+
+The items at the start of the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists should then be `deleted`{:class="block3variables"}, and the entire process should be `repeated until`{:class="block3control"} there are no items left in the `notes`{:class="block3variables"} list.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![note](images/note-sprite.png)
 
 ```blocks3
 wait until <>
@@ -72,7 +92,11 @@ delete (1 v) of [times v]
 delete (1 v) of [notes v]
 ```
 
-\--- /hint \--- \--- hint \--- यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए: ![स्वर](images/note-sprite.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![note](images/note-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -89,9 +113,13 @@ end
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-अब जब आप अपने कोड का परीक्षण करते हैं, तो कुछ भी नहीं होता है, क्योंकि 'स्वर' स्प्राइट छिपा हुआ है। यदि आप स्प्राइट को दिखाते हैं (या छिपाते नहीं हैं), तो आपको एक-दूसरे के ऊपर क्लोन बनते हुए दिखाई देने चाहिए।
+When you test your code now, nothing seems to happen, because the 'note' sprite is hidden. If you show (or don't hide) the sprite, then you should see clones being created on top of each other.
 
-\--- task \--- हटाए जाने से पहले प्रत्येक 'स्वर' क्लोन को स्टेज के ऊपर से लेकर नीचे तक ग्लाइड करने के लिए कोड जोड़ें। ![स्वर](images/note-sprite.png)
+\--- task \---
+
+Add code to make each 'note' clone glide from the top to the bottom of the Stage before being deleted.
+
+![note](images/note-sprite.png)
 
 ```blocks3
 when I start as a clone
