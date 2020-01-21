@@ -10,7 +10,11 @@ Add the Music extension to your project.
 
 \--- /görev \---
 
-\--- task \--- Broadcast a 'note change' message whenever **any of the four keys** is pressed. ![sprite 1](images/1.png)
+\--- task \---
+
+Broadcast a 'note change' message whenever **any of the four keys** is pressed.
+
+![sprite 1](images/1.png)
 
 ```blocks3
 when flag clicked
@@ -23,9 +27,11 @@ switch costume to (off v)
 end
 ```
 
-\--- /görev \---
+\--- /task \---
 
-\--- task \--- Add code to the Stage to play a note when a combination of keys is pressed.
+\--- task \---
+
+Add code to the Stage to play a note when a combination of keys is pressed.
 
 Your notes should start at middle C, which is note 60.
 
@@ -33,7 +39,9 @@ Your notes should start at middle C, which is note 60.
 play note (60) for (1) beats
 ```
 
-\--- hints \--- \--- hint \--- ![1 sprite](images/stage.png)
+\--- hints \--- \--- hint \---
+
+![1 sprite](images/stage.png)
 
 When your stage `receives`{:class="block3events"} the 'change note' broadcast, it should `stop all sounds`{:class="block3sound"} before `playing a note`{:class="block3sound"} based on the value of the`note`{:class="block3variables"} variable.
 
@@ -42,7 +50,11 @@ When your stage `receives`{:class="block3events"} the 'change note' broadcast, i
 + When the `note`{:class="block3variables"} variable is `3`{:class="block3variables"}, note 62 should play
 + etc...
 
-\--- /hint \--- \--- hint \--- Here are the code blocks you need: ![stage](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![stage](images/stage.png)
 
 ```blocks3
 play note (60) for (1) beats
@@ -52,7 +64,11 @@ when I receive [note change v]
 stop all sounds
 ```
 
-\--- /hint \--- \--- hint \--- This is what your code should look like: ![stage](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 when I receive [note change v]
@@ -62,7 +78,9 @@ play note ((59) + (note :: variables)) for (1) beats
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Test your code. Can you hear that a note is repeatedly played when you hold down a key?
+\--- task \---
+
+Test your code. Can you hear that a note is repeatedly played when you hold down a key?
 
 \--- no-print \---
 
@@ -73,9 +91,11 @@ play note ((59) + (note :: variables)) for (1) beats
 
 \--- /no-print \---
 
-\--- /görev \---
+\--- /task \---
 
-\--- task \--- Add code so that the **all** the key sprites only play a note **once** when a key is held down?
+\--- task \---
+
+Add code so that the **all** the key sprites only play a note **once** when a key is held down?
 
 ![1 sprite](images/1.png)
 
@@ -91,4 +111,4 @@ switch costume to (off v)
 end
 ```
 
-\--- /görev \---
+\--- /task \---
