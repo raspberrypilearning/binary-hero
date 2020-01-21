@@ -2,13 +2,27 @@
 
 Popraw swoją grę, przyznając graczom punkty za zagranie właściwej nuty.
 
-\--- zadanie \--- Utwórz nową zmienną o nazwie `score`{: class = "block3variables"} i umieść ją na górze stołu montażowego.
+\--- task \---
 
-![Dodaj wynik](images/add-score.png) \--- /task \---
+Create a new variable called `score`{:class="block3variables"}, and place it at the top of your Stage.
 
-\--- zadanie \--- Dodaj do `wyniku`{: class = "block3variables"} za każdym razem, gdy gracz zagra prawidłową nutę we właściwym czasie. Pamiętaj, aby ustawić `punktów`{: class = "block3variables"} na `0`{: class = "block3variables"} na początku gry.
+![Add a score](images/add-score.png)
 
-Wskazówki \--- \--- \--- wskazówkę \--- `Przed każdym klon usunięte`{: klasa = "block3control"}, to należy sprawdzić, `, jeśli`{: klasa = "block3control"} z `Uwaga`{: class = "block3variables"} ma wartość `równą`{: class = "block3operators"} `kostium numer`{: class = "block3looks"}, w takim przypadku wynik powinien zostać zmieniony ``{ : class = "block3variables"}. \--- /wskazówka \--- \--- wskazówka \--- Oto potrzebne bloki kodu: ![Uwaga](images/note-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Add to `score`{:class="block3variables"} whenever the player plays the correct note at the correct time. Remember to set `score`{:class="block3variables"} to `0`{:class="block3variables"} at the start of the game.
+
+\--- hints \--- \--- hint \---
+
+`Before each clone is deleted`{:class="block3control"}, it should check to see `if`{:class="block3control"} the `note`{:class="block3variables"} is `equal to`{:class="block3operators"} the `costume number`{:class="block3looks"}, and in that case, the score should be `changed`{:class="block3variables"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![note](images/note-sprite.png)
 
 ```blocks3
 [] = []
@@ -21,7 +35,11 @@ jeśli <> to
 kończy
 ```
 
-\--- /hint \--- \--- hint \--- Twój kod powinien wyglądać tak: ![Uwaga](images/note-sprite.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![note](images/note-sprite.png)
 
 ```blocks3
 kiedy zaczynam jako klon
@@ -36,7 +54,11 @@ usuń ten klon
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- zadanie \--- Nadaj komunikat o nazwie „poprawny”, gdy odtwarzana jest właściwa nuta. ![Uwaga](images/note-sprite.png)
+\--- task \---
+
+Broadcast a message called 'correct' when the correct note is played.
+
+![note](images/note-sprite.png)
 
 ```blocks3
 kiedy zaczynam jako klon
@@ -52,11 +74,13 @@ usuń ten klon
 
 \--- /task \---
 
-\--- zadanie \--- ![Prawidłowe tło sceny](images/correct-costume.png)
+\--- task \---
 
-Dodaj kod do stołu montażowego, aby krótko zmienić tło, gdy gracz zagra prawidłową nutę. Projekt zawiera już drugie tło do tego.
+![Correct stage background](images/correct-costume.png)
 
-![scena](images/stage.png)
+Add code to your Stage to briefly change the backdrop when the player plays the correct note. The project already contains a second backdrop for this.
+
+![stage](images/stage.png)
 
 ```blocks3
 po kliknięciu flagi
