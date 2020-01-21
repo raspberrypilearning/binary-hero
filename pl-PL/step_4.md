@@ -10,7 +10,11 @@ Dodaj rozszerzenie Music do swojego projektu.
 
 \--- /task \---
 
-\--- zadanie \--- Broadcast komunikat „uwaga zmiana” ilekroć **każdy z czterech kluczy** jest wciśnięty. ![duszek 1](images/1.png)
+\--- task \---
+
+Broadcast a 'note change' message whenever **any of the four keys** is pressed.
+
+![sprite 1](images/1.png)
 
 ```blocks3
 kiedy flaga kliknęła
@@ -25,24 +29,32 @@ koniec
 
 \--- /task \---
 
-\--- zadanie \--- Dodaj kod do stołu montażowego, aby zagrać nutę po naciśnięciu kombinacji klawiszy.
+\--- task \---
 
-Twoje notatki powinny zaczynać się w środku C, czyli w notatce 60.
+Add code to the Stage to play a note when a combination of keys is pressed.
+
+Your notes should start at middle C, which is note 60.
 
 ```blocks3
 zagraj nutę (60) dla (1) uderzeń
 ```
 
-\--- wskazówki \--- \--- wskazówka \--- ![1 duszek](images/stage.png)
+\--- hints \--- \--- hint \---
 
-Kiedy twój stopień `odbierze`{: class = "block3events"} transmisja „zmień nutę”, powinien `zatrzymać wszystkie dźwięki`{: class = "block3sound"} przed `odtworzeniem nuty`{: class = "block3sound"} na podstawie wartości zmiennej`note`{: class = "block3variables"}.
+![1 sprite](images/stage.png)
+
+When your stage `receives`{:class="block3events"} the 'change note' broadcast, it should `stop all sounds`{:class="block3sound"} before `playing a note`{:class="block3sound"} based on the value of the`note`{:class="block3variables"} variable.
 
 + Gdy zmienna `nuta`{: class = "block3variables"} ma wartość `1`{: class = "block3variables"}, uwaga 60 powinna być odtwarzana
 + Gdy zmienna `przypis`{: class = "block3variables"} ma wartość `2`{: class = "block3variables"}, uwaga 61 powinna zostać odtworzona
 + Gdy zmienna `nuta`{: class = "block3variables"} ma wartość `3`{: class = "block3variables"}, uwaga 62 powinna być odtwarzana
 + itp...
 
-\--- /hint \--- \--- hint \--- Oto potrzebne bloki kodu: ![scena](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![stage](images/stage.png)
 
 ```blocks3
 odtwórz nutę (60) dla (1) bije
@@ -52,7 +64,11 @@ gdy otrzymam [zmiana nuty v]
 zatrzymaj wszystkie dźwięki
 ```
 
-\--- /hint \--- \--- hint \--- Twój kod powinien wyglądać tak: ![scena](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 kiedy otrzymuję [zmiana nut v]
@@ -62,7 +78,9 @@ odtwarzaj nutę ((59) + (uwaga :: zmienne)) dla (1) uderzeń
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\---task\--- Wypróbuj swój kod. Czy słyszysz, że nuta jest odtwarzana wielokrotnie po przytrzymaniu klawisza?
+\--- task \---
+
+Test your code. Can you hear that a note is repeatedly played when you hold down a key?
 
 \--- no-print \---
 
@@ -75,9 +93,11 @@ odtwarzaj nutę ((59) + (uwaga :: zmienne)) dla (1) uderzeń
 
 \--- /task \---
 
-\--- zadanie \--- Dodać kod, aby sprajty klawiszowe **all** odtwarzały nutę **tylko raz** gdy klawisz jest wciśnięty?
+\--- task \---
 
-![1 duszek](images/1.png)
+Add code so that the **all** the key sprites only play a note **once** when a key is held down?
+
+![1 sprite](images/1.png)
 
 ```blocks3
 kiedy flaga kliknęła
