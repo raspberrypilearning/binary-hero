@@ -31,7 +31,9 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 ## title: Kaj se boš naučil?
 
 + How to use lists to store sequences of notes and timings
-+ How to use custom blocks with inputs \--- /collapse \---
++ How to use custom blocks with inputs
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -55,6 +57,12 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## title: Dodatne informacije za izobraževalce
 
-\--- Za tiskanje tega projekta, prosimo uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/binary-hero/print). \--- /no-print \---
+\--- no-print \---
 
-Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/en/binary-hero-get)"}. \--- /collapse \---
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/binary-hero/print).
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/binary-hero-get){:target="_blank"}.
+
+\--- /collapse \---
