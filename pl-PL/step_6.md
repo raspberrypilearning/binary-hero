@@ -8,7 +8,19 @@ Teraz dodasz kod do przechowywania piosenek w swoim projekcie, abyś nie musiał
 
 ![Dodaj notatki i czasy do list](images/lists-add-annotated.png)
 
-\--- zadanie \--- Utwórz nowy blok o nazwie `ładuj „wszystkiego najlepszego z okazji urodzin”`{: class = "block3myblocks"}, który usuwa obie `notatki`{: class = "block3variables"} i `razy`{: class = "block3variables"} list, a następnie dodaje poprawne liczby z powrotem do obu list. [[[generic-scratch3-make-block]]] \--- wskazówki \--- \--- wskazówka \--- `ładowanie „wszystkiego najlepszego”`{: class = "block3myblocks"} blok powinien `usunąć wszystkie`{: class = "block3variables "} pozycje z obu `notatek`{: class =" block3variables "} i `razy`{: class =" block3variables "}, a następnie `dodaje`{: class =" block3variables "} poprawnych sześciu liczb do listy należą do, we właściwej kolejności. \--- /wskazówka \--- \--- wskazówka \--- Oto potrzebne bloki kodu: ![notatki-duszek](images/note-sprite.png)
+\--- task \---
+
+Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists. [[[generic-scratch3-make-block]]]
+
+\--- hints \--- \--- hint \---
+
+The `load 'happy birthday'`{:class="block3myblocks"} block should `delete all`{:class="block3variables"} items from both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists and then `add`{:class="block3variables"} the correct six numbers to the list they belong in, in the correct order.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need:
+
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 usuń (wszystkie v) z [notatek v]
@@ -20,7 +32,11 @@ dodaj [1] do [notatek v]
 usuń (wszystkie v) z [czasów v]
 ```
 
-\--- /hint \--- \--- hint \--- Twój kod powinien wyglądać tak: ![notatki-duszek](images/note-sprite.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 zdefiniuj ładowanie „wszystkiego najlepszego”
@@ -42,7 +58,11 @@ dodaj [9] do [razy v]
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- zadanie \--- Przetestuj nowy blok, uruchamiając go na początku projektu. ![notatki-duszek](images/note-sprite.png)
+\--- task \---
+
+Test your new block by running it at the start of your project.
+
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 po kliknięciu flagi
@@ -51,6 +71,8 @@ ukryj
 zeruj licznik czasu
 ```
 
-Każda z twoich list powinna teraz zawierać sześć liczb.
+Each of your lists should now contain six numbers.
 
-![Listy notatek i czasów](images/lists-add.png) \--- /task \---
+![Lists of notes and times](images/lists-add.png)
+
+\--- /task \---
