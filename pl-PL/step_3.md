@@ -8,30 +8,44 @@ Przechodzenie z prawej do lewej klawisze mają podwójną wartość: `1`, `2`, `
 
 Istnieją 2<sup>4</sup> = **16 kombinacji** naciśnięcia czterech klawiszy. Oznacza to, że możesz grać 15 różnych dźwięków, ponieważ `0` oznacza, że żadna nuta nie jest odtwarzana.
 
-\--- zadanie \--- Utwórz nową zmienną o nazwie `notatka`{: class = "block3variables"} i przeciągnij ją obok czterech duszków.
+\--- task \---
 
-![Uwaga zmienna](images/note-create.png)
+Create a new variable called `note`{:class="block3variables"}, and drag it next to the four note sprites.
+
+![Note variable](images/note-create.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-`Uwaga`{: class = "block3variables"} zapisze wartość nuty, którą należy odtworzyć.
+`note`{:class="block3variables"} will store the value of the note that should be played.
 
-\--- zadanie \--- Dodaj kod do stołu montażowego, aby użyć kombinacji naciśniętych klawiszy do obliczenia wartości `uwagi`{: class = "block3variables"}.
+\--- task \---
 
-Na przykład po naciśnięciu `c` i `v` wartość `nuty`{: class = "block3variables"} powinna wynosić `3`.
+Add code to the Stage to use the combination of pressed keys to calculate the value of `note`{:class="block3variables"}.
 
-![Testowanie zmiennej notatki](images/note-test.png)
+For example, when `c` and `v` are pressed, the value of `note`{:class="block3variables"} should be `3`.
 
-\--- wskazówki \--- \--- wskazówka \--- ![stage](images/stage.png) Po kliknięciu flagi ``{: class = "block3events"}, zmienna `note`{: class = "block3variables"} powinna wynosić `ustaw`{: class = "block3variables"} na `0`{: class = "block3variables"}.
+![Testing the note variable](images/note-test.png)
+
+\--- hints \--- \--- hint \---
+
+![stage](images/stage.png)
+
+When the `flag is clicked`{:class="block3events"}, the `note`{:class="block3variables"} variable should be `set`{:class="block3variables"} to `0`{:class="block3variables"}.
 
 + `jeśli`{: class = "block3control"} naciśniesz klawisz `v`{: class = "block3sensing"}, `nutę`{: class = "block3variables"} należy zmienić o `o 1`{: class = „block3variables”}
 + `jeśli`{: class = "block3control"} naciśniesz klawisz `c`{: class = "block3sensing"}, `nutę`{: class = "block3variables"} należy zmienić o `o 2`{: class = „block3variables”}
 + `jeśli`{: class = "block3control"} naciśniesz klawisz `x`{: class = "block3sensing"}, `nutę`{: class = "block3variables"} należy zmienić `o 4`{: class = „block3variables”}
 + `jeśli`{: class = "block3control"} naciśniesz klawisz `z`{: class = "block3sensing"}, `nutę`{: class = "block3variables"} należy zmienić `o 8`{: class = „block3variables”}
 
-Cały ten kod należy powtórzyć `zawsze`{: class = "block3control"}. \--- / wskazówka \--- \--- wskazówka \--- Oto bloki kodu, których potrzebujesz i musisz dodać niektóre z nich więcej niż jeden raz: ![scena](images/stage.png)
+All of this code should be repeated `forever`{:class="block3control"}.
+
+\--- /hint \--- \--- hint \---
+
+Here are the code blocks you need, and you have to add some of them more than once:
+
+![stage](images/stage.png)
 
 ```blocks3
 na zawsze
@@ -47,7 +61,11 @@ ustaw [uwaga v] na []
 po kliknięciu flagi
 ```
 
-\--- /hint \--- \--- hint \--- Twój kod powinien wyglądać tak: ![scena](images/stage.png)
+\--- /hint \--- \--- hint \---
+
+This is what your code should look like:
+
+![stage](images/stage.png)
 
 ```blocks3
 kiedy flaga kliknęła
