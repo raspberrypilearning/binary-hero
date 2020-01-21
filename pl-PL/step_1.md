@@ -31,7 +31,9 @@ Nuty spadną z góry i będziesz musiał nacisnąć klawisze, aby „złapać”
 ## title: Czego się nauczysz
 
 + Jak używać list do przechowywania sekwencji notatek i timingów
-+ Jak korzystać z niestandardowych bloków z wejściami \--- / collapse \---
++ How to use custom blocks with inputs
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -55,6 +57,12 @@ Nuty spadną z góry i będziesz musiał nacisnąć klawisze, aby „złapać”
 
 ## title: Dodatkowe informacje dla edukatorów
 
-\--- no-print \--- Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/binary-hero/print). \--- /no-print \---
+\--- no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/binary-hero-get){:target="_blank"}. \--- /collapse \---
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/binary-hero/print).
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/binary-hero-get){:target="_blank"}.
+
+\--- /collapse \---
