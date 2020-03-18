@@ -1,10 +1,10 @@
-## Play notes
+## Speel noten
 
-Play notes when the keys are pressed.
+Speel noten wanneer de toetsen worden ingedrukt.
 
 \--- task \---
 
-Add the Music extension to your project.
+Voeg de extensie Muziek toe aan je project.
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -12,81 +12,81 @@ Add the Music extension to your project.
 
 \--- task \---
 
-Broadcast a 'note change' message whenever **any of the four keys** is pressed.
+Zend een bericht 'noot veranderen' uit wanneer **een van de vier toetsen** wordt gedrukt.
 
 ![sprite 1](images/1.png)
 
 ```blocks3
-when flag clicked
-forever
-if < key (v v) pressed?> then
-switch costume to (on v)
-+broadcast (note change v)
-else
-switch costume to (off v)
-end
+wanneer op de groene vlag wordt geklikt
+herhaal
+als toets < (v v) ingedrukt?> dan
+verander uiterlijk naar (aan v)
++ zend signaal (noot verandering v)
+anders
+verander uiterlijk naar (uit v)
+einde
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the Stage to play a note when a combination of keys is pressed.
+Voeg code toe aan het speelveld om een noot te spelen wanneer een combinatie van toetsen wordt ingedrukt.
 
-Your notes should start at middle C, which is note 60.
+Je noten moeten beginnen bij middelste C, dat is noot 60.
 
 ```blocks3
-play note (60) for (1) beats
+speel noot (60) gedurende (1) maten
 ```
 
 \--- hints \--- \--- hint \---
 
 ![1 sprite](images/stage.png)
 
-When your stage `receives`{:class="block3events"} the 'change note' broadcast, it should `stop all sounds`{:class="block3sound"} before `playing a note`{:class="block3sound"} based on the value of the`note`{:class="block3variables"} variable.
+Als het speeldveld ``{:class="block3events"} het signaal 'noot verandering' ontvangt, moet deze `alle geluiden stoppen`{:class="block3sound"} voordat `een noot`{:class="block3sound"} gespeeld wordt gebaseerd op de waarde van de variabele `noot`{:class="block3variables"}.
 
-+ When the `note`{:class="block3variables"} variable is `1`{:class="block3variables"}, note 60 should play
-+ When the `note`{:class="block3variables"} variable is `2`{:class="block3variables"}, note 61 should play
-+ When the `note`{:class="block3variables"} variable is `3`{:class="block3variables"}, note 62 should play
-+ etc...
++ Als de variabele `noot`{:class="block3variables"} `1`{:class="block3variables"} is, moet noot 60 spelen
++ Als de variabele `noot`{:class="block3variables"} `2`{:class="block3variables"} is, moet noot 61 spelen
++ Als de variabele `noot`{:class="block3variables"} `3`{:class="block3variables"} is, moet noot 62 worden gespeeld
++ enz...
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Dit zijn de codeblokken die je nodig hebt:
 
-![stage](images/stage.png)
+![speelveld](images/stage.png)
 
 ```blocks3
-play note (60) for (1) beats
-when I receive [note change v]
+speel noot (60) gedurende (1) maten
+wanneer ik signaal [noot verandering v] ontvang
 () + ()
-(note)
-stop all sounds
+(noot)
+stop alle geluiden
 ```
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
-![stage](images/stage.png)
+![speelveld](images/stage.png)
 
 ```blocks3
-when I receive [note change v]
-stop all sounds
-play note ((59) + (note :: variables)) for (1) beats
+wanneer ik signaal [noot verandering v] ontvang
+stop alle geluiden
+speel noot ((59) + (noot :: variables)) gedurende (1) maten
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
 \--- task \---
 
-Test your code. Can you hear that a note is repeatedly played when you hold down a key?
+Test je code. Hoor je dat een noot herhaaldelijk wordt gespeeld als je een toets ingedrukt houdt?
 
 \--- no-print \---
 
 <video width="400" controls>
   <source src="images/play-note-bug.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
+  Je browser ondersteunt geen HTML5 video.
 </video>
 
 \--- /no-print \---
@@ -95,20 +95,20 @@ Test your code. Can you hear that a note is repeatedly played when you hold down
 
 \--- task \---
 
-Add code so that the **all** the key sprites only play a note **once** when a key is held down?
+Voeg code toe zodat **alle** toets sprites een noot slechts **eenmaal** spelen als een toets continu wordt ingedrukt?
 
 ![1 sprite](images/1.png)
 
 ```blocks3
-when flag clicked
-forever
-if < key (v v) pressed?> then
-switch costume to (on v)
-broadcast (note change v)
-+wait until <not <key (v v) pressed?>
-else
-switch costume to (off v)
-end
+wanneer op de groene vlag wordt geklikt
+herhaal
+als toets < (v v) ingedrukt?> dan
+verander uiterlijk naar (aan v)
+zend signaal (noot verandering v)
++ wacht tot <niet <toets (v v) ingedrukt?>>
+anders
+verander uiterlijk naar (uit v)
+einde
 ```
 
 \--- /task \---
