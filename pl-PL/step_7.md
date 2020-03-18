@@ -1,6 +1,6 @@
-## Więcej niestandardowych bloków
+## More custom blocks
 
-Najnowsza sekcja kodu jest trudna do odczytania, więc będziesz używać więcej niestandardowych bloków, aby uprościć.
+The newest section of code is difficult to read, so you're going to use more custom blocks to make it simpler.
 
 \--- task \---
 
@@ -9,18 +9,18 @@ Make another block called `clear song`{:class="block3myblocks"} that deletes all
 ![note-sprite](images/note-sprite.png)
 
 ```blocks3
-zdefiniuj czysty utwór
-usuń (wszystkie v) z [uwagi v]
-usuń (wszystkie v) z [razy v]
+define clear song
+delete (all v) of [notes v]
+delete (all v) of [times v]
 ```
 
 When you test your code, it should work just as it did before.
 
 ```blocks3
-zdefiniuj ładowanie „wszystkiego najlepszego”
-+ wyczyść piosenkę :: niestandardowe
-dodaj [1] do [notatek v]
-dodaj [5] do [notatek v]
+define load 'happy birthday'
++clear song ::custom
+add [1] to [notes v]
+add [5] to [notes v]
 ```
 
 \--- /task \---
@@ -40,18 +40,18 @@ Make a block that takes a number as `note`{:class="block3variables"} and a numbe
 This is what your code should look like:
 
 ```blocks3
-zdefiniuj Dodaj notatkę (uwaga) w (czasie) sek.
-dodaj (uwaga :: custom-arg) do [notatek v]
-dodaj (czas :: niestandardowy-argument) do [czasów v]
+define Add note (note) at (time) secs
+add (note :: custom-arg) to [notes v]
+add (time :: custom-arg) to [times v]
 
-zdefiniuj ładunek „wszystkiego najlepszego”
-wyczyść piosenka :: niestandardowe
-+ Dodaj notatkę (1) w (5) sek.
-+ Dodaj notatkę (1) w (5.5) sek.
-+ Dodaj notatkę (3) w (6) sek.
-+ Dodaj notatkę (1) w (7) ) sek.
-+ Dodaj notatkę (6) o (8) sek.
-+ Dodaj notatkę (5) o (9) sek.
+define load 'happy birthday'
+clear song ::custom
++Add note (1) at (5) secs
++Add note (1) at (5.5) secs
++Add note (3) at (6) secs
++Add note (1) at (7) secs
++Add note (6) at (8) secs
++Add note (5) at (9) secs
 ```
 
 \--- /hint \--- \--- /hints \---
