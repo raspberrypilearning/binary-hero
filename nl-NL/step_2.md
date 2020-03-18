@@ -1,45 +1,45 @@
-## Key presses
+## Toets indrukken
 
-How many notes can you play with four keys? It might be more than you think!
+Hoeveel noten kun je met vier toetsen spelen? Het is misschien meer dan je denkt!
 
 \--- task \---
 
-Open the 'Binary hero' Scratch starter project.
+Open het 'Binary hero' Scratch startproject.
 
-**Online:** open the starter project at [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
+**Online** open het start project op [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_ blank"}. Als je een Scratch account hebt, kun je klikken op **Remix** in de rechterbovenhoek om een kopie van het project op te slaan in je account.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** open het [startproject](http://rpf.io/p/en/binary-hero-go){:target="_ blank"} in de offline editor. Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-Start by showing which key is being pressed.
+Begin met te laten zien welke toets wordt ingedrukt.
 
 \--- task \---
 
-Click on the sprite called '1', and add code to change the sprite's costume if the `v` key is pressed.
+Klik op de sprite genaamd '1' en voeg code toe om het uiterlijk van de sprite te wijzigen als de toets `v` wordt ingedrukt.
 
-![costume](images/1.png)
+![uiterlijk](images/1.png)
 
 ```blocks3
-when flag clicked
-forever
-if < key (v v) pressed?> then
-switch costume to (on v)
-else
-switch costume to (off v)
-end
+wanneer op de groene vlag wordt geklikt
+herhaal
+als toets < (v v) ingedrukt?> dan
+verander uiterlijk naar (aan v)
+anders
+verander uiterlijk naar (uit v)
+einde
 ```
 
-When you test your code by pressing the <kbd>v</kbd> key, the sprite should light up.
+Wanneer je je code test door op toets <kbd>v</kbd> drukken, zou de sprite moeten oplichten.
 
-![Testing the v key](images/1-test.png)
+![De v toets testen](images/1-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Do the same for the other three sprites so that they light up if the <kbd>z</kbd>, <kbd>x</kbd>, or <kbd>c</kbd> keys are pressed.
+Doe hetzelfde voor de andere drie sprites zodat ze oplichten als de toetsen <kbd>z</kbd>, <kbd>x</kbd> of <kbd>c</kbd> worden ingedrukt.
 
-![All keys pressed](images/all-key-presses.png)
+![Alle toetsen ingedrukt](images/all-key-presses.png)
 
 \--- /task \---
