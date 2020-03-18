@@ -1,8 +1,8 @@
-## चुनौती: इसे आगे बढ़ाएँ
+## Challenge: take it further
 
-आपका गेम अब पूरा हो चुका है, लेकिन यदि आप चाहें तो कुछ चीजें हैं जिन्हें आप इसे और बेहतर बनाने के लिए कर सकते हैं!
+Your game is done now, but there are a few things you can do to make it even better if you want to!
 
-उदाहरण के लिए, क्या आप यह बदलने के लिए कोड जोड़ सकते हैं कि अगर सही स्वर नहीं बजाया जाता तो स्टेज कैसा दिखाई देना चाहिए?
+For example, can you add code to change how the Stage looks if the correct note is not played?
 
 ```blocks3
 when I start as a clone
@@ -18,4 +18,4 @@ end
 delete this clone
 ```
 
-ऐसा करने के लिए, आपको कोड जोड़ने की आवश्यकता है जो उस कोड के बहुत-कुछ समान है जो सही स्वर बजाए जाने पर पृष्ठभूमि को बदल देता है। प्रोजेक्ट में एक और पृष्ठभूमि शामिल है जिसका आप उपयोग कर सकते हैं।
+To do this, you need to add code that's very similar to the code that changes the backdrop when the correct note is played. The project contains another backdrop you can use.
