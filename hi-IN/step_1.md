@@ -1,18 +1,18 @@
 \--- no-print \---
 
-यह इस प्रोजेक्ट का **Scratch 3** संस्करण है। [इस प्रोजेक्ट का Scratch 2 संस्करण](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2) भी है।
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
 
 \--- /no-print \---
 
-## परिचय
+## Introduction
 
-इस प्रोजेक्ट में आप एक गेम बनाएँगे जिसमें आप स्टेज के नीचे स्क्रॉल करते हुए किसी गाने की धुन बजाते हैं।
+In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### आप क्या बनाएँगे
+### What you will make
 
 \--- no-print \---
 
-गेम शुरू करने के लिए हरे झंडे पर क्लिक करें। सही स्वरों को बजाने के लिए <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd>, और <kbd>v</kbd> कुंजियों का उपयोग करें जब ये स्टेज के नीचे पहुँच जाते हैं। आपके द्वारा बजाए जाने वाले प्रत्येक सही स्वर के लिए आपको दस अंक मिलेंगे।
+Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd>, and <kbd>v</kbd> keys to play the correct notes when these reach the bottom of the Stage. You'll score ten points for every correct note you play.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259028053/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,40 +22,40 @@
 
 \--- print-only \---
 
-स्वर ऊपर से गिरेंगे, और आपको स्वरों को "पकड़ने" और बजाने के लिए कुंजियों को दबाना होगा। ![शोकेस](images/showcase.png)
+The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![showcase](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: आप क्या सीखेंगे
+## title: What you will learn
 
-+ स्वरों के क्रम और टाइमिंग को संगृहीत करने के लिए सूचियों का उपयोग कैसे करें
++ How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: आपको किन चीज़ों की आवश्यकता होगी
+## title: What you will need
 
-### हार्डवेयर
+### Hardware
 
-+ Scratch 3 चलाने में सक्षम कंप्यूटर
++ A computer capable of running Scratch 3
 
-### सॉफ्टवेयर
+### Software
 
-+ Scratch 3 (या तो [ऑनलाइन](http://rpf.io/scratchon){:target="_blank"} या [ऑफलाइन](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### डाउनलोड
+### Downloads
 
-+ [ऑफ़लाइन स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
+## title: Additional notes for educators
 
 \--- no-print \---
 
