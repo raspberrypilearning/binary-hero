@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Giriş
+## Introduction
 
 In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### Ne yapacaksınız
+### What you will make
 
 \--- no-print \---
 
@@ -26,9 +26,9 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 \--- /print-only \---
 
-## \--- küçült \---
+## \--- collapse \---
 
-## title: Ne öğreneceksiniz
+## title: What you will learn
 
 + How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
@@ -37,15 +37,15 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Nelere ihtiyacınız var
+## title: What you will need
 
-### Donanım
+### Hardware
 
-+ Scratch 3 çalıştırabilen bir bilgisayar
++ A computer capable of running Scratch 3
 
-### Yazılım
+### Software
 
-+ Scratch 3 ([çevrimiçi](http://rpf.io/scratchon){:target="_blank"} veya [çevrimdışı](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -53,7 +53,7 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 \--- /collapse \---
 
-## \--- /collapse \---
+## \--- collapse \---
 
 ## title: Additional notes for educators
 
