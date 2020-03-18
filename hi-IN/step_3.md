@@ -1,12 +1,12 @@
-## बाइनरी संख्याएँ
+## Binary numbers
 
-आप विभिन्न स्वरों को बजाने के लिए चार कुंजियों को दबाने वाले विभिन्न संयोजनों का उपयोग करेंगे। प्रत्येक कुंजी या तो ऑन (दबाई गई) होती है या ऑफ (न दबाई गई) होती है। इसका मतलब है कि आप कुंजियों के प्रत्येक संयोजन को **binary number** (बाइनरी संख्या) के रूप में सोच सकते हैं।
+You will use different combinations of pressing the four keys to play different notes. Each of the keys is either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a **binary number**.
 
-दाएँ से बाएँ ओर चलते हुए कुंजियों का मूल्य दुगुना होता चला जाता है: `1`, `2`, `4`, और `8`। दबाई गई कुंजियों के ऊपर की संख्याओं को जोड़कर, आप स्वर के मान का पता लगा सकते हैं।
+Moving from right to left the keys double in value: `1`, `2`, `4`, and `8`. By adding up the numbers above the keys that are pressed, you can work out the value of the note.
 
-![स्वर मान के उदाहरण](images/note-values.png)
+![Note value examples](images/note-values.png)
 
-चारों कुंजियों को दबाने के 2<sup>4</sup> = **16 combinations** (संयोजन) हैं। इसका मतलब है कि आप 15 अलग-अलग स्वर बजा सकते हैं, क्योंकि `0` का मतलब होगा कि कोई स्वर नहीं बजता है।
+There are 2<sup>4</sup> = **16 combinations** of pressing the four keys. This means that you can play 15 different notes, as `0` will mean that no note plays.
 
 \--- task \---
 
