@@ -1,4 +1,4 @@
-## מה הלאה?
+## What next?
 
 Try these other projects to build you knowledge of other programming languages.
 
