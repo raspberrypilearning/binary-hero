@@ -1,14 +1,14 @@
 \--- no-print \---
 
-To je ** Scratch 3 ** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2) različica projekta.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
 
 \--- /no-print \---
 
-## Uvod
+## Introduction
 
 In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### Kaj boš ustvaril-a?
+### What you will make
 
 \--- no-print \---
 
@@ -22,13 +22,13 @@ Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd
 
 \--- print-only \---
 
-The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![vitrina](images/showcase.png)
+The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![showcase](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Kaj se boš naučil?
+## title: What you will learn
 
 + How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
@@ -37,17 +37,17 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Kaj boš potreboval?
+## title: What you will need
 
-### Strojna oprema
+### Hardware
 
-+ Računalnik, ki lahko poganja Scratch 3
++ A computer capable of running Scratch 3
 
-### Programska oprema
+### Software
 
-+ Scratch 3 (bodisi [na spletu](http://rpf.io/scratchon) {:target = "_blank"} ali [brez povezave](http://rpf.io/scratchoff){:target = "_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Prenosi
+### Downloads
 
 + [Offline starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
@@ -55,7 +55,7 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Dodatne informacije za izobraževalce
+## title: Additional notes for educators
 
 \--- no-print \---
 
