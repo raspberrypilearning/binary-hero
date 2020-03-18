@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Esittely
+## Introduction
 
 In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### Mitä tulet tekemään
+### What you will make
 
 \--- no-print \---
 
@@ -28,7 +28,7 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Mitä tulet oppimaan
+## title: What you will learn
 
 + How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
@@ -37,13 +37,13 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Mitä tarvitset
+## title: What you will need
 
-### Laitteisto
+### Hardware
 
-+ Tietokone, joka pystyy käyttämään Scratch 3 -ohjelmaa
++ A computer capable of running Scratch 3
 
-### Ohjelmisto
+### Software
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
