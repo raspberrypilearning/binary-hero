@@ -1,21 +1,21 @@
-## Wyzwanie: pójdź dalej
+## Challenge: take it further
 
-Twoja gra jest już skończona, ale jest kilka rzeczy, które możesz zrobić, aby uczynić ją jeszcze lepszą, jeśli chcesz!
+Your game is done now, but there are a few things you can do to make it even better if you want to!
 
-Na przykład, czy możesz dodać kod, aby zmienić wygląd stołu montażowego, jeśli nie zostanie odtworzona poprawna nuta?
+For example, can you add code to change how the Stage looks if the correct note is not played?
 
 ```blocks3
-kiedy zaczynam jako klon
-przejdź do x: (20) y: (160)
-pokaż
-szybowanie (2) sek. do x: (20) y: (- 130)
-jeśli <(uwaga :: zmienne) = ( kostium [liczba v])> następnie
-zmień [wynik v] o (1)
-transmisji (poprawne v)
-jeszcze
- + ???
-koniec
-usuń ten klon
+when I start as a clone
+go to x: (20) y: (160)
+show
+glide (2) secs to x: (20) y:(-130)
+if <(note :: variables) = (costume [number v])> then
+change [score v] by (1)
+broadcast (correct v)
+else
++???
+end
+delete this clone
 ```
 
-Aby to zrobić, musisz dodać kod, który jest bardzo podobny do kodu zmieniającego tło, gdy odtwarzana jest właściwa nuta. Projekt zawiera kolejne tło, którego możesz użyć.
+To do this, you need to add code that's very similar to the code that changes the backdrop when the correct note is played. The project contains another backdrop you can use.
