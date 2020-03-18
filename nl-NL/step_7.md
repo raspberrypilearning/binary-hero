@@ -1,57 +1,57 @@
-## More custom blocks
+## Meer aangepaste blokken
 
-The newest section of code is difficult to read, so you're going to use more custom blocks to make it simpler.
+Het nieuwste gedeelte van de code is moeilijk te lezen, dus je gaat meer aangepaste blokken gebruiken om het eenvoudiger te maken.
 
 \--- task \---
 
-Make another block called `clear song`{:class="block3myblocks"} that deletes all items from both lists. Use this block before adding numbers back intothe lists.
+Maak nog een blok met de naam `wis liedje`{:class="block3myblocks"} dat alle items uit beide lijsten verwijdert. Gebruik dit blok voordat je weer getallen toevoegt aan de lijsten.
 
-![note-sprite](images/note-sprite.png)
+![noten sprite](images/note-sprite.png)
 
 ```blocks3
-define clear song
-delete (all v) of [notes v]
-delete (all v) of [times v]
+definieer wis liedje
+verwijder (alle v) of [noten v]
+verwijder (alle v) of [tijden v]
 ```
 
-When you test your code, it should work just as it did before.
+Wanneer je de code test, zou deze net zo moeten werken als voorheen.
 
 ```blocks3
-define load 'happy birthday'
-+clear song ::custom
-add [1] to [notes v]
-add [5] to [notes v]
+definieer laad 'happy birthday'
++ wis liedje ::custom
+voeg [1] toe aan [noten v]
+voeg [5] toe aan [noten v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-So that your code is even easier to read, make another block that allows you to specify a note to be played and a time to play the note at.
+Om ervoor te zorgen dat je code nog makkelijker te lezen is, maak je nog een blok waarmee je een te spelen noot kunt specificeren en een tijdstip om de noot te spelen.
 
 [[[generic-scratch3-make-block-parameters]]]
 
 \--- hints \--- \--- hint \---
 
-Make a block that takes a number as `note`{:class="block3variables"} and a number as `time`{:class="block3variables"} and `adds`{:class="block3variables"} each number to the correct list.
+Maak een blok met een getal als `noot`{:class="block3variables"} en een getal als `tijd`{:class="block3variables"} en `voeg`{:class="block3variables"} elk getal toe aan de juiste lijst.
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-define Add note (note) at (time) secs
-add (note :: custom-arg) to [notes v]
-add (time :: custom-arg) to [times v]
+definieer voeg noot (noot) toe op (tijd) sec.
+voeg (noot :: custom-arg) toe aan [noten v]
+voeg (tijd :: custom-arg) toe aan [tijden v]
 
-define load 'happy birthday'
-clear song ::custom
-+Add note (1) at (5) secs
-+Add note (1) at (5.5) secs
-+Add note (3) at (6) secs
-+Add note (1) at (7) secs
-+Add note (6) at (8) secs
-+Add note (5) at (9) secs
+definieer laad 'happy birthday'
+wis liedje ::custom
++ Voeg noot (1) toe op (5) sec.
++ Voeg noot (1) toe op (5.5) sec.
++ Voeg noot (3) toe op (6) sec.
++ Voeg noot (1) toe op (7) sec.
++ Voeg noot (6) toe op (8) sec.
++ Voeg noot (5) toe op (9) sec.
 ```
 
 \--- /hint \--- \--- /hints \---
