@@ -1,4 +1,4 @@
-## Zusatzaufgabe: mehr Stifte
+## What next?
 
 Try these other projects to build you knowledge of other programming languages.
 
