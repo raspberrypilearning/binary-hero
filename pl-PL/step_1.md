@@ -1,18 +1,18 @@
 \--- no-print \---
 
-To jest wersja projektu korzystająca z **Scratch 3**. Istnieje również [wersja tego projektu dla Scratch 2](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
 
 \--- /no-print \---
 
-## Wprowadzenie
+## Introduction
 
-W tym projekcie stworzysz grę, w której zagrasz nuty piosenki przewijanej w dół sceny.
+In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### Co będziesz robił
+### What you will make
 
 \--- no-print \---
 
-Kliknij zieloną flagę, aby rozpocząć grę. Użyj klawiszy <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd>i <kbd>v</kbd> , aby zagrać prawidłowe nuty, gdy dotrą one do dolnej części stołu montażowego. Zdobędziesz dziesięć punktów za każdą poprawną nutę, którą zagrasz.
+Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd>, and <kbd>v</kbd> keys to play the correct notes when these reach the bottom of the Stage. You'll score ten points for every correct note you play.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259028053/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,40 +22,40 @@ Kliknij zieloną flagę, aby rozpocząć grę. Użyj klawiszy <kbd>z</kbd>, <kbd
 
 \--- print-only \---
 
-Nuty spadną z góry i będziesz musiał nacisnąć klawisze, aby „złapać” i zagrać nuty. ![prezentacja](images/showcase.png)
+The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![showcase](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Czego się nauczysz
+## title: What you will learn
 
-+ Jak używać list do przechowywania sekwencji notatek i timingów
++ How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Czego będziesz potrzebować
+## title: What you will need
 
-### Sprzęt
+### Hardware
 
-+ Komputer, na którym można uruchomić Scratch 3
++ A computer capable of running Scratch 3
 
-### Oprogramowanie
+### Software
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} lub [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Pobrane
+### Downloads
 
-+ [Projekt początkowy offline](http://rpf.io/p/en/binary-hero-go){: target = "_ blank"}
++ [Offline starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Dodatkowe informacje dla edukatorów
+## title: Additional notes for educators
 
 \--- no-print \---
 
