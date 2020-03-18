@@ -1,12 +1,12 @@
-## अपना गाना संगृहीत करें
+## Store your song
 
-फिलहाल, स्वरों को बजाए जाने के बाद सूचियों से हटा दिया जाता है, इसलिए आपके पास खाली सूचियाँ बच जाती हैं:
+At the moment, notes are removed from the lists after being played, so you're left with empty lists:
 
-![खाली सूचियाँ](images/empty-lists.png)
+![Empty lists](images/empty-lists.png)
 
-अब आप अपने प्रोजेक्ट में गाने संगृहीत करने के लिए कोड जोड़ने जा रहे हैं, ताकि आपको इन्हें अपनी सूचियों में हर बार न जोड़ना पड़े।
+You're now going to add code to store songs in your project, so that you don't have to add to your lists each time.
 
-![सूचियों में स्वर और समय जोड़ें](images/lists-add-annotated.png)
+![Add notes and times to lists](images/lists-add-annotated.png)
 
 \--- task \---
 
