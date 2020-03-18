@@ -1,12 +1,12 @@
-## Liczby binarne
+## Binary numbers
 
-Użyjesz różnych kombinacji naciskania czterech klawiszy, aby grać różne nuty. Każdy z klawiszy jest włączony (wciśnięty) lub wyłączony (nie wciśnięty). Oznacza to, że każdą kombinację kluczy można traktować jako liczbę binarną ****.
+You will use different combinations of pressing the four keys to play different notes. Each of the keys is either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a **binary number**.
 
-Przechodzenie z prawej do lewej klawisze mają podwójną wartość: `1`, `2`, `4`i `8`. Dodając liczby powyżej naciśniętych klawiszy, możesz obliczyć wartość nuty.
+Moving from right to left the keys double in value: `1`, `2`, `4`, and `8`. By adding up the numbers above the keys that are pressed, you can work out the value of the note.
 
-![Zwróć uwagę na przykłady wartości](images/note-values.png)
+![Note value examples](images/note-values.png)
 
-Istnieją 2<sup>4</sup> = **16 kombinacji** naciśnięcia czterech klawiszy. Oznacza to, że możesz grać 15 różnych dźwięków, ponieważ `0` oznacza, że żadna nuta nie jest odtwarzana.
+There are 2<sup>4</sup> = **16 combinations** of pressing the four keys. This means that you can play 15 different notes, as `0` will mean that no note plays.
 
 \--- task \---
 
@@ -34,10 +34,10 @@ For example, when `c` and `v` are pressed, the value of `note`{:class="block3var
 
 When the `flag is clicked`{:class="block3events"}, the `note`{:class="block3variables"} variable should be `set`{:class="block3variables"} to `0`{:class="block3variables"}.
 
-+ `jeśli`{: class = "block3control"} naciśniesz klawisz `v`{: class = "block3sensing"}, `nutę`{: class = "block3variables"} należy zmienić o `o 1`{: class = „block3variables”}
-+ `jeśli`{: class = "block3control"} naciśniesz klawisz `c`{: class = "block3sensing"}, `nutę`{: class = "block3variables"} należy zmienić o `o 2`{: class = „block3variables”}
-+ `jeśli`{: class = "block3control"} naciśniesz klawisz `x`{: class = "block3sensing"}, `nutę`{: class = "block3variables"} należy zmienić `o 4`{: class = „block3variables”}
-+ `jeśli`{: class = "block3control"} naciśniesz klawisz `z`{: class = "block3sensing"}, `nutę`{: class = "block3variables"} należy zmienić `o 8`{: class = „block3variables”}
++ `if`{:class="block3control"} the `v key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 1`{:class="block3variables"}
++ `if`{:class="block3control"} the `c key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 2`{:class="block3variables"}
++ `if`{:class="block3control"} the `x key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 4`{:class="block3variables"}
++ `if`{:class="block3control"} the `z key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 8`{:class="block3variables"}
 
 All of this code should be repeated `forever`{:class="block3control"}.
 
@@ -48,17 +48,17 @@ Here are the code blocks you need, and you have to add some of them more than on
 ![stage](images/stage.png)
 
 ```blocks3
-na zawsze
-koniec
-jeśli < > to
-koniec
-klawisz (v) wciśnięty?
+forever
+end
+if < > then
+end
+key ( v) pressed?
 
-zmień [uwaga v] o ()
+change [note v] by ( )
 
-ustaw [uwaga v] na []
+set [note v] to [ ]
 
-po kliknięciu flagi
+when flag clicked
 ```
 
 \--- /hint \--- \--- hint \---
@@ -68,22 +68,22 @@ This is what your code should look like:
 ![stage](images/stage.png)
 
 ```blocks3
-kiedy flaga kliknęła
-zawsze
-ustaw [uwaga v] na [0]
-jeśli wciśnięto klawisz <(vv)? > a następnie
-zmiana [uwaga v] o (1)
-koniec
-jeśli naciśnięty został klawisz <(cv)? > a następnie
-zmiana [uwaga v] o (2)
-koniec
-jeśli naciśnięto klawisz <(xv)? > a następnie
-zmiana [uwaga v] o (4)
-koniec
-jeśli naciśnięto klawisz <(zv)? > a następnie
-zmiana [uwaga v] o (8)
-koniec
-koniec
+when flag clicked
+forever
+set [note v] to [0]
+if <key (v v) pressed? > then
+change [note v] by (1)
+end
+if <key (c v) pressed? > then
+change [note v] by (2)
+end
+if <key (x v) pressed? > then
+change [note v] by (4)
+end
+if <key (z v) pressed? > then
+change [note v] by (8)
+end
+end
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
