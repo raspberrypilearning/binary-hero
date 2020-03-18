@@ -2,13 +2,13 @@
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## Introducció
+## Introduction
 
 In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### Què faràs
+### What you will make
 
 \--- no-print \---
 
@@ -18,17 +18,17 @@ Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259028053/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
-\--- només imprimir \---
+\--- print-only \---
 
-The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![aparador](images/showcase.png)
+The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![showcase](images/showcase.png)
 
-\--- / print-only \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
-## títol: Què aprendràs
+## title: What you will learn
 
 + How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
@@ -37,17 +37,17 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## títol: què necessitaràs
+## title: What you will need
 
-### Maquinari
+### Hardware
 
-+ Un ordinador capaç d'executar Scratch 3
++ A computer capable of running Scratch 3
 
-### Programari
+### Software
 
-+ Scratch 3 (tant [en línia](http://rpf.io/scratchon){: target = "_ blank"} o [fora de línia](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Baixades
+### Downloads
 
 + [Offline starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
@@ -55,7 +55,7 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## títol: notes addicionals per a educadors
+## title: Additional notes for educators
 
 \--- no-print \---
 
