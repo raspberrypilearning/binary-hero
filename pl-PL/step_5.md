@@ -1,6 +1,6 @@
-## Przewijanie notatek
+## Scrolling notes
 
-Musisz robić notatki, przewijając w dół stołu montażowego, aby gracz wiedział, które klawisze należy nacisnąć i kiedy je nacisnąć.
+You need to make notes scroll down the Stage so that the player knows which keys to press and when to press them.
 
 \--- task \---
 
@@ -20,17 +20,17 @@ Add the following numbers to your `notes`{:class="block3variables"} and `times`{
 
 Here's how songs are stored in your game:
 
-+ Lista `nut`{: class = "block3variables"} przechowuje nuty utworu (od 1 do 15), w kolejności
-+ Lista `razy`{: class = "block3variables"} przechowuje czasy, w których nuty powinny być odtwarzane w utworze
++ The `notes`{:class="block3variables"} list stores the notes of the song (from 1 to 15), in order
++ The `times`{:class="block3variables"} list stores the times when the notes should be played in the song
 
 ![Explaining lists](images/lists-explain.png)
 
 So with the two new lists:
 
-+ Uwaga 1 (środkowe C) powinna być odtwarzana po 5 sekundach
-+ Uwaga 1 powinna zostać odtworzona ponownie po 5,5 sekundy
-+ Uwaga 3 powinna być odtwarzana po 6 sekundach
-+ itp...
++ Note 1 (middle C) should be played at 5 seconds
++ Note 1 should be played again at 5.5 seconds
++ Note 3 should be played at 6 seconds
++ etc...
 
 \--- task \---
 
@@ -69,27 +69,27 @@ Here are the code blocks you need:
 ![note](images/note-sprite.png)
 
 ```blocks3
-poczekaj aż <>
-po kliknięciu flagi
-długość [uwagi v]
+wait until <>
+when flag clicked
+length of [notes v]
 
-stwórz klon (siebie v)
+create clone of (myself v)
 
-zresetuj licznik
-pozycji (1 v) z [razy v]
-ukryj
+reset timer
+item (1 v) of [times v]
+hide
 
-powtórz do <>
-koniec
+repeat until <>
+end
 [] > []
-pozycja (1 v) z [uwagi v]
+item (1 v) of [notes v]
 () - ()
-zmień kostium na (v)
+switch costume to ( v)
 [] = []
 timer
-usuń (1 v) z [razy v]
+delete (1 v) of [times v]
 
-usuń (1 v ) z [uwagi v]
+delete (1 v) of [notes v]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -99,16 +99,16 @@ This is what your code should look like:
 ![note](images/note-sprite.png)
 
 ```blocks3
-po kliknięciu flagi
-zresetuj licznik
-ukryj
-powtórz do <(długość [uwagi v]) = [0]>
-poczekaj do <(licznik) > ((pozycja (1 v) z [razy v]) - (2))>
-zmień kostium na (pozycja (1 v) z [uwagi v])
-stwórz klon (siebie v)
-usuń (1 v) z [razy v]
-usuń (1 v) z [uwagi v]
-koniec
+when flag clicked
+reset timer
+hide
+repeat until <(length of [notes v]) = [0]>
+wait until <(timer) > ((item (1 v) of [times v]) - (2))>
+switch costume to (item (1 v) of [notes v])
+create clone of (myself v)
+delete (1 v) of [times v]
+delete (1 v) of [notes v]
+end
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -122,11 +122,11 @@ Add code to make each 'note' clone glide from the top to the bottom of the Stage
 ![note](images/note-sprite.png)
 
 ```blocks3
-kiedy zaczynam jako klon
-przejdź do x: (20) y: (160)
-pokaż
-szybowanie (2) sek do x: (20) y: (- 130)
-usuń ten klon
+when I start as a clone
+go to x: (20) y: (160)
+show
+glide (2) secs to x: (20) y:(-130)
+delete this clone
 ```
 
 \--- /task \---
