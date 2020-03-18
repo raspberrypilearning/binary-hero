@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Úvod
+## Introduction
 
 In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### Co budeš dělat
+### What you will make
 
 \--- no-print \---
 
@@ -28,7 +28,7 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Co se naučíš
+## title: What you will learn
 
 + How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
@@ -37,15 +37,15 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Co budeš potřebovat
+## title: What you will need
 
 ### Hardware
 
-+ Počítač schopný spustit aplikaci Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 (buď [online](http://rpf.io/scratchon){:target="_blank"} nebo [offline](http://rpf.io/scratchoff){:target="_blank"} verzi"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -55,7 +55,7 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Doplňující poznámky pro lektory
+## title: Additional notes for educators
 
 \--- no-print \---
 
