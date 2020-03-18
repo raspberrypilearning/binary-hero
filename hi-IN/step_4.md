@@ -1,10 +1,10 @@
-## स्वर बजाएँ
+## Play notes
 
-जब कुंजियों को दबाया जाए तो स्वर बजाएँ।
+Play notes when the keys are pressed.
 
 \--- task \---
 
-अपने प्रोजेक्ट में Music एक्सटेंशन जोड़ें।
+Add the Music extension to your project.
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -45,10 +45,10 @@ play note (60) for (1) beats
 
 When your stage `receives`{:class="block3events"} the 'change note' broadcast, it should `stop all sounds`{:class="block3sound"} before `playing a note`{:class="block3sound"} based on the value of the`note`{:class="block3variables"} variable.
 
-+ जब `note`{:class="block3variables"} वेरिएबल `1`{:class="block3variables"} हो, तो स्वर 60 बजना चाहिए
-+ जब `note`{:class="block3variables"} वेरिएबल `2`{:class="block3variables"} हो, तो स्वर 61 बजना चाहिए
-+ जब `note`{:class="block3variables"} वेरिएबल `3`{:class="block3variables"} हो, तो स्वर 62 बजना चाहिए
-+ आदि...
++ When the `note`{:class="block3variables"} variable is `1`{:class="block3variables"}, note 60 should play
++ When the `note`{:class="block3variables"} variable is `2`{:class="block3variables"}, note 61 should play
++ When the `note`{:class="block3variables"} variable is `3`{:class="block3variables"}, note 62 should play
++ etc...
 
 \--- /hint \--- \--- hint \---
 
@@ -86,7 +86,7 @@ Test your code. Can you hear that a note is repeatedly played when you hold down
 
 <video width="400" controls>
   <source src="images/play-note-bug.mp4" type="video/mp4">
-  आपका ब्राउज़र HTML5 वीडियो का समर्थन नहीं करता है।
+  Your browser does not support HTML5 video.
 </video>
 
 \--- /no-print \---
