@@ -8,7 +8,7 @@ Add the Music extension to your project.
 
 [[[generic-scratch3-add-music-extension]]]
 
-\---/task--
+\--- /task \---
 
 \--- task \---
 
