@@ -10,21 +10,21 @@ steps:
   - 
     title: Wprowadzenie correct
   - 
-    title: Naciśnięcia klawiszy
+    title: Key presses
   - 
-    title: Notatki binarne
+    title: Binary notes
   - 
-    title: Graj w notatki
+    title: Play notes
   - 
-    title: Przewijanie notatek
+    title: Scrolling notes
   - 
-    title: Przechowuj swoją piosenkę
+    title: Store your song
   - 
-    title: Więcej niestandardowych bloków
+    title: More custom blocks
   - 
-    title: Zachowaj wynik
+    title: Keep a score
   - 
-    title: "Wyzwanie: pójdź dalej"
+    title: "Challenge: take it further"
     challenge: true
   - 
-    title: "Co następne?"
+    title: "What next?"
