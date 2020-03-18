@@ -6,13 +6,13 @@ Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie 
 
 ## Inleiding
 
-In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
+In dit project maak je een game waarin je de noten van een nummer speelt terwijl ze over het speelveld rollen.
 
 ### Wat ga je maken
 
 \--- no-print \---
 
-Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd>, and <kbd>v</kbd> keys to play the correct notes when these reach the bottom of the Stage. You'll score ten points for every correct note you play.
+Klik op de groene vlag om het spel te starten. Gebruik de toetsen <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd> en <kbd>v</kbd> om de juiste noten te spelen wanneer deze de onderkant van het speelveld bereiken. Je scoort tien punten voor elke juiste noot die je speelt.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259028053/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,7 +22,7 @@ Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd
 
 \--- print-only \---
 
-The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![showcase](images/showcase.png)
+De noten vallen van boven en je moet op toetsen drukken om de noten te "vangen" en te spelen. ![etalage](images/showcase.png)
 
 \--- /print-only \---
 
@@ -30,8 +30,8 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## title: Wat ga je leren
 
-+ How to use lists to store sequences of notes and timings
-+ How to use custom blocks with inputs
++ Hoe lijsten te gebruiken om reeksen noten en tijden op te slaan
++ Hoe aangepaste blokken met invoer te gebruiken
 
 \--- /collapse \---
 
@@ -49,20 +49,20 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ### Downloads
 
-+ [Offline starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
++ [Offline startproject ](http://rpf.io/p/en/binary-hero-go){:target="_ blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Aanvullende informatie voor docenten
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/binary-hero/print).
+Als u dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/binary-hero/print).
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/binary-hero-get){:target="_blank"}.
+Je kunt het [voltooide project hier](http://rpf.io/p/en/binary-hero-get)"{:target="_blank"} vinden.
 
 \--- /collapse \---
