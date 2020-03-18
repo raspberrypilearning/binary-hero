@@ -1,6 +1,6 @@
-## स्कोर रखें
+## Keep a score
 
-सही स्वर बजाने के लिए खिलाड़ी को अंक देकर अपने गेम में सुधार करें।
+Improve your game by giving the player points for playing the correct note.
 
 \--- task \---
 
