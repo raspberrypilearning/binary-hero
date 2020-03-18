@@ -1,0 +1,15 @@
+note
+
+note change
+
+notes
+
+times
+
+load 'happy birthday'
+
+clear song
+
+score
+
+correct
