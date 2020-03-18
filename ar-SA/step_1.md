@@ -1,14 +1,14 @@
 \--- no-print \---
 
-هذا هو إصدار ** Scratch 3 ** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع ](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
 
 \--- /no-print \---
 
-## المقدمة
+## Introduction
 
 In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### ما الذي ستصنعه
+### What you will make
 
 \--- no-print \---
 
@@ -22,13 +22,13 @@ Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd
 
 \--- print-only \---
 
-The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![معرض](images/showcase.png)
+The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![showcase](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: ما الذي ستتعلمه
+## title: What you will learn
 
 + How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
@@ -37,25 +37,25 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: ما ستحتاج إليه
+## title: What you will need
 
-### المعدات
+### Hardware
 
-+ جهاز كمبيوتر يدعم تشغيل برنامج Scratch 3
++ A computer capable of running Scratch 3
 
-### البرمجيات
+### Software
 
-+ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### للتحميل
+### Downloads
 
-+ [للبدء بالمشروع دون الاتصال بالانترنت](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: ملاحظات إضافية للمعلمين
+## title: Additional notes for educators
 
 \--- no-print \---
 
