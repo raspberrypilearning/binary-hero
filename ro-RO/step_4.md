@@ -2,7 +2,7 @@
 
 Play notes when the keys are pressed.
 
-\--- proba\---
+\--- task \---
 
 Add the Music extension to your project.
 
