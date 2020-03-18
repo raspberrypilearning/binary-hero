@@ -1,6 +1,6 @@
-## Naciśnięcia klawiszy
+## Key presses
 
-Ile nut możesz grać czterema klawiszami? To może być więcej niż myślisz!
+How many notes can you play with four keys? It might be more than you think!
 
 \--- task \---
 
@@ -21,13 +21,13 @@ Click on the sprite called '1', and add code to change the sprite's costume if t
 ![costume](images/1.png)
 
 ```blocks3
-kiedy flaga kliknęła
-zawsze
-jeśli wciśnięto < klawisze (vv)?> następnie
-przełącz kostium na (on v)
+when flag clicked
+forever
+if < key (v v) pressed?> then
+switch costume to (on v)
 else
-przełącz kostium na (off v)
-koniec
+switch costume to (off v)
+end
 ```
 
 When you test your code by pressing the <kbd>v</kbd> key, the sprite should light up.
