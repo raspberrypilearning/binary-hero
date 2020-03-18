@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## מבוא
+## Introduction
 
 In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### מה תעשה
+### What you will make
 
 \--- no-print \---
 
@@ -39,11 +39,11 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## title: What you will need
 
-### חומרה
+### Hardware
 
-+ מחשב המסוגל להריץ Scratch 3
++ A computer capable of running Scratch 3
 
-### תוכנה
+### Software
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
