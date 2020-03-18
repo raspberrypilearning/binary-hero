@@ -1,12 +1,12 @@
-## Przechowuj swoją piosenkę
+## Store your song
 
-W tej chwili notatki są usuwane z list po odtworzeniu, więc masz puste listy:
+At the moment, notes are removed from the lists after being played, so you're left with empty lists:
 
-![Puste listy](images/empty-lists.png)
+![Empty lists](images/empty-lists.png)
 
-Teraz dodasz kod do przechowywania piosenek w swoim projekcie, abyś nie musiał za każdym razem dodawać do list.
+You're now going to add code to store songs in your project, so that you don't have to add to your lists each time.
 
-![Dodaj notatki i czasy do list](images/lists-add-annotated.png)
+![Add notes and times to lists](images/lists-add-annotated.png)
 
 \--- task \---
 
@@ -23,13 +23,13 @@ Here are the code blocks you need:
 ![notes-sprite](images/note-sprite.png)
 
 ```blocks3
-usuń (wszystkie v) z [notatek v]
+delete (all v) of [notes v]
 
-zdefiniuj ładuj „wszystkiego najlepszego”
+define load 'happy birthday'
 
-dodaj [1] do [notatek v]
+add [1] to [notes v]
 
-usuń (wszystkie v) z [czasów v]
+delete (all v) of [times v]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -39,21 +39,21 @@ This is what your code should look like:
 ![notes-sprite](images/note-sprite.png)
 
 ```blocks3
-zdefiniuj ładowanie „wszystkiego najlepszego”
-usuń (wszystkie v) z [notatek v]
-usuń (wszystkie v) z [razy v]
-dodaj [1] do [notatek v]
-dodaj [5] do [razy v]
-dodaj [1] do [notatek v]
-dodaj [5.5] do [razy v]
-dodaj [3] do [notatek v]
-dodaj [6] do [razy v]
-dodaj [1] do [notatek v]
-dodaj [7] do [razy v]
-dodaj [6] do [notatek v]
-dodaj [8] do [razy v]
-dodaj [5] do [notatek v]
-dodaj [9] do [razy v]
+define load 'happy birthday'
+delete (all v) of [notes v]
+delete (all v) of [times v]
+add [1] to [notes v]
+add [5] to [times v]
+add [1] to [notes v]
+add [5.5] to [times v]
+add [3] to [notes v]
+add [6] to [times v]
+add [1] to [notes v]
+add [7] to [times v]
+add [6] to [notes v]
+add [8] to [times v]
+add [5] to [notes v]
+add [9] to [times v]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -65,10 +65,10 @@ Test your new block by running it at the start of your project.
 ![notes-sprite](images/note-sprite.png)
 
 ```blocks3
-po kliknięciu flagi
-+ załaduj „wszystkiego najlepszego” :: niestandardowe
-ukryj
-zeruj licznik czasu
+when flag clicked
++load 'happy birthday' ::custom
+hide
+reset timer
 ```
 
 Each of your lists should now contain six numbers.
