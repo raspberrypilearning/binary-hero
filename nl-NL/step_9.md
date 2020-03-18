@@ -1,21 +1,21 @@
-## Challenge: take it further
+## Uitdaging: ga verder
 
-Your game is done now, but there are a few things you can do to make it even better if you want to!
+Je spel is nu klaar, maar er zijn een paar dingen die je kunt doen om het nog beter te maken als je wilt!
 
-For example, can you add code to change how the Stage looks if the correct note is not played?
+Kun je bijvoorbeeld code toevoegen om het uiterlijk van het werkgebied te wijzigen als de juiste noot niet wordt gespeeld?
 
 ```blocks3
-when I start as a clone
-go to x: (20) y: (160)
-show
-glide (2) secs to x: (20) y:(-130)
-if <(note :: variables) = (costume [number v])> then
-change [score v] by (1)
-broadcast (correct v)
-else
+wanneer ik begin als kloon
+ga naar x: (20) y: (160)
+verschijn
+schuif in (2) sec. naar x: (20) y: (- 130)
+als <(noot :: variables) = (uiterlijk [nummer v])> dan
+verander [score v] met (1)
+zend signaal (correct v)
+anders
 +???
-end
-delete this clone
+einde
+verwijder deze kloon
 ```
 
-To do this, you need to add code that's very similar to the code that changes the backdrop when the correct note is played. The project contains another backdrop you can use.
+Om dit te doen, moet je code toevoegen die erg lijkt op de code die de achtergrond verandert wanneer de juiste noot wordt gespeeld. Het project bevat nog een achtergrond die je kunt gebruiken.
