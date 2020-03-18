@@ -1,6 +1,6 @@
-## अधिक कस्टम ब्लॉक्स
+## More custom blocks
 
-कोड का नवीनतम खंड पढ़ना मुश्किल है, इसलिए आप इसे सरल बनाने के लिए अधिक कस्टम ब्लॉकों का उपयोग करने जा रहे हैं।
+The newest section of code is difficult to read, so you're going to use more custom blocks to make it simpler.
 
 \--- task \---
 
