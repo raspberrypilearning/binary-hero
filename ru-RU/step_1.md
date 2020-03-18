@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Это версия проекта для **Скретч 3**. Есть также [версия для Скретч 2](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
 
-\--- /без печати \---
+\--- /no-print \---
 
-## Введение
+## Introduction
 
 In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### Что тебе нужно будет сделать
+### What you will make
 
 \--- no-print \---
 
@@ -28,7 +28,7 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Чему ты научишься
+## title: What you will learn
 
 + How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
@@ -37,25 +37,25 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Что тебе понадобится
+## title: What you will need
 
-### Оборудование
+### Hardware
 
-+ Компьютер, способный запускать Scratch 3
++ A computer capable of running Scratch 3
 
-### Программное обеспечение
+### Software
 
-+ Scratch 3 (либо [онлайн-редактор](http://rpf.io/scratchon){:target="_blank"}, либо [автономный редактор (без подключения к Интернету)](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Загрузки
+### Downloads
 
-+ [Автономный стартовый проект](http://rpf.io/p/en/binary-hero-go){: target = "_ blank"}
++ [Offline starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Дополнительные примечания для педагогов
+## title: Additional notes for educators
 
 \--- no-print \---
 
