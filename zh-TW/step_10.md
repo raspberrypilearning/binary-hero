@@ -1,4 +1,4 @@
-## 挑戰：改變鼓的造型
+## What next?
 
 Try these other projects to build you knowledge of other programming languages.
 
