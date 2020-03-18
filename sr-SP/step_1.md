@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Ово је **Scratch 3** верзија пројекта. Постоји, такође, и [Scratch 2 верзија пројекта](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
 
 \--- /no-print \---
 
-## Увод
+## Introduction
 
 In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### Шта ћеш направити
+### What you will make
 
 \--- no-print \---
 
@@ -28,7 +28,7 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Шта ћеш научити
+## title: What you will learn
 
 + How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
@@ -37,25 +37,25 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Шта ће ти бити потребно
+## title: What you will need
 
-### Хардвер
+### Hardware
 
-+ Рачунар који може да покрене Scratch 3
++ A computer capable of running Scratch 3
 
-### Софтвер
+### Software
 
-+ Scratch 3 ([на мрежи](http://rpf.io/scratchon){:target="_blank"} или [ван мреже](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Преузимање
+### Downloads
 
-+ [Почетни пројекат за уређивач ван мреже](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Додатне напомене за наставнике
+## title: Additional notes for educators
 
 \--- no-print \---
 
