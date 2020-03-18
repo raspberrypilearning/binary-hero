@@ -1,6 +1,6 @@
-## Zachowaj wynik
+## Keep a score
 
-Popraw swoją grę, przyznając graczom punkty za zagranie właściwej nuty.
+Improve your game by giving the player points for playing the correct note.
 
 \--- task \---
 
@@ -25,14 +25,14 @@ Here are the code blocks you need:
 ![note](images/note-sprite.png)
 
 ```blocks3
-[] = []
-(kostium [liczba v])
-(uwaga)
-zmień [wynik v] o (1)
+[ ] = [ ]
+(costume [number v])
+(note)
+change [score v] by (1)
 
-jeśli <> to
-
-kończy
+if <> then
+else
+end
 ```
 
 \--- /hint \--- \--- hint \---
@@ -42,14 +42,14 @@ This is what your code should look like:
 ![note](images/note-sprite.png)
 
 ```blocks3
-kiedy zaczynam jako klon
-przejdź do x: (20) y: (160)
-pokaż
-szybowanie (2) s do x: (20) y: (- 130)
-+ if <(uwaga :: zmienne) = (kostium [numer v])> a następnie
-zmień [wynik v] o (1)
-
-usuń ten klon
+when I start as a clone
+go to x: (20) y: (160)
+show
+glide (2) secs to x: (20) y:(-130)
++if <(note :: variables) = (costume [number v])> then
+change [score v] by (1)
+end
+delete this clone
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -61,15 +61,15 @@ Broadcast a message called 'correct' when the correct note is played.
 ![note](images/note-sprite.png)
 
 ```blocks3
-kiedy zaczynam jako klon
-przejdź do x: (20) y: (160)
-pokaż
-szybowanie (2) sek. do x: (20) y: (- 130)
-jeśli <(uwaga :: zmienne) = ( kostium [numer v])> a następnie
-zmień [wynik v] o (1)
-+ transmisja (poprawne v)
-koniec
-usuń ten klon
+when I start as a clone
+go to x: (20) y: (160)
+show
+glide (2) secs to x: (20) y:(-130)
+if <(note :: variables) = (costume [number v])> then
+change [score v] by (1)
++broadcast (correct v)
+end
+delete this clone
 ```
 
 \--- /task \---
@@ -83,13 +83,13 @@ Add code to your Stage to briefly change the backdrop when the player plays the 
 ![stage](images/stage.png)
 
 ```blocks3
-po kliknięciu flagi
-przełącz tło na (normalne v)
+when flag clicked
+switch backdrop to (normal v)
 
-gdy otrzymam [poprawne v]
-przełącz tło na (prawidłowe v)
-poczekaj (0,3) sekundy
-przełącz tło na (normalne v)
+when I receive [correct v]
+switch backdrop to (correct v)
+wait (0.3) seconds
+switch backdrop to (normal v)
 ```
 
 \--- /task \---
