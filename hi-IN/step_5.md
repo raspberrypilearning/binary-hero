@@ -1,6 +1,6 @@
-## स्वरों को स्क्रॉल करना
+## Scrolling notes
 
-आपको स्वरों को स्टेज को नीचे स्क्रॉल करने की आवश्यकता है ताकि खिलाड़ी को पता चल सके कि कौन सी कुंजियों को दबाया जाए और उन्हें कब दबाया जाए।
+You need to make notes scroll down the Stage so that the player knows which keys to press and when to press them.
 
 \--- task \---
 
@@ -20,17 +20,17 @@ Add the following numbers to your `notes`{:class="block3variables"} and `times`{
 
 Here's how songs are stored in your game:
 
-+ `notes`{:class="block3variables"} सूची में गाने के स्वरों को (1 से 15 तक), क्रम से संगृहीत किया जाता है।
-+ `times`{:class="block3variables"} सूची में उन समयों को संगृहीत किया जाता है जब गाने में स्वरों को बजाया जाना चाहिए।
++ The `notes`{:class="block3variables"} list stores the notes of the song (from 1 to 15), in order
++ The `times`{:class="block3variables"} list stores the times when the notes should be played in the song
 
 ![Explaining lists](images/lists-explain.png)
 
 So with the two new lists:
 
-+ स्वर 1 (मध्य C) 5 सेकंड पर बजाया जाना चाहिए
-+ स्वर 1 को 5.5 सेकंड पर दुबारा बजाया जाना चाहिए
-+ स्वर 3 को 6 सेकंड पर बजाया जाना चाहिए
-+ आदि...
++ Note 1 (middle C) should be played at 5 seconds
++ Note 1 should be played again at 5.5 seconds
++ Note 3 should be played at 6 seconds
++ etc...
 
 \--- task \---
 
