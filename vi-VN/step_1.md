@@ -1,16 +1,16 @@
-\--- không in \---
+\--- no-print \---
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
 
-\--- / không in \---
+\--- /no-print \---
 
-## Giới thiệu
+## Introduction
 
 In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### Những gì bạn sẽ làm
+### What you will make
 
-\--- không in \---
+\--- no-print \---
 
 Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd>, and <kbd>v</kbd> keys to play the correct notes when these reach the bottom of the Stage. You'll score ten points for every correct note you play.
 
@@ -18,7 +18,7 @@ Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259028053/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / không in \---
+\--- /no-print \---
 
 \--- print-only \---
 
@@ -26,9 +26,9 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 \--- /print-only \---
 
-## \--- sụp đổ \---
+## \--- collapse \---
 
-## tiêu đề: bạn sẽ học được gì
+## title: What you will learn
 
 + How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
@@ -37,15 +37,15 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## tiêu đề: Những gì bạn sẽ cần
+## title: What you will need
 
-### Phần cứng
+### Hardware
 
-+ Một máy tính có khả năng chạy Scratch 3
++ A computer capable of running Scratch 3
 
-### Phần mềm
+### Software
 
-+ Cào 3 ( [trực tuyến](http://rpf.io/scratchon){: target = "_ blank"} hoặc [ngoại tuyến](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -53,9 +53,9 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 \--- /collapse \---
 
-## \--- sụp đổ \---
+## \--- collapse \---
 
-## tiêu đề: Ghi chú bổ sung cho các nhà giáo dục
+## title: Additional notes for educators
 
 \--- no-print \---
 
