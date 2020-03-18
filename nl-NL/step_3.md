@@ -1,89 +1,89 @@
-## Binary numbers
+## Binaire getallen
 
-You will use different combinations of pressing the four keys to play different notes. Each of the keys is either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a **binary number**.
+Je gebruikt verschillende combinaties van het indrukken van de vier toetsen om verschillende noten te spelen. Elk van de toetsen is aan (ingedrukt) of uit (niet ingedrukt). Dit betekent dat je elke combinatie van toetsen kunt beschouwen als een **binair getal**.
 
-Moving from right to left the keys double in value: `1`, `2`, `4`, and `8`. By adding up the numbers above the keys that are pressed, you can work out the value of the note.
+Als je van rechts naar links beweegt verdubbelen de toetsen in waarde: `1`, `2`, `4`en `8`. Door de getallen boven de ingedrukte toetsen op te tellen, kunt je de waarde van de noot berekenen.
 
-![Note value examples](images/note-values.png)
+![Noot waarde voorbeelden](images/note-values.png)
 
-There are 2<sup>4</sup> = **16 combinations** of pressing the four keys. This means that you can play 15 different notes, as `0` will mean that no note plays.
+Er zijn 2<sup>4</sup> = **16 combinaties** van het indrukken van de vier toetsen. Dit betekent dat je 15 verschillende noten kunt spelen, omdat `0` betekent dat er geen noot wordt gespeeld.
 
 \--- task \---
 
-Create a new variable called `note`{:class="block3variables"}, and drag it next to the four note sprites.
+Maak een nieuwe variabele met de naam `noot`{:class="block3variables"} en sleep deze naast de vier noten sprites.
 
-![Note variable](images/note-create.png)
+![Noot variabele](images/note-create.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-`note`{:class="block3variables"} will store the value of the note that should be played.
+`noot`{:class="block3variables"} slaat de waarde op van de noot die moet worden gespeeld.
 
 \--- task \---
 
-Add code to the Stage to use the combination of pressed keys to calculate the value of `note`{:class="block3variables"}.
+Voeg code toe aan het speelveld om de combinatie van ingedrukte toetsen te gebruiken om de waarde van `noot` te berekenen {:class="block3variables"}.
 
-For example, when `c` and `v` are pressed, the value of `note`{:class="block3variables"} should be `3`.
+Wanneer bijvoorbeeld `c` en `v` wordt ingedrukt, moet de waarde van `noot`{:class="block3variables"} `3` zijn.
 
-![Testing the note variable](images/note-test.png)
+![De nootvariabele testen](images/note-test.png)
 
 \--- hints \--- \--- hint \---
 
-![stage](images/stage.png)
+![speelveld](images/stage.png)
 
-When the `flag is clicked`{:class="block3events"}, the `note`{:class="block3variables"} variable should be `set`{:class="block3variables"} to `0`{:class="block3variables"}.
+Wanneer op de groene vlag `wordt geklikt`{:class="block3events"}, moet de variabele `noot`{:class="block3variables"} `0`{:class="block3variables"} `gemaakt worden`{:class="block3variables"}.
 
-+ `if`{:class="block3control"} the `v key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 1`{:class="block3variables"}
-+ `if`{:class="block3control"} the `c key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 2`{:class="block3variables"}
-+ `if`{:class="block3control"} the `x key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 4`{:class="block3variables"}
-+ `if`{:class="block3control"} the `z key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 8`{:class="block3variables"}
++ `als`{:class="block3control"} de `v-toets wordt ingedrukt`{:class="block3sensing"}, moet de `noot`{:class="block3variables"} `veranderd worden met 1`{:class="block3variables"}
++ `als`{:class="block3control"} de `c-toets wordt ingedrukt`{:class="block3sensing"}, moet de `noot`{:class="block3variables"} `veranderd worden met 2`{:class="block3variables"}
++ `als`{: class = "block3control"} de `x-toets wordt ingedrukt`{: class = "block3sensing"}, moet de `noot`{: class = "block3variables"} `gewijzigd door 4`{: class = "block3variables"}
++ `als`{:class="block3control"} de `z-toets wordt ingedrukt`{:class="block3sensing"}, de `noot`{:class="block3variables"} moet `veranderd worden met 8`{:class="block3variables"}
 
-All of this code should be repeated `forever`{:class="block3control"}.
+Al deze code moet `altijd worden herhaald`{:class="block3control"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need, and you have to add some of them more than once:
+Hier zijn de codeblokken die je nodig hebt en je moet er enkele meerdere keren toevoegen:
 
-![stage](images/stage.png)
+![speelveld](images/stage.png)
 
 ```blocks3
-forever
-end
-if < > then
-end
-key ( v) pressed?
+herhaal
+einde
+als < > dan
+einde
+als toets (v) ingedrukt?
 
-change [note v] by ( )
+verander [noot v] met ()
 
-set [note v] to [ ]
+maak [noot v] []
 
-when flag clicked
+wanneer op de groene vlag wordt geklikt
 ```
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
-![stage](images/stage.png)
+![speelveld](images/stage.png)
 
 ```blocks3
-when flag clicked
-forever
-set [note v] to [0]
-if <key (v v) pressed? > then
-change [note v] by (1)
-end
-if <key (c v) pressed? > then
-change [note v] by (2)
-end
-if <key (x v) pressed? > then
-change [note v] by (4)
-end
-if <key (z v) pressed? > then
-change [note v] by (8)
-end
-end
+wanneer op de groene vlag wordt geklikt
+herhaal
+maak [noot v] [0]
+als <toets (v v) ingedrukt? > dan
+verander [noot v] met (1)
+einde
+als <toets (c v) ingedrukt? > dan
+verander [noot v] met (2)
+einde
+als toets <(x v) ingedrukt? > dan
+verander [noot v] met (4)
+einde
+als <toets (z v) ingedrukt? > dan
+verander [noot v] met (8)
+einde
+einde
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
