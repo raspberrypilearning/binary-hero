@@ -8,7 +8,7 @@ Create two lists called `notes`{:class="block3variables"} and `times`{:class="bl
 
 [[[generic-scratch3-make-list]]]
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
