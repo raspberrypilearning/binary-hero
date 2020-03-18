@@ -1,10 +1,10 @@
-## Scrolling notes
+## Rollende noten
 
-You need to make notes scroll down the Stage so that the player knows which keys to press and when to press them.
+Je moet noten in het speelveld maken zodat de speler weet welke toetsen hij moet indrukken en wanneer hij erop moet drukken.
 
 \--- task \---
 
-Create two lists called `notes`{:class="block3variables"} and `times`{:class="block3variables"}.
+Maak twee lijsten met de naam `noten`{:class="block3variables"} en `tijden`{:class="block3variables"}.
 
 [[[generic-scratch3-make-list]]]
 
@@ -12,121 +12,121 @@ Create two lists called `notes`{:class="block3variables"} and `times`{:class="bl
 
 \--- task \---
 
-Add the following numbers to your `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists. Note: make sure to **add these exact numbers in the right order**.
+Voeg de volgende getallen toe aan de `noten`{:class="block3variables"} en `tijden`{:class="block3variables"} lijsten. Opmerking: zorg ervoor dat **exact deze getallen in de juiste volgorde** worden toegevoegd.
 
-![Add notes and times to lists](images/lists-add-annotated.png)
-
-\--- /task \---
-
-Here's how songs are stored in your game:
-
-+ The `notes`{:class="block3variables"} list stores the notes of the song (from 1 to 15), in order
-+ The `times`{:class="block3variables"} list stores the times when the notes should be played in the song
-
-![Explaining lists](images/lists-explain.png)
-
-So with the two new lists:
-
-+ Note 1 (middle C) should be played at 5 seconds
-+ Note 1 should be played again at 5.5 seconds
-+ Note 3 should be played at 6 seconds
-+ etc...
-
-\--- task \---
-
-Click on the 'note' sprite and then click on **show**.
-
-![Show the bar sprite](images/note-show-annotated.png)
-
-Then click on **Costumes**.
-
-![Bar sprite costumes](images/note-costumes.png)
+![Voeg noten en tijden toe aan lijsten](images/lists-add-annotated.png)
 
 \--- /task \---
 
-You should see that the 'note' sprite has 15 different costume, one for each different note from 1 to 15.
+Hier zie je hoe getallen in je game worden opgeslagen:
+
++ In de lijst `noten`{:class="block3variables"} worden de noten van het lied (van 1 tot 15) in volgorde opgeslagen
++ De lijst `tijden`{:class="block3variables"} slaat de tijden op waarop de noten in het nummer moeten worden gespeeld
+
+![Lijsten verklaren](images/lists-explain.png)
+
+Dus met de twee nieuwe lijsten:
+
++ Noot 1 (middelste C) moet op 5 seconden worden gespeeld
++ Noot 1 moet opnieuw worden gespeeld op 5,5 seconden
++ Noot 3 moet op 6 seconden worden gespeeld
++ enz...
 
 \--- task \---
 
-Add code to create a 'note' sprite clone for every note stored in `notes`{:class="block3variables"}. Each clone should be created at the correct time stored in `times`{:class="block3variables"}. Each clone should be created two seconds before its note needs to be played. This gives the clone two seconds to move down the screen. You'll create the code to move your clones in a little bit!
+Klik op de 'noot' sprite en klik vervolgens op **verschijn**.
 
-![Testing clones](images/clones-test.png)
+![Toon de sprite van de balk](images/note-show-annotated.png)
+
+Klik vervolgens op **Uiterlijken**.
+
+![Balk sprite uiterlijken](images/note-costumes.png)
+
+\--- /task \---
+
+Je zou moeten zien dat de 'noot' sprite 15 verschillende uiterlijken heeft, één voor elke verschillende noot van 1 tot 15.
+
+\--- task \---
+
+Voeg code toe om een 'noot' sprite kloon te maken voor elke noot die is opgeslagen in `noten`{:class="block3variables"}. Elke kloon moet op het juiste tijdstip worden gemaakt, opgeslagen in `tijden`{:class="block3variables"}. Elke kloon moet twee seconden worden gemaakt voordat de noot moet worden gespeeld. Dit geeft de kloon twee seconden om in het scherm omlaag te gaan. Je maakt de code om je klonen een klein beetje te verplaatsen!
+
+![Klonen testen](images/clones-test.png)
 
 \--- hints \--- \--- hint \---
 
-![note](images/note-sprite.png) When the `flag is clicked`{:class="block3events"}, the 'note' sprite should `hide`{:class="block3looks"}, and the `timer`{:class="block3variables"} should be `reset`{:class="block3variables"}.
+![noot](images/note-sprite.png) Wanneer op `de groene vlag wordt geklikt`{:class="block3events"}, moet de 'noot' sprite `verdwijnen`{:class="block3looks"} en moet de `klok`{:class="block3variables"} `gereset`{:class="block3variables"} worden.
 
-The script should then `wait until`{:class="block3control"} the value of `timer`{:class="block3variables"} is `greater than`{:class="block3operators"} the next note to be played, which will be the `time`{:class="block3variables"} at the `start of the list`{:class="block3variables"} (`minus 2 seconds`{:class="block3operators"}).
+Het script moet dan `wachten tot`{:class="block3control"} de waarde van `klok`{:class="block3variables"} `groter is dan`{:class="block3operators"} de volgende te spelen noot, die als `tijd`{:class="block3variables"} aan het `begin van de lijst`{:class="block3variables"} staat (`min 2 seconden`{:class="block3operators"}).
 
-The costume for the 'note' sprite should then be set to the next `note`{:class="block3variables"} to be played (the `note`{:class="block3variables"} at the start of the list), before a `clone`{:class="block3events"} of the 'note' sprite is created.
+Het uiterlijk voor de 'noot'-sprite moet dan worden ingesteld op de volgende `noot`{:class="block3variables"} die moet worden gespeeld (de `noot`{:class="block3variables"} aan het begin van de lijst), voordat een `kloon`{:class="block3events"} van de 'noot' sprite wordt gemaakt.
 
-The items at the start of the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists should then be `deleted`{:class="block3variables"}, and the entire process should be `repeated until`{:class="block3control"} there are no items left in the `notes`{:class="block3variables"} list.
+De items aan het begin van de `noten`{:class="block3variables"} en `tijden`{:class="block3variables"} lijsten moeten dan `verwijderd`{:class="block3variables"} worden en het hele proces moet `herhaald tot`{:class="block3control"} er geen items meer in de `noten`{:class="block3variables"} lijst zitten.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Dit zijn de codeblokken die je nodig hebt:
 
-![note](images/note-sprite.png)
+![noot](images/note-sprite.png)
 
 ```blocks3
-wait until <>
-when flag clicked
-length of [notes v]
+wacht tot <>
+wanneer op de groene vlag wordt geklikt
+lengte van [noten v]
 
-create clone of (myself v)
+maak kloon van (mijzelf v)
 
-reset timer
-item (1 v) of [times v]
-hide
+zet klok op 0
+item (1 v) van [tijden v]
+verberg
 
-repeat until <>
-end
+herhaal tot <>
+einde
 [] > []
-item (1 v) of [notes v]
+item (1 v) van [noten v]
 () - ()
-switch costume to ( v)
+verander uiterlijk naar (v)
 [] = []
-timer
-delete (1 v) of [times v]
+klok
+verwijder (1 v) van [tijden v]
 
-delete (1 v) of [notes v]
+verwijder (1 v) van [noten v]
 ```
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
-![note](images/note-sprite.png)
+![noot](images/note-sprite.png)
 
 ```blocks3
-when flag clicked
-reset timer
-hide
-repeat until <(length of [notes v]) = [0]>
-wait until <(timer) > ((item (1 v) of [times v]) - (2))>
-switch costume to (item (1 v) of [notes v])
-create clone of (myself v)
-delete (1 v) of [times v]
-delete (1 v) of [notes v]
-end
+wanneer op de groene vlag wordt geklikt
+zet klok op 0
+verdwijn
+herhaal tot <(lengte van [noten v]) = [0]>
+wacht tot <(klok) > ((item (1 v) van [tijden v]) - (2))>
+verander uiterlijk naar (item (1 v) van [noten v])
+maak een kloon van (mijzelf v)
+verwijder (1 v) van [tijden v]
+verwijder (1 v) van [noten v]
+einde
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-When you test your code now, nothing seems to happen, because the 'note' sprite is hidden. If you show (or don't hide) the sprite, then you should see clones being created on top of each other.
+Wanneer je de code nu test, lijkt er niets te gebeuren, omdat de 'noot' sprite is verborgen. Als je de sprite toont (of niet verbergt), zou je moeten zien dat klonen boven elkaar worden gemaakt.
 
 \--- task \---
 
-Add code to make each 'note' clone glide from the top to the bottom of the Stage before being deleted.
+Voeg code toe om elke 'noot' kloon van boven naar beneden in het speelveld te laten glijden voordat deze wordt verwijderd.
 
-![note](images/note-sprite.png)
+![noot](images/note-sprite.png)
 
 ```blocks3
-when I start as a clone
-go to x: (20) y: (160)
-show
-glide (2) secs to x: (20) y:(-130)
-delete this clone
+wanneer ik als kloon start
+ga naar x: (20) y: (160)
+verschijn
+schuif in (2) sec. naar x: (20) y: (- 130)
+verwijder deze kloon
 ```
 
 \--- /task \---
