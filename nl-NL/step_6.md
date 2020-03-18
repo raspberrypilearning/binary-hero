@@ -1,78 +1,78 @@
-## Store your song
+## Bewaar je liedje
 
-At the moment, notes are removed from the lists after being played, so you're left with empty lists:
+Op dit moment worden noten uit de lijsten verwijderd nadat ze zijn gespeeld, dus je hebt nog lege lijsten over:
 
-![Empty lists](images/empty-lists.png)
+![Lege lijsten](images/empty-lists.png)
 
-You're now going to add code to store songs in your project, so that you don't have to add to your lists each time.
+Je gaat nu code toevoegen om liedjes in je project op te slaan, zodat je niet elke keer aan je lijsten hoeft toe te voegen.
 
-![Add notes and times to lists](images/lists-add-annotated.png)
+![Voeg noten en tijden toe aan lijsten](images/lists-add-annotated.png)
 
 \--- task \---
 
-Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists. [[[generic-scratch3-make-block]]]
+Maak een nieuw blok met de naam `laad 'happy birthday'`{:class="block3myblocks"} dat zowel de `noten`{:class="block3variables"} als `tijden`{:class="block3variables"} lijsten wist, en voegt vervolgens de juiste getallen toe aan beide lijsten. [[[generic-scratch3-make-block]]]
 
 \--- hints \--- \--- hint \---
 
-The `load 'happy birthday'`{:class="block3myblocks"} block should `delete all`{:class="block3variables"} items from both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists and then `add`{:class="block3variables"} the correct six numbers to the list they belong in, in the correct order.
+Het `laad 'happy birthday'`{:class="block3myblocks"} blok moet `alle`{:class="block3variables"} items verwijderen uit zowel de `noten`{:class="block3variables"} als de `tijden`{:class="block3variables"} lijsten en vervolgens de juiste zes nummers aan de lijst `toevoegen`{:class="block3variables"} waar ze in horen, in de juiste volgorde.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Dit zijn de codeblokken die je nodig hebt:
 
-![notes-sprite](images/note-sprite.png)
+![noten sprite](images/note-sprite.png)
 
 ```blocks3
-delete (all v) of [notes v]
+verwijder (alle v) van [noten v]
 
-define load 'happy birthday'
+definieer laad 'happy birthday'
 
-add [1] to [notes v]
+voeg [1] toe aan [noten v]
 
-delete (all v) of [times v]
+verwijder (alle v) van [tijden v]
 ```
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
-![notes-sprite](images/note-sprite.png)
+![noten sprite](images/note-sprite.png)
 
 ```blocks3
-define load 'happy birthday'
-delete (all v) of [notes v]
-delete (all v) of [times v]
-add [1] to [notes v]
-add [5] to [times v]
-add [1] to [notes v]
-add [5.5] to [times v]
-add [3] to [notes v]
-add [6] to [times v]
-add [1] to [notes v]
-add [7] to [times v]
-add [6] to [notes v]
-add [8] to [times v]
-add [5] to [notes v]
-add [9] to [times v]
+definieer laad 'happy birthday'
+verwijder (alle v) van [noten v]
+verwijder (alle v) van [tijden v]
+voeg [1] toe aan [noten v]
+voeg [5] toe aan [tijden v]
+voeg [1] toe aan [noten v]
+voeg [5.5] toe aan [tijden v]
+voeg [3] toe aan [noten v]
+voeg [6] toe aan [tijden v]
+voeg [1] toe aan [noten v]
+voeg [7] toe aan [tijden v]
+voeg [6] toe aan [noten v]
+voeg [8] toe aan [tijden v]
+voeg [5] toe aan [noten v]
+voeg [9] toe aan [tijden v]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
 \--- task \---
 
-Test your new block by running it at the start of your project.
+Test je nieuwe blok door het aan het begin van je project uit te voeren.
 
-![notes-sprite](images/note-sprite.png)
+![noten sprite](images/note-sprite.png)
 
 ```blocks3
-when flag clicked
-+load 'happy birthday' ::custom
-hide
-reset timer
+wanneer op de groene vlag wordt geklikt
++ laad 'happy birthday' ::custom
+verdwijn
+zet klok op 0
 ```
 
-Each of your lists should now contain six numbers.
+Elk van je lijsten zou nu zes nummers moeten bevatten.
 
-![Lists of notes and times](images/lists-add.png)
+![Lijsten met noten en tijden](images/lists-add.png)
 
 \--- /task \---
