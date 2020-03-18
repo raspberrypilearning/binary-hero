@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Einleitung
+## Introduction
 
 In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### Was du machen wirst
+### What you will make
 
 \--- no-print \---
 
@@ -22,13 +22,13 @@ Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd
 
 \--- print-only \---
 
-The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![Vorschau](images/showcase.png)
+The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![showcase](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Was du lernen wirst
+## title: What you will learn
 
 + How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
@@ -37,15 +37,15 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Was du brauchen wirst
+## title: What you will need
 
 ### Hardware
 
-+ Ein Computer, auf dem Scratch 3 ausgeführt werden kann
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 (entweder [online](http://rpf.io/scratchon){:target="_blank"} oder [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -55,7 +55,7 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Zusätzliche Hinweise für Pädagogen
+## title: Additional notes for educators
 
 \--- no-print \---
 
