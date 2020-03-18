@@ -1,6 +1,6 @@
-## कुंजी दबाना
+## Key presses
 
-आप चार कुंजियों के साथ कितनी धुनें बजा सकते हैं? आप जो सोचते हैं यह उससे अधिक हो सकता है!
+How many notes can you play with four keys? It might be more than you think!
 
 \--- task \---
 
