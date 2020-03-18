@@ -8,7 +8,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
 
-### Ce que tu feras
+### What you will make
 
 \--- no-print \---
 
@@ -22,13 +22,13 @@ Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd
 
 \--- print-only \---
 
-The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![démonstration](images/showcase.png)
+The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![showcase](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Ce que tu vas apprendre
+## title: What you will learn
 
 + How to use lists to store sequences of notes and timings
 + How to use custom blocks with inputs
@@ -37,17 +37,17 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## title: Ce qu'il faut avoir
+## title: What you will need
 
-### Matériel informatique
+### Hardware
 
-+ Un ordinateur capable d'exécuter Scratch 3
++ A computer capable of running Scratch 3
 
-### Logiciels
+### Software
 
-+ Scratch 3 ( [en ligne](http://rpf.io/scratchon) ou [hors ligne](http://rpf.io/scratchoff)")
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Téléchargements
+### Downloads
 
 + [Offline starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
@@ -55,7 +55,7 @@ The notes will fall from above, and you will have to press keys to "catch" and p
 
 ## \--- collapse \---
 
-## titre: Notes supplémentaires pour les éducateurs
+## title: Additional notes for educators
 
 \--- no-print \---
 
