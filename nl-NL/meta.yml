@@ -1,30 +1,30 @@
 ---
-title: Binary hero
-hero_image: afbeeldingen / banner.png
-description: Score points by playing the notes of a song as they scroll past
+title: Binaire held
+hero_image: images/banner.png
+description: Scoor punten door de noten van een nummer te spelen terwijl ze voorbij scrollen
 listed: true
 copyedit: true
 version: 4.1.0
-last_tested: 2018/11/02
+last_tested: 2018-11-02
 steps:
   - 
     title: Inleiding
   - 
-    title: Key presses
+    title: Toets indrukken
   - 
-    title: Binary notes
+    title: Binaire noten
   - 
-    title: Play notes
+    title: Speel noten
   - 
-    title: Scrolling notes
+    title: Scrollende noten
   - 
-    title: Store your song
+    title: Bewaar je liedje
   - 
-    title: More custom blocks
+    title: Meer aangepaste blokken
   - 
-    title: Keep a score
+    title: Houd een score bij
   - 
-    title: "Challenge: take it further"
+    title: "Uitdaging: ga verder"
     challenge: true
   - 
-    title: "Uitdaging: meer obstakels!"
+    title: "Wat kun je verder nog doen?"
