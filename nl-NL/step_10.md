@@ -1,6 +1,6 @@
 ## Wat kun je verder nog doen?
 
-Try these other projects to build you knowledge of other programming languages.
+Probeer deze andere projecten om je kennis van andere programmeertalen vergroten.
 
-- [About me](https://projects.raspberrypi.org/en/projects/about-me?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) is a great introduction to Python.
-- [Happy birthday](https://projects.raspberrypi.org/en/projects/happy-birthday?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) introduces HTML and CSS.
+- [Over mij](https://projects.raspberrypi.org/en/projects/about-me?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) is een geweldige inleiding tot Python.
+- [Gefeliciteerd](https://projects.raspberrypi.org/en/projects/happy-birthday?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) introduceert HTML en CSS.
