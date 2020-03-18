@@ -1,4 +1,4 @@
-## 接下来还有什么？
+## What next?
 
 Try these other projects to build you knowledge of other programming languages.
 
