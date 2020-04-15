@@ -1,0 +1,20 @@
+---
+title: Binaire held
+hero_image: images/banner.png
+description: Scoor punten door de noten van een nummer te spelen terwijl ze voorbij scrollen
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-11-02
+steps:
+  - title: Inleiding
+  - title: Toets indrukken
+  - title: Binaire noten
+  - title: Speel noten
+  - title: Scrollende noten
+  - title: Bewaar je liedje
+  - title: Meer aangepaste blokken
+  - title: Houd een score bij
+  - title: "Uitdaging: ga verder"
+    challenge: true
+  - title: "Wat kun je verder nog doen?"
