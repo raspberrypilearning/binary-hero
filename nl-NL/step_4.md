@@ -21,7 +21,7 @@ when flag clicked
 forever
 if < key (v v) pressed?> then
 switch costume to (aan v)
-+broadcast (note change v)
++broadcast (noot veranderen v)
 else
 switch costume to (uit v)
 end
@@ -44,7 +44,7 @@ speel noot (60) gedurende (1) maten
 
 ![1 sprite](images/stage.png)
 
-Als het `speeldveld`{:class="block3events"} het signaal 'noot verandering' ontvangt, moet deze `alle geluiden stoppen`{:class="block3sound"} voordat `een noot`{:class="block3sound"} gespeeld wordt gebaseerd op de waarde van de variabele `noot`{:class="block3variables"}.
+Als het `speeldveld`{:class="block3events"} het signaal 'noot veranderen' ontvangt, moet deze `alle geluiden stoppen`{:class="block3sound"} voordat `een noot`{:class="block3sound"} gespeeld wordt gebaseerd op de waarde van de variabele `noot`{:class="block3variables"}.
 
 + Als de variabele `noot`{:class="block3variables"} `1`{:class="block3variables"} is, moet noot 60 spelen
 + Als de variabele `noot`{:class="block3variables"} `2`{:class="block3variables"} is, moet noot 61 spelen
@@ -59,7 +59,7 @@ Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
 speel noot (60) gedurende (1) maten
-wanneer ik signaal [noot verandering v] ontvang
+wanneer ik signaal [noot veranderen v] ontvang
 () + ()
 (noot)
 stop alle geluiden
@@ -72,7 +72,7 @@ Dit is hoe je code eruit zou moeten zien:
 ![speelveld](images/stage.png)
 
 ```blocks3
-wanneer ik signaal [noot verandering v] ontvang
+wanneer ik signaal [noot veranderen v] ontvang
 stop alle geluiden
 speel noot ((59) + (noot :: variables)) gedurende (1) maten
 ```
@@ -105,7 +105,7 @@ when flag clicked
 forever
 if < key (v v) pressed?> then
 switch costume to (aan v)
-broadcast (note change v)
+broadcast (noot veranderen v)
 +wait until <not <key (v v) pressed?>
 else
 switch costume to (uit v)

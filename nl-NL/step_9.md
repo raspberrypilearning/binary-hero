@@ -8,7 +8,7 @@ Kun je bijvoorbeeld code toevoegen om het uiterlijk van het werkgebied te wijzig
 when I start as a clone
 ga naar x: (20) y: (160)
 verschijn
-schuif in (2) sec. naar x: (20) y: (- 130)
+schuif in (2) sec. naar x: (20) y: (-130)
 als <(noot :: variables) = (uiterlijk [nummer v])> dan
 verander [score v] met (1)
 zend signaal (correct v)
