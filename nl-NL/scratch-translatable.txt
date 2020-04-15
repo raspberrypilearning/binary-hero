@@ -1,14 +1,14 @@
-note
+noot
 
-note change
+verandering noot
 
-notes
+noten
 
-times
+tijden
 
-load 'happy birthday'
+laad 'happy birthday'
 
-clear song
+wis song
 
 score
 
