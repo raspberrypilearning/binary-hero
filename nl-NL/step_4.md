@@ -17,14 +17,14 @@ Zend een bericht 'noot veranderen' uit wanneer **een van de vier toetsen** wordt
 ![sprite 1](images/1.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
-herhaal
-als toets < (v v) ingedrukt?> dan
-verander uiterlijk naar (aan v)
-+ zend signaal (noot verandering v)
-anders
-verander uiterlijk naar (uit v)
-einde
+when flag clicked
+forever
+if < key (v v) pressed?> then
+switch costume to (aan v)
++broadcast (note change v)
+else
+switch costume to (uit v)
+end
 ```
 
 --- /task ---
@@ -101,15 +101,15 @@ Voeg code toe zodat **alle** toets sprites een noot slechts **eenmaal** spelen a
 ![1 sprite](images/1.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
-herhaal
-als toets < (v v) ingedrukt?> dan
-verander uiterlijk naar (aan v)
-zend signaal (noot verandering v)
-+ wacht tot <niet <toets (v v) ingedrukt?>>
-anders
-verander uiterlijk naar (uit v)
-einde
+when flag clicked
+forever
+if < key (v v) pressed?> then
+switch costume to (aan v)
+broadcast (note change v)
++wait until <not <key (v v) pressed?>
+else
+switch costume to (uit v)
+end
 ```
 
 --- /task ---

@@ -22,7 +22,7 @@ Maak een nieuwe variabele met de naam `noot`{:class="block3variables"} en sleep 
 
 --- task ---
 
-Voeg code toe aan het speelveld om de combinatie van ingedrukte toetsen te gebruiken om de waarde van `noot` te berekenen {:class="block3variables"}.
+Voeg code toe aan het speelveld om de combinatie van ingedrukte toetsen te gebruiken om de waarde van `noot`{:class="block3variables"} te berekenen.
 
 Wanneer bijvoorbeeld `c` en `v` wordt ingedrukt, moet de waarde van `noot`{:class="block3variables"} `3` zijn.
 
@@ -49,17 +49,19 @@ Hier zijn de codeblokken die je nodig hebt en je moet er enkele meerdere keren t
 ![speelveld](images/stage.png)
 
 ```blocks3
-herhaal
-einde
-als < > dan
-einde
-als toets (v) ingedrukt?
+forever
+end
 
-verander [noot v] met ()
+if < > then
+end
 
-maak [noot v] []
+key ( v) pressed?
 
-wanneer op de groene vlag wordt geklikt
+change [noot v] by ( )
+
+set [noot v] to [ ]
+
+when flag clicked
 ```
 
 --- /hint --- --- hint ---
@@ -69,22 +71,22 @@ Dit is hoe je code eruit zou moeten zien:
 ![speelveld](images/stage.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
-herhaal
-maak [noot v] [0]
-als <toets (v v) ingedrukt? > dan
-verander [noot v] met (1)
-einde
-als <toets (c v) ingedrukt? > dan
-verander [noot v] met (2)
-einde
-als toets <(x v) ingedrukt? > dan
-verander [noot v] met (4)
-einde
-als <toets (z v) ingedrukt? > dan
-verander [noot v] met (8)
-einde
-einde
+when flag clicked
+forever
+set [noot v] to [0]
+if <key (v v) pressed? > then
+change [noot v] by (1)
+end
+if <key (c v) pressed? > then
+change [noot v] by (2)
+end
+if <key (x v) pressed? > then
+change [noot v] by (4)
+end
+if <key (z v) pressed? > then
+change [noot v] by (8)
+end
+end
 ```
 
 --- /hint ------ /hints --- --- /task ---

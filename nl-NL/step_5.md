@@ -71,27 +71,27 @@ Dit zijn de codeblokken die je nodig hebt:
 ![noot](images/note-sprite.png)
 
 ```blocks3
-wacht tot <>
-wanneer op de groene vlag wordt geklikt
-lengte van [noten v]
+wait until <>
+when flag clicked
+length of [noten v]
 
-maak kloon van (mijzelf v)
+create clone of (mijzelf v)
 
-zet klok op 0
-item (1 v) van [tijden v]
-verberg
+reset timer
+item (1 v) of [tijden v]
+hide
 
-herhaal tot <>
-einde
+repeat until <>
+end
 [] > []
-item (1 v) van [noten v]
+item (1 v) of [noten v]
 () - ()
-verander uiterlijk naar (v)
+switch costume to ( v)
 [] = []
-klok
-verwijder (1 v) van [tijden v]
+timer
+delete (1 v) of [tijden v]
 
-verwijder (1 v) van [noten v]
+delete (1 v) of [noten v]
 ```
 
 --- /hint --- --- hint ---
@@ -101,7 +101,7 @@ Dit is hoe je code eruit zou moeten zien:
 ![noot](images/note-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when flag clicked
 zet klok op 0
 verdwijn
 herhaal tot <(lengte van [noten v]) = [0]>
@@ -127,7 +127,7 @@ Voeg code toe om elke 'noot' kloon van boven naar beneden in het speelveld te la
 wanneer ik als kloon start
 ga naar x: (20) y: (160)
 verschijn
-schuif in (2) sec. naar x: (20) y: (- 130)
+schuif in (2) sec. naar x: (20) y: (-130)
 verwijder deze kloon
 ```
 

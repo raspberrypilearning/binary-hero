@@ -10,8 +10,8 @@ Maak nog een blok met de naam `wis liedje`{:class="block3myblocks"} dat alle ite
 
 ```blocks3
 definieer wis liedje
-verwijder (alle v) of [noten v]
-verwijder (alle v) of [tijden v]
+delete (all v) of [noten v]
+delete (all v) of [tijden v]
 ```
 
 Wanneer je de code test, zou deze net zo moeten werken als voorheen.

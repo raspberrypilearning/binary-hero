@@ -43,10 +43,10 @@ Dit is hoe je code eruit zou moeten zien:
 ![noot](images/note-sprite.png)
 
 ```blocks3
-wanneer ik begin als kloon
+when I start as a clone
 ga naar x: (20) y: (160)
 verschijn
-schuif in (2) sec. naar x: (20) y: (- 130)
+schuif in (2) sec. naar x: (20) y: (-130)
 + als <(noot :: variables) = (uiterlijk [nummer v])> dan
 verander [score v] met (1)
 einde
@@ -62,10 +62,10 @@ Verzend een signaal met de naam 'correct' wanneer de juiste noot wordt gespeeld.
 ![noot](images/note-sprite.png)
 
 ```blocks3
-wanneer ik begin als kloon
+when I start as a clone
 ga naar x: (20) y: (160)
 verschijn
-schuif in (2) sec. naar x: (20) y: (- 130)
+schuif in (2) sec. naar x: (20) y: (-130)
 als <(noot :: variables) = (uiterlijk [nummer v])> dan
 verander [score v] met (1)
 + zend signaal (correct v)
@@ -84,8 +84,8 @@ Voeg code toe aan je speelveld om de achtergrond kort te veranderen wanneer de s
 ![speelveld](images/stage.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
-verander achtergrond naar (normal v)
+when flag clicked
+switch backdrop to (normal v)
 
 wanneer ik signaal [correct v] ontvang
 verander achtergrond naar (correct v)

@@ -4,7 +4,7 @@ Hoeveel noten kun je met vier toetsen spelen? Het is misschien meer dan je denkt
 
 --- task ---
 
-Open het 'Binary hero' Scratch startproject.
+Open het 'Binaire held' Scratch startproject.
 
 **Online** open het start project op [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_blank"}. Als je een Scratch account hebt, kun je klikken op **Remix** in de rechterbovenhoek om een kopie van het project op te slaan in je account.
 
@@ -21,13 +21,13 @@ Klik op de sprite genaamd '1' en voeg code toe om het uiterlijk van de sprite te
 ![uiterlijk](images/1.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
-herhaal
-als toets < (v v) ingedrukt?> dan
-verander uiterlijk naar (aan v)
-anders
-verander uiterlijk naar (uit v)
-einde
+when flag clicked
+forever
+if < key (v v) pressed?> then
+switch costume to (aan v)
+else
+switch costume to (uit v)
+end
 ```
 
 Wanneer je je code test door op toets <kbd>v</kbd> drukken, zou de sprite moeten oplichten.

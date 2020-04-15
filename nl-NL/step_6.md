@@ -68,7 +68,7 @@ Test je nieuwe blok door het aan het begin van je project uit te voeren.
 ![noten sprite](images/note-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when flag clicked
 + laad 'happy birthday' ::custom
 verdwijn
 zet klok op 0

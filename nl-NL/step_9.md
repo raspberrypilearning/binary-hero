@@ -5,7 +5,7 @@ Je spel is nu klaar, maar er zijn een paar dingen die je kunt doen om het nog be
 Kun je bijvoorbeeld code toevoegen om het uiterlijk van het werkgebied te wijzigen als de juiste noot niet wordt gespeeld?
 
 ```blocks3
-wanneer ik begin als kloon
+when I start as a clone
 ga naar x: (20) y: (160)
 verschijn
 schuif in (2) sec. naar x: (20) y: (- 130)
