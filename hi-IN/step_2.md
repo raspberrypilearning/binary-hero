@@ -1,24 +1,24 @@
-## Key presses
+## कुंजी दबाना
 
-How many notes can you play with four keys? It might be more than you think!
+आप चार कुंजियों के साथ कितनी टिप्पणियाँ बजा सकते हैं? आप जो सोचते हैं यह उससे अधिक हो सकता है!
 
 \--- task \---
 
-Open the 'Binary hero' Scratch starter project.
+'बाइनरी हीरो' स्क्रैच स्टार्टर प्रोजेक्ट खोलें।
 
-**Online:** open the starter project at [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
+**Online:** : स्टार्टर प्रोजेक्ट खोलें [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_blank"}. यदि आपके पास एक स्क्रैच खाता है, तो आप यहाँ पर क्लिक कर सकते हैं **Remix**परियोजना की एक प्रति सहेजने के लिए ऊपरी दाएँ हाथ के कोने में।
 
-**Offline:** open the [starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** ऑफ़लाइन संपादक में खोलो [starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"} । यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे पा सकते हैं [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-Start by showing which key is being pressed.
+कौन से कुंजी को दबया जा राह है, वह दिखाकर शुरू करें।
 
 \--- task \---
 
-Click on the sprite called '1', and add code to change the sprite's costume if the `v` key is pressed.
+स्प्राइट पर क्लिक करें जिसे '1' कहा जाता है, और स्प्राइट की पोशाक को बदलने के लिए, कोड जोड़ने के लिय `v` कुंजी को दबाइए
 
-![costume](images/1.png)
+![पोशाक](images/1.png)
 
 ```blocks3
 when flag clicked
@@ -30,16 +30,16 @@ switch costume to (off v)
 end
 ```
 
-When you test your code by pressing the <kbd>v</kbd> key, the sprite should light up.
+जब आप अपने कोड <kbd>v</kbd> को दबाकर परीक्षण करते हैं, तो यह स्प्राइट ज्वाला होना चाहिए।
 
-![Testing the v key](images/1-test.png)
+![v कुंजी का परीक्षण](images/1-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Do the same for the other three sprites so that they light up if the <kbd>z</kbd>, <kbd>x</kbd>, or <kbd>c</kbd> keys are pressed.
+अन्य तीन स्प्राइट्स के लिए भी ऐसा ही करें ताकि अगर वह प्रकाश करें ज़ब keys <kbd>z</kbd>, <kbd>x</kbd>, or <kbd>c</kbd> को दबया जायगा
 
-![All keys pressed](images/all-key-presses.png)
+![सभी कुंजी दबाया गया](images/all-key-presses.png)
 
 \--- /task \---
