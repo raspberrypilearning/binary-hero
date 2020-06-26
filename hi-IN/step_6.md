@@ -17,7 +17,7 @@
 --- hints ---
  --- hint ---
 
-यह `load 'happy birthday'`{:class="block3myblocks"} ब्लॉक को `notes`{:class="block3variables"} और `times`{:class="block3variables"} दोनों सूचियों में से सभी आइटमों को `delete all`{:class="block3variables"} और फिर < 0>add</code>{:class="block3variables"} उन सही छह स्वरों को सही क्रम में उस सूची में जोड़ देना चाहिए जिस सूची में से वे हैं।
+यह `load 'happy birthday'`{:class="block3myblocks"} ब्लॉक को `notes`{:class="block3variables"} और `times`{:class="block3variables"} दोनों सूचियों में से सभी आइटमों को `delete all`{:class="block3variables"} और फिर `add`{:class="block3variables"} उन सही छह स्वरों को सही क्रम में उस सूची में जोड़ देना चाहिए जिस सूची में से वे हैं।
 
 --- /hint --- --- hint ---
 
