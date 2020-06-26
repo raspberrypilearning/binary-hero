@@ -1,30 +1,30 @@
 ---
-title: Binary hero
+title: बाइनरी हीरो
 hero_image: images/banner.png
-description: Score points by playing the notes of a song as they scroll past
+description: जैसे ही वे स्क्रॉल करके निकलते हैं, किसी गाने के स्वर चलाकर अंक प्राप्त करें
 listed: true
 copyedit: true
 version: 4.1.0
 last_tested: 2018-11-02
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Key presses
+    title: कुंजी दबाना
   - 
-    title: Binary notes
+    title: बाइनरी नोट
   - 
-    title: Play notes
+    title: स्वर बजाना
   - 
-    title: Scrolling notes
+    title: स्वरों को स्क्रॉल करना
   - 
-    title: Store your song
+    title: अपना गाना संगृहीत करें
   - 
-    title: More custom blocks
+    title: अधिक कस्टम ब्लॉक्स
   - 
-    title: Keep a score
+    title: स्कोर रखें
   - 
-    title: "Challenge: take it further"
+    title: "चुनौती: इसे आगे बढ़ाएँ"
     challenge: true
   - 
-    title: "What next?"
+    title: "आगे क्या?"
