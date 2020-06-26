@@ -1,28 +1,28 @@
-## Keep a score
+## स्कोर रखिए
 
-Improve your game by giving the player points for playing the correct note.
+सही स्वर बजाने के लिए खिलाड़ी को अंक देकर अपने गेम में सुधार करें।
 
 \--- task \---
 
-Create a new variable called `score`{:class="block3variables"}, and place it at the top of your Stage.
+नामक एक नया वेरिएबल बनाएँ`score`{:class="block3variables"},और इसे अपने स्टेज के शीर्ष पर रखें।
 
-![Add a score](images/add-score.png)
+![एक अंक जोड़ें](images/add-score.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add to `score`{:class="block3variables"} whenever the player plays the correct note at the correct time. Remember to set `score`{:class="block3variables"} to `0`{:class="block3variables"} at the start of the game.
+जब भी खिलाड़ी सही समय पर सही स्वर बजाता है तो `score`{:class="block3variables"} स्कोर में जोड़ें। गेम के आरंभ में `score`{:class="block3variables"} को `0`{:class="block3variables"} पर सेट करना याद रखें।
 
 \--- hints \--- \--- hint \---
 
-`Before each clone is deleted`{:class="block3control"}, it should check to see `if`{:class="block3control"} the `note`{:class="block3variables"} is `equal to`{:class="block3operators"} the `costume number`{:class="block3looks"}, and in that case, the score should be `changed`{:class="block3variables"}.
+`Before each clone is deleted`{:class="block3control"}, इसे यह देखने के लिए जाँच करनी चाहिए कि `if`{:class="block3control"} यदि स्वर `note`{:class="block3variables"} परिधान की `equal to`{:class="block3operators"} संख्या के समान है `costume number`{:class="block3looks"}, तो उस स्थिति में, स्कोर को `changed`{:class="block3variables"} बदल दिया जाना चाहिए।
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+आपको इस कोड ब्लॉक की ज़रुरत पड़ेगी:
 
-![note](images/note-sprite.png)
+![टिप्पणी](images/note-sprite.png)
 
 ```blocks3
 [ ] = [ ]
@@ -37,9 +37,9 @@ end
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+आपका कोड ऐसा दिखना चाहिए:
 
-![note](images/note-sprite.png)
+![टिप्पणी](images/note-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -56,9 +56,9 @@ delete this clone
 
 \--- task \---
 
-Broadcast a message called 'correct' when the correct note is played.
+सही स्वर बजाए जाने पर 'correct' नामक संदेश प्रसारित करें।
 
-![note](images/note-sprite.png)
+![टिप्पणी](images/note-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -76,11 +76,11 @@ delete this clone
 
 \--- task \---
 
-![Correct stage background](images/correct-costume.png)
+![सही स्टेज बैकग्राउंड](images/correct-costume.png)
 
-Add code to your Stage to briefly change the backdrop when the player plays the correct note. The project already contains a second backdrop for this.
+खिलाड़ी जब सही स्वर बजाए तो थोड़े समय के लिए पृष्ठभूमि को बदलने के लिए अपने स्टेज में कोड जोड़ें। इस प्रोजेक्ट में इसके लिए पहले से ही एक दूसरी पृष्ठभूमि शामिल है।
 
-![stage](images/stage.png)
+![मंच](images/stage.png)
 
 ```blocks3
 when flag clicked
