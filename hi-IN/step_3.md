@@ -1,51 +1,51 @@
-## Binary numbers
+## बाइनरी संख्याएँ
 
-You will use different combinations of pressing the four keys to play different notes. Each of the keys is either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a **binary number**.
+आप विभिन्न स्वरों को बजाने के लिए चार कुंजियों को दबाने वाले विभिन्न संयोजनों का उपयोग करेंगे। प्रत्येक कुंजी या तो ऑन (दबाई गई) होती है या ऑफ (न दबाई गई) होती है। इसका मतलब है कि आप कुंजियों के प्रत्येक संयोजन को **binary number** (बाइनरी संख्या) के रूप में सोच सकते हैं।
 
-Moving from right to left the keys double in value: `1`, `2`, `4`, and `8`. By adding up the numbers above the keys that are pressed, you can work out the value of the note.
+दाएँ से बाएँ ओर चलते हुए कुंजियों का मूल्य दुगुना होता चला जाता है: `1`, `2`, `4`, और `8`। दबाई गई कुंजियों के ऊपर की संख्याओं को जोड़कर, आप स्वर के मान का पता लगा सकते हैं।
 
-![Note value examples](images/note-values.png)
+![स्वर मान के उदाहरण](images/note-values.png)
 
-There are 2<sup>4</sup> = **16 combinations** of pressing the four keys. This means that you can play 15 different notes, as `0` will mean that no note plays.
+चारों कुंजियों को दबाने के 2<sup>4</sup> = **16 combinations** (संयोजन) हैं। इसका मतलब है कि आप 15 अलग-अलग स्वर बजा सकते हैं, क्योंकि `0` का मतलब होगा कि कोई स्वर नहीं बजता है।
 
 \--- task \---
 
-Create a new variable called `note`{:class="block3variables"}, and drag it next to the four note sprites.
+`note`{:class="block3variables"}, और चार नोट स्प्राइट के बगल में खींचें।
 
-![Note variable](images/note-create.png)
+![नोट चर](images/note-create.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-`note`{:class="block3variables"} will store the value of the note that should be played.
+`note`{:class="block3variables"} उस नोट के मूल्य को संग्रहीत करेगा जिसे खेला जाना चाहिए।
 
 \--- task \---
 
-Add code to the Stage to use the combination of pressed keys to calculate the value of `note`{:class="block3variables"}.
+मूल्य के गणना के लिए दबाए गए कुंजी के संयोजन का उपयोग करने के लिए स्टेज में ये कोड जोड़ें `note`{:class="block3variables"}.
 
-For example, when `c` and `v` are pressed, the value of `note`{:class="block3variables"} should be `3`.
+उदाहरण के लिए, जब `c` तथा `v` दबाया जाता है, तो यह मूल्य {:class="block3variables"} should be `3`.
 
-![Testing the note variable](images/note-test.png)
+![नोट चर का परीक्षण](images/note-test.png)
 
 \--- hints \--- \--- hint \---
 
-![stage](images/stage.png)
+![मंच](images/stage.png)
 
-When the `flag is clicked`{:class="block3events"}, the `note`{:class="block3variables"} variable should be `set`{:class="block3variables"} to `0`{:class="block3variables"}.
+जब `flag is clicked`{:class="block3events"} तब `note`{:class="block3variables"} अस्थायी क `set`{:class="block3variables"} to `0`{:class="block3variables"}.
 
-+ `if`{:class="block3control"} the `v key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 1`{:class="block3variables"}
-+ `if`{:class="block3control"} the `c key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 2`{:class="block3variables"}
-+ `if`{:class="block3control"} the `x key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 4`{:class="block3variables"}
-+ `if`{:class="block3control"} the `z key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 8`{:class="block3variables"}
++ `if`{:class="block3control"} the `v key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} होना चाहिए `changed by 1`{:class="block3variables"}
++ `if`{:class="block3control"} the `c key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} होना चाहिए `changed by 2`{:class="block3variables"}
++ `if`{:class="block3control"} the `x key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} होना चाहिए `changed by 4`{:class="block3variables"}
++ `if`{:class="block3control"} the `z key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} होना चाहिए `changed by 8`{:class="block3variables"}
 
-All of this code should be repeated `forever`{:class="block3control"}.
+ये सभी कोड को दोहराया जाना चाहिए `forever`{:class="block3control"}. 
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need, and you have to add some of them more than once:
+यहां आपके लिए आवश्यक कोड ब्लॉक हैं, और आपको उनमें से कुछ को एक से अधिक बार जोड़ना होगा:
 
-![stage](images/stage.png)
+![मंच](images/stage.png)
 
 ```blocks3
 forever
@@ -63,9 +63,9 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+यह वही है जो आपका कोड दिखना चाहिए:
 
-![stage](images/stage.png)
+![मंच](images/stage.png)
 
 ```blocks3
 when flag clicked
