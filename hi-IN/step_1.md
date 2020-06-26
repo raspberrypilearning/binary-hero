@@ -37,7 +37,7 @@
 
 ## \--- collapse \---
 
-## उपाधि: आपको किन चीज़ों की आवश्यकता होगी
+## title: आपको किन चीज़ों की आवश्यकता होगी
 
 ### हार्डवेयर
 
@@ -49,13 +49,13 @@
 
 ### डाउनलोड
 
-+ [Offline starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
++ [ऑफ़लाइन स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## उपाधि: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
+## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
 
 \--- no-print \---
 
