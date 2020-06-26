@@ -1,15 +1,15 @@
-note
+सुर
 
-note change
+सुर बदलें
 
-notes
+सुर
 
-times
+समय
 
-load 'happy birthday'
+भार 'happy birthday'
 
-clear song
+स्पष्ट गीत
 
-score
+स्कोर
 
-correct
+सही
