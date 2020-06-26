@@ -1,26 +1,26 @@
-## Store your song
+## अपना गाना इकट्ठा करें
 
-At the moment, notes are removed from the lists after being played, so you're left with empty lists:
+फिलहाल, स्वरों को बजाए जाने के बाद सूचियों से हटा दिया जाता है, इसलिए आपके पास खाली सूचियाँ बच जाती हैं:
 
-![Empty lists](images/empty-lists.png)
+![खाली सूचियाँ](images/empty-lists.png)
 
-You're now going to add code to store songs in your project, so that you don't have to add to your lists each time.
+अब आप अपने प्रोजेक्ट में गाने संगृहीत करने के लिए कोड जोड़ने जा रहे हैं, ताकि आपको इन्हें अपनी सूचियों में हर बार न जोड़ना पड़े।
 
-![Add notes and times to lists](images/lists-add-annotated.png)
+![सूचियों में स्वर और समय जोड़ें](images/lists-add-annotated.png)
 
 \--- task \---
 
-Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists. [[[generic-scratch3-make-block]]]
+नामक एक नया ब्लॉक बनाएँ जो `load 'happy birthday'`{:class="block3myblocks"}दोनों सूचियों को साफ कर देता है`notes`{:class="block3variables"} और `times`{:class="block3variables"} सूचियों, और फिर सही स्वरों को दोनों सूचियों में वापस जोड़ता है। [[[generic-scratch3-make-block]]]
 
 \--- hints \--- \--- hint \---
 
-The `load 'happy birthday'`{:class="block3myblocks"} block should `delete all`{:class="block3variables"} items from both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists and then `add`{:class="block3variables"} the correct six numbers to the list they belong in, in the correct order.
+यह `load 'happy birthday'`{:class="block3myblocks"} ब्लॉक को `notes`{:class="block3variables"} और `times`{:class="block3variables"} दोनों सूचियों में से सभी आइटमों को `delete all`{:class="block3variables"} और फिर < 0>add</code>{:class="block3variables"} उन सही छह स्वरों को सही क्रम में उस सूची में जोड़ देना चाहिए जिस सूची में से वे हैं।
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+आपको इन कोड ब्लॉक्स की ज़रुरत पड़ेगी:
 
-![notes-sprite](images/note-sprite.png)
+![टिप्पणियाँ-स्प्राइट](images/note-sprite.png)
 
 ```blocks3
 delete (all v) of [notes v]
@@ -34,9 +34,9 @@ delete (all v) of [times v]
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+आपका कोड ऐसा दिखना चाहिए:
 
-![notes-sprite](images/note-sprite.png)
+![टिप्पणियाँ-स्प्राइट](images/note-sprite.png)
 
 ```blocks3
 define load 'happy birthday'
@@ -60,9 +60,9 @@ add [9] to [times v]
 
 \--- task \---
 
-Test your new block by running it at the start of your project.
+अपने नए ब्लॉक को प्रोजेक्ट के प्रारंभ में चलाकर इसका परीक्षण करें।
 
-![notes-sprite](images/note-sprite.png)
+![टिप्पणियाँ-स्प्राइट](images/note-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,8 +71,8 @@ hide
 reset timer
 ```
 
-Each of your lists should now contain six numbers.
+आपकी प्रत्येक सूची में अब छह स्वर होने चाहिए।
 
-![Lists of notes and times](images/lists-add.png)
+![स्वरों और समयों की सूची](images/lists-add.png)
 
 \--- /task \---
