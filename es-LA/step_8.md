@@ -4,9 +4,9 @@ Improve your game by giving the player points for playing the correct note.
 
 \--- task \---
 
-Create a new variable called `score`{:class="block3variables"}, and place it at the top of your Stage.
+Crea una nueva variable llamada `puntaje`{:class="block3variables"}, y colócala en la parte superior de tu escenario.
 
-![Add a score](images/add-score.png)
+![Añade una puntuación](images/add-score.png)
 
 \--- /task \---
 
@@ -20,9 +20,9 @@ Add to `score`{:class="block3variables"} whenever the player plays the correct n
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Aquí están los bloques de código que necesitas:
 
-![note](images/note-sprite.png)
+![nota](images/note-sprite.png)
 
 ```blocks3
 [ ] = [ ]
@@ -37,9 +37,9 @@ end
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu código:
 
-![note](images/note-sprite.png)
+![nota](images/note-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -58,7 +58,7 @@ delete this clone
 
 Broadcast a message called 'correct' when the correct note is played.
 
-![note](images/note-sprite.png)
+![nota](images/note-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -76,11 +76,11 @@ delete this clone
 
 \--- task \---
 
-![Correct stage background](images/correct-costume.png)
+![Fondo correcto del Escenario](images/correct-costume.png)
 
-Add code to your Stage to briefly change the backdrop when the player plays the correct note. The project already contains a second backdrop for this.
+Add code to your Stage to briefly change the backdrop when the player plays the correct note. El proyecto ya contiene un segundo telón de fondo para esto.
 
-![stage](images/stage.png)
+![escenario](images/stage.png)
 
 ```blocks3
 when flag clicked
