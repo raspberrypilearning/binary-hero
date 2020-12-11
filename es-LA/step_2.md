@@ -1,14 +1,14 @@
-## Key presses
+## Presionar teclas
 
-How many notes can you play with four keys? It might be more than you think!
+¿Cuántas notas puedes tocar con cuatro teclas? ¡Podrían ser más de las que piensas!
 
 \--- task \---
 
 Open the 'Binary hero' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
+**Online:** open the starter project at [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_blank"}. Si tienes una cuenta de Scratch, puedes guardar una copia del proyecto al hacer clic en **Remix**, en la esquina superior derecha.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Sin conexión**: abre el [proyecto inicial](http://rpf.io/p/en/binary-hero-go){:target=_blank"} en el editor sin conexión. Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -18,7 +18,7 @@ Start by showing which key is being pressed.
 
 Click on the sprite called '1', and add code to change the sprite's costume if the `v` key is pressed.
 
-![costume](images/1.png)
+![disfraz](images/1.png)
 
 ```blocks3
 when flag clicked
@@ -30,16 +30,16 @@ switch costume to (off v)
 end
 ```
 
-When you test your code by pressing the <kbd>v</kbd> key, the sprite should light up.
+Cuando pruebas tu código al presionar la tecla <kbd>v</kbd>, el objeto se debería encender.
 
-![Testing the v key](images/1-test.png)
+![Probando la tecla v](images/1-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Do the same for the other three sprites so that they light up if the <kbd>z</kbd>, <kbd>x</kbd>, or <kbd>c</kbd> keys are pressed.
+Haz lo mismo con los otros tres objetos para que se enciendan al presionar las teclas <kbd>z</kbd>, <kbd>x</kbd>, o <kbd>c</kbd>.
 
-![All keys pressed](images/all-key-presses.png)
+![Todas las teclas presionadas](images/all-key-presses.png)
 
 \--- /task \---
