@@ -35,10 +35,10 @@
 
 `Когда зелёный флаг нажат`{:class="block3events"}, переменной `нота`{:class="block3variables"} должно быть `задано значение 0`{:class="block3variables"}.
 
-+ `если`{:class="block3control"} `нажата клавиша v`{:class="block3sensing"}, `нота`{:class="block3variables"} должна быть `изменена на 1` {:class="block3variables"}
-+ `если`{:class="block3control"} `нажата клавиша с`{:class="block3sensing"}, `нота`{:class="block3variables"} должна быть `изменена на 2` {:class="block3variables"}
++ `если`{:class="block3control"} `нажата клавиша v`{:class="block3sensing"}, `нота`{:class="block3variables"} должна быть `изменена на 1`{:class="block3variables"}
++ `если`{:class="block3control"} `нажата клавиша с`{:class="block3sensing"}, `нота`{:class="block3variables"} должна быть `изменена на 2`{:class="block3variables"}
 + `если`{:class="block3control"} `нажата клавиша x`{:class="block3sensing"}, `нота`{:class="block3variables"} должна быть `изменена на 4`{:class="block3variables"}
-+ `если`{:class="block3control"} `нажата клавиша z`{:class="block3sensing"}, `нота`{:class="block3variables"} должна быть `изменена на 8` {:class="block3variables"}
++ `если`{:class="block3control"} `нажата клавиша z`{:class="block3sensing"}, `нота`{:class="block3variables"} должна быть `изменена на 8`{:class="block3variables"}
 
 Весь этот код должен повторяться `всегда`{:class="block3control"}.
 

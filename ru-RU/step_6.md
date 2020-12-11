@@ -10,14 +10,14 @@
 
 --- task ---
 
-Создай новый блок с именем `загрузить 'с днем рожденья'`{:class="block3myblocks"}, который очищает оба списка `ноты`{:class="block3variables"} и `время`{:class="block3variables"}, а затем добавляет правильные числа обратно в оба списка. 
+Создай новый блок с именем `загрузить "с днем рожденья"`{:class="block3myblocks"}, который очищает оба списка `ноты`{:class="block3variables"} и `время`{:class="block3variables"}, а затем добавляет правильные числа обратно в оба списка. 
 
 [[[generic-scratch3-make-block]]]
 
 --- hints ---
  --- hint ---
 
-Блок `загрузить 'с днем рождения'`{:class="block3myblocks"} должен `удалить все`{:class="block3variables"} элементы из обоих списков `ноты`{:class="block3variables"} и `время`{:class="block3variables"} и затем `добавляет`{:class="block3variables"} правильные шесть чисел в правильном порядке в список, в котором он находится.
+Блок `загрузить "с днем рождения"`{:class="block3myblocks"} должен `удалить все`{:class="block3variables"} элементы из обоих списков `ноты`{:class="block3variables"} и `время`{:class="block3variables"} и затем `добавляет`{:class="block3variables"} правильные шесть чисел в правильном порядке в список, в котором он находится.
 
 --- /hint --- --- hint ---
 

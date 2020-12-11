@@ -41,9 +41,9 @@ add [5] to [ноты v]
 Так должен выглядеть твой код:
 
 ```blocks3
-define Add note (нота) at (time) secs
+define Add note (нота) at (времени) secs
 add (нота :: custom-arg) to [ноты v]
-add (time :: custom-arg) to [время v]
+add (времени :: custom-arg) to [время v]
 
 define загрузить "с днём рождения"
 очистить песню ::custom
