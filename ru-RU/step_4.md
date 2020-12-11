@@ -1,10 +1,10 @@
-## Play notes
+## Воспроизведи ноты
 
-Play notes when the keys are pressed.
+Воспроизведи ноты, когда клавиши нажаты.
 
 \--- task \---
 
-Add the Music extension to your project.
+Добавь расширение Музыка в твой проект.
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -12,9 +12,9 @@ Add the Music extension to your project.
 
 \--- task \---
 
-Broadcast a 'note change' message whenever **any of the four keys** is pressed.
+Передавай сообщение «смена ноты» всякий раз, когда **любая из четырех клавиш** нажата.
 
-![sprite 1](images/1.png)
+![спрайт 1](images/1.png)
 
 ```blocks3
 when flag clicked
@@ -31,9 +31,9 @@ end
 
 \--- task \---
 
-Add code to the Stage to play a note when a combination of keys is pressed.
+Добавь код к Сцене для воспроизведения ноты при нажатии комбинации клавиш.
 
-Your notes should start at middle C, which is note 60.
+Ноты должны начинаться со средней C, а это нота 60.
 
 ```blocks3
 play note (60) for (1) beats
@@ -41,20 +41,20 @@ play note (60) for (1) beats
 
 \--- hints \--- \--- hint \---
 
-![1 sprite](images/stage.png)
+![1 спрайт](images/stage.png)
 
-When your stage `receives`{:class="block3events"} the 'change note' broadcast, it should `stop all sounds`{:class="block3sound"} before `playing a note`{:class="block3sound"} based on the value of the`note`{:class="block3variables"} variable.
+Когда сцена `получает`{:class="block3events"} сообщение 'смена ноты', она должна `остановить все звуки`{:class="block3sound"} до `воспроизведения ноты`{:class="block3sound"} на основе значения переменной `нота`{:class="block3variables"}.
 
-+ When the `note`{:class="block3variables"} variable is `1`{:class="block3variables"}, note 60 should play
-+ When the `note`{:class="block3variables"} variable is `2`{:class="block3variables"}, note 61 should play
-+ When the `note`{:class="block3variables"} variable is `3`{:class="block3variables"}, note 62 should play
-+ etc...
++ Когда значение переменной `нота`{:class="block3variables"} будет `1`{:class="block3variables"}, должна играть нота 60
++ Когда значение переменной `нота`{:class="block3variables"} станет `2`{:class="block3variables"}, должна играть нота 61
++ Когда значение переменной `нота`{:class="block3variables"} станет `3`{:class="block3variables"}, должна играть нота 62
++ и т. д...
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Вот блоки кода, которые тебе нужны:
 
-![stage](images/stage.png)
+![сцена](images/stage.png)
 
 ```blocks3
 play note (60) for (1) beats
@@ -66,9 +66,9 @@ stop all sounds
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Так должен выглядеть твой код:
 
-![stage](images/stage.png)
+![сцена](images/stage.png)
 
 ```blocks3
 when I receive [note change v]
@@ -80,7 +80,7 @@ play note ((59) + (note :: variables)) for (1) beats
 
 \--- task \---
 
-Test your code. Can you hear that a note is repeatedly played when you hold down a key?
+Проверь свой код. Слышишь, как повторяется нота, когда ты удерживаешь клавишу?
 
 \--- no-print \---
 
@@ -95,9 +95,9 @@ Test your code. Can you hear that a note is repeatedly played when you hold down
 
 \--- task \---
 
-Add code so that the **all** the key sprites only play a note **once** when a key is held down?
+Добавь код так, чтобы **все** спрайты клавиш воспроизводили ноту только**один раз**, когда клавиша удерживается.
 
-![1 sprite](images/1.png)
+![1 спрайт](images/1.png)
 
 ```blocks3
 when flag clicked
