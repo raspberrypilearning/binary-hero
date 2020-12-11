@@ -1,15 +1,15 @@
-note
+нота
 
-note change
+изменить ноту
 
-notes
+ноты
 
-times
+время
 
-load 'happy birthday'
+загрузить "с днём рождения"
 
-clear song
+очистить песню
 
-score
+счёт
 
-correct
+правильно
