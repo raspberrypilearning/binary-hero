@@ -1,28 +1,28 @@
-## Keep a score
+## Веди счет
 
-Improve your game by giving the player points for playing the correct note.
+Улучши игру, дав игрокам очки за правильную ноту.
 
 \--- task \---
 
-Create a new variable called `score`{:class="block3variables"}, and place it at the top of your Stage.
+Создай новую переменную с именем `счет`{:class="block3variables"} и помести её в верхнюю часть Сцены.
 
-![Add a score](images/add-score.png)
+![Добавить счет](images/add-score.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add to `score`{:class="block3variables"} whenever the player plays the correct note at the correct time. Remember to set `score`{:class="block3variables"} to `0`{:class="block3variables"} at the start of the game.
+Добавляй `счет`{:class="block3variables"} всякий раз, когда игрок играет правильную ноту в правильное время. Не забудь установить `счет`{:class="block3variables"} в `0`{:class="block3variables"} в начале игры.
 
 \--- hints \--- \--- hint \---
 
-`Before each clone is deleted`{:class="block3control"}, it should check to see `if`{:class="block3control"} the `note`{:class="block3variables"} is `equal to`{:class="block3operators"} the `costume number`{:class="block3looks"}, and in that case, the score should be `changed`{:class="block3variables"}.
+`Перед удалением каждого клона`{:class="block3control"}, он должен проверить, `если`{:class="block3control"} `нота`{:class="block3variables"} `равна`{:class="block3operators"} `номеру костюма`{:class="block3looks"}, то тогда счет должен быть `изменен`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Вот блоки кода, которые тебе нужны:
 
-![note](images/note-sprite.png)
+![нота](images/note-sprite.png)
 
 ```blocks3
 [ ] = [ ]
@@ -37,9 +37,9 @@ end
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Вот как должен выглядеть твой код:
 
-![note](images/note-sprite.png)
+![нота](images/note-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -56,9 +56,9 @@ delete this clone
 
 \--- task \---
 
-Broadcast a message called 'correct' when the correct note is played.
+Передавай сообщение с именем «правильно», когда воспроизводится правильная нота.
 
-![note](images/note-sprite.png)
+![нота](images/note-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -76,20 +76,20 @@ delete this clone
 
 \--- task \---
 
-![Correct stage background](images/correct-costume.png)
+![Фон Сцены для правильного ответа](images/correct-costume.png)
 
-Add code to your Stage to briefly change the backdrop when the player plays the correct note. The project already contains a second backdrop for this.
+Добавь код к Сцене, чтобы ненадолго изменить фон, когда игрок играет правильную ноту. Проект уже содержит второй фон.
 
-![stage](images/stage.png)
+![сцена](images/stage.png)
 
 ```blocks3
-when flag clicked
-switch backdrop to (normal v)
+когда щёлкнут по зелёному флагу
+переключить фон на (нормальный v)
 
-when I receive [correct v]
-switch backdrop to (correct v)
-wait (0.3) seconds
-switch backdrop to (normal v)
+когда я получу [правильно v]
+переключить фон на (правильно v)
+ждать (0.3) секунд
+переключить фон на (правильно v)
 ```
 
 \--- /task \---
