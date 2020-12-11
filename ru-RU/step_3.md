@@ -1,51 +1,51 @@
-## Binary numbers
+## Двоичные числа
 
-You will use different combinations of pressing the four keys to play different notes. Each of the keys is either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a **binary number**.
+Ты будешь использовать разные комбинации нажатия четырех клавиш для воспроизведения разных нот. Каждая из клавиш либо включена (нажата), либо выключена (не нажата). Это значит, что на каждую комбинацию клавиш можно смотреть как на **двоичное число**.
 
-Moving from right to left the keys double in value: `1`, `2`, `4`, and `8`. By adding up the numbers above the keys that are pressed, you can work out the value of the note.
+Читая справа налево, клавиши удваивают значение: `1`, `2`, `4` и `8`,. Сложив цифры относящиеся к клавишам, можно определить значение ноты.
 
-![Note value examples](images/note-values.png)
+![Примеры значений нот](images/note-values.png)
 
-There are 2<sup>4</sup> = **16 combinations** of pressing the four keys. This means that you can play 15 different notes, as `0` will mean that no note plays.
+Существует 2<sup>4</sup> = **16 комбинаций** нажатия четырех клавиш. Это означает, что можно сыграть 15 разных нот, так как `0` будет означать отсутствие ноты.
 
 \--- task \---
 
-Create a new variable called `note`{:class="block3variables"}, and drag it next to the four note sprites.
+Создай новую переменную с именем `нота`{:class="block3variables"} и перенеси её к четырем остальным спрайтам нот.
 
-![Note variable](images/note-create.png)
+![Переменная ноты](images/note-create.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-`note`{:class="block3variables"} will store the value of the note that should be played.
+В `ноте`{:class="block3variables"} будет храниться значение ноты, которую нужно сыграть.
 
 \--- task \---
 
-Add code to the Stage to use the combination of pressed keys to calculate the value of `note`{:class="block3variables"}.
+Добавь код к Сцене, который вычисляет значение `ноты`{:class="block3variables"} используя комбинацию нажатых клавиш.
 
-For example, when `c` and `v` are pressed, the value of `note`{:class="block3variables"} should be `3`.
+Например, когда `с` и `v` нажаты, значение `ноты`{:class="block3variables"} должно быть `3`.
 
-![Testing the note variable](images/note-test.png)
+![Проверка переменной ноты](images/note-test.png)
 
 \--- hints \--- \--- hint \---
 
-![stage](images/stage.png)
+![сцена](images/stage.png)
 
-When the `flag is clicked`{:class="block3events"}, the `note`{:class="block3variables"} variable should be `set`{:class="block3variables"} to `0`{:class="block3variables"}.
+`Когда зелёный флаг нажат`{:class="block3events"}, переменной `нота`{:class="block3variables"} должно быть `задано значение 0`{:class="block3variables"}.
 
-+ `if`{:class="block3control"} the `v key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 1`{:class="block3variables"}
-+ `if`{:class="block3control"} the `c key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 2`{:class="block3variables"}
-+ `if`{:class="block3control"} the `x key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 4`{:class="block3variables"}
-+ `if`{:class="block3control"} the `z key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 8`{:class="block3variables"}
++ `если`{:class="block3control"} `нажата клавиша v `{:class="block3sensing"}, `нота`{:class="block3variables"} должна быть `изменена на 1` {:class="block3variables"}
++ `если`{:class="block3control"} `нажата клавиша с `{:class="block3sensing"}, `нота`{:class="block3variables"} должна быть `изменена на 2` {:class="block3variables"}
++ `если`{:class="block3control"} `нажата клавиша x`{:class="block3sensing"}, `нота`{:class="block3variables"} должна быть `изменена на 4`{:class="block3variables"}
++ `если`{:class="block3control"} `нажата клавиша z`{:class="block3sensing"}, `нота`{:class="block3variables"} должна быть `изменена на 8` {:class="block3variables"}
 
-All of this code should be repeated `forever`{:class="block3control"}.
+Весь этот код должен повторяться `всегда`{:class="block3control"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need, and you have to add some of them more than once:
+Вот необходимые блоки кода, а ты должен добавить некоторые из них более одного раза:
 
-![stage](images/stage.png)
+![сцена](images/stage.png)
 
 ```blocks3
 forever
@@ -63,9 +63,9 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Так должен выглядеть твой код:
 
-![stage](images/stage.png)
+![сцена](images/stage.png)
 
 ```blocks3
 when flag clicked
