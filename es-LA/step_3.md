@@ -1,24 +1,24 @@
-## Binary numbers
+## Números binarios
 
-You will use different combinations of pressing the four keys to play different notes. Each of the keys is either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a **binary number**.
+You will use different combinations of pressing the four keys to play different notes. Cada una de las teclas está encendida (presionada) o apagada (no presionada). Esto significa que puedes pensar en cada combinación de teclas como un **número binario**.
 
-Moving from right to left the keys double in value: `1`, `2`, `4`, and `8`. By adding up the numbers above the keys that are pressed, you can work out the value of the note.
+De derecha a izquierda las teclas duplican su valor: `1`, `2`, `4`, y `8`. Al sumar los números que están sobre las teclas que se presionan, puedes calcular el valor de la nota.
 
-![Note value examples](images/note-values.png)
+![Ejemplos de valor de nota](images/note-values.png)
 
-There are 2<sup>4</sup> = **16 combinations** of pressing the four keys. This means that you can play 15 different notes, as `0` will mean that no note plays.
+There are 2<sup>4</sup> = **16 combinations** of pressing the four keys. Esto significa que puedes tocar 15 notas diferentes y el `0` significará que no se reproduce ninguna nota.
 
 \--- task \---
 
 Create a new variable called `note`{:class="block3variables"}, and drag it next to the four note sprites.
 
-![Note variable](images/note-create.png)
+![Variable nota](images/note-create.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-`note`{:class="block3variables"} will store the value of the note that should be played.
+`nota`{:class="block3variables"} almacenará el valor de la nota que se debe reproducir.
 
 \--- task \---
 
@@ -26,11 +26,11 @@ Add code to the Stage to use the combination of pressed keys to calculate the va
 
 For example, when `c` and `v` are pressed, the value of `note`{:class="block3variables"} should be `3`.
 
-![Testing the note variable](images/note-test.png)
+![Probando la variable nota](images/note-test.png)
 
 \--- hints \--- \--- hint \---
 
-![stage](images/stage.png)
+![escenario](images/stage.png)
 
 When the `flag is clicked`{:class="block3events"}, the `note`{:class="block3variables"} variable should be `set`{:class="block3variables"} to `0`{:class="block3variables"}.
 
@@ -45,7 +45,7 @@ All of this code should be repeated `forever`{:class="block3control"}.
 
 Here are the code blocks you need, and you have to add some of them more than once:
 
-![stage](images/stage.png)
+![escenario](images/stage.png)
 
 ```blocks3
 forever
@@ -63,9 +63,9 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu código:
 
-![stage](images/stage.png)
+![escenario](images/stage.png)
 
 ```blocks3
 when flag clicked
