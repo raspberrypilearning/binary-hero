@@ -1,12 +1,12 @@
-## More custom blocks
+## Más bloques personalizados
 
-The newest section of code is difficult to read, so you're going to use more custom blocks to make it simpler.
+La nueva sección del código es difícil de leer, así que usarás más bloques personalizados para simplificarlo.
 
 \--- task \---
 
-Make another block called `clear song`{:class="block3myblocks"} that deletes all items from both lists. Use this block before adding numbers back intothe lists.
+Haz otro bloque que se llame `borrar canción`{:class="block3myblocks"} que elimine todos los objetos de ambas listas. Usa este bloque antes de volver a agregar números en las listas.
 
-![note-sprite](images/note-sprite.png)
+![objetos nota](images/note-sprite.png)
 
 ```blocks3
 define clear song
@@ -14,7 +14,7 @@ delete (all v) of [notes v]
 delete (all v) of [times v]
 ```
 
-When you test your code, it should work just as it did before.
+Cuando pruebes tu código, debería funcionar como antes.
 
 ```blocks3
 define load 'happy birthday'
@@ -37,7 +37,7 @@ Make a block that takes a number as `note`{:class="block3variables"} and a numbe
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu código:
 
 ```blocks3
 define Add note (note) at (time) secs
