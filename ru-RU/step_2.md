@@ -1,24 +1,24 @@
-## Key presses
+## Использование клавиш
 
-How many notes can you play with four keys? It might be more than you think!
+Сколько нот можно сыграть четырьмя клавишами? Даже больше, чем ты можешь представить!
 
 \--- task \---
 
-Open the 'Binary hero' Scratch starter project.
+Открой стартовый проект "Двоичный герой".
 
-**Online:** open the starter project at [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
+**Онлайн:** открой стартовый проект по адресу [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_blank"}. Если у тебя есть аккаунт в Scratch, ты можешь нажать на **Ремикс** в правом верхнем углу, чтобы сохранить копию проекта.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Оффлайн**: открой [стартовый проект](http://rpf.io/p/en/binary-hero-go){:target="_blank"} в оффлайн-редакторе. Если тебе нужно скачать и установить оффлайн редактор Scratch, ты можешь найти его по адресу [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-Start by showing which key is being pressed.
+Начни с того, что покажи, какая клавиша нажата.
 
 \--- task \---
 
-Click on the sprite called '1', and add code to change the sprite's costume if the `v` key is pressed.
+Нажми на спрайт с именем '1' и добавь код, чтобы изменить костюм спрайта, когда нажата клавиша `v`.
 
-![costume](images/1.png)
+![костюм](images/1.png)
 
 ```blocks3
 when flag clicked
@@ -30,16 +30,16 @@ switch costume to (off v)
 end
 ```
 
-When you test your code by pressing the <kbd>v</kbd> key, the sprite should light up.
+Когда проверяешь код, нажимая на клавишу <kbd>v</kbd>, спрайт должен подсвечиваться.
 
-![Testing the v key](images/1-test.png)
+![Проверка клавиши v](images/1-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Do the same for the other three sprites so that they light up if the <kbd>z</kbd>, <kbd>x</kbd>, or <kbd>c</kbd> keys are pressed.
+Сделай то же самое для остальных трех спрайтов, чтобы они подсвечивались при нажатии клавиш <kbd>z</kbd>, <kbd>х</kbd> или <kbd>с</kbd>.
 
-![All keys pressed](images/all-key-presses.png)
+![Все клавиши нажаты](images/all-key-presses.png)
 
 \--- /task \---
