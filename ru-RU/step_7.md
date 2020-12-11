@@ -1,12 +1,12 @@
-## More custom blocks
+## Больше пользовательских блоков
 
-The newest section of code is difficult to read, so you're going to use more custom blocks to make it simpler.
+Новую часть кода сложно прочитать, поэтому мы будем использовать больше пользовательских блоков, чтобы упростить ее.
 
 \--- task \---
 
-Make another block called `clear song`{:class="block3myblocks"} that deletes all items from both lists. Use this block before adding numbers back intothe lists.
+Создайте еще один блок с имененм `очистить песню`{:class="block3myblocks"}, который удаляет все элементы из обоих списков. Используй этот блок, прежде чем добавлять числа обратно в списки.
 
-![note-sprite](images/note-sprite.png)
+![спрайт ноты](images/note-sprite.png)
 
 ```blocks3
 define clear song
@@ -14,7 +14,7 @@ delete (all v) of [notes v]
 delete (all v) of [times v]
 ```
 
-When you test your code, it should work just as it did before.
+Когда тестируешь код, он должен работать так же, как и раньше.
 
 ```blocks3
 define load 'happy birthday'
@@ -27,17 +27,17 @@ add [5] to [notes v]
 
 \--- task \---
 
-So that your code is even easier to read, make another block that allows you to specify a note to be played and a time to play the note at.
+Чтобы код было еще проще читать, сделай еще один блок, который позволит указать ноту и время ее воспроизведения.
 
 [[[generic-scratch3-make-block-parameters]]]
 
 \--- hints \--- \--- hint \---
 
-Make a block that takes a number as `note`{:class="block3variables"} and a number as `time`{:class="block3variables"} and `adds`{:class="block3variables"} each number to the correct list.
+Сделай блок, который берет число, относящееся к `ноте`{:class="block3variables"} и число, относящееся к `времени`{:class="block3variables"} и `добавляет`{:class="block3variables"} каждое число в правильный список.
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Так должен выглядеть твой код:
 
 ```blocks3
 define Add note (note) at (time) secs
