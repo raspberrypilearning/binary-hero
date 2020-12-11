@@ -1,8 +1,8 @@
-## Challenge: take it further
+## Задача: продолжай улучшать
 
-Your game is done now, but there are a few things you can do to make it even better if you want to!
+Игра уже готова, но можно сделать ещё кое-что, чтобы сделать её еще лучше, если хочешь!
 
-For example, can you add code to change how the Stage looks if the correct note is not played?
+Например, можешь ли ты добавить код, чтобы изменить внешний вид сцены, если не воспроизводится правильная нота?
 
 ```blocks3
 when I start as a clone
@@ -18,4 +18,4 @@ end
 delete this clone
 ```
 
-To do this, you need to add code that's very similar to the code that changes the backdrop when the correct note is played. The project contains another backdrop you can use.
+Для этого нужно добавить код, очень похожий на тот, который меняет фон при воспроизведении правильной ноты. В проекте есть другой фон, который ты можешь использовать.
