@@ -1,26 +1,26 @@
-## Store your song
+## Сохрани свою песню
 
-At the moment, notes are removed from the lists after being played, so you're left with empty lists:
+На данный момент ноты удаляются из списков после воспроизведения, поэтому остаются пустые списки:
 
-![Empty lists](images/empty-lists.png)
+![Пустые списки](images/empty-lists.png)
 
-You're now going to add code to store songs in your project, so that you don't have to add to your lists each time.
+Теперь ты добавишь код для хранения песен, чтобы не приходилось каждый раз добавлять их в списки.
 
-![Add notes and times to lists](images/lists-add-annotated.png)
+![Добавь ноты и время в списки](images/lists-add-annotated.png)
 
 \--- task \---
 
-Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists. [[[generic-scratch3-make-block]]]
+Создай новый блок с именем `загрузить 'с днем рожденья'`{:class="block3myblocks"}, который очищает оба списка `ноты`{:class="block3variables"} и `время`{:class="block3variables"}, а затем добавляет правильные числа обратно в оба списка. [[[generic-scratch3-make-block]]]
 
 \--- hints \--- \--- hint \---
 
-The `load 'happy birthday'`{:class="block3myblocks"} block should `delete all`{:class="block3variables"} items from both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists and then `add`{:class="block3variables"} the correct six numbers to the list they belong in, in the correct order.
+Блок `загрузить 'с днем рождения'`{:class="block3myblocks"} должен `удалить все`{:class="block3variables"} элементы из обоих списков `ноты`{:class="block3variables"} и `время`{:class="block3variables"} и затем `добавляет`{:class="block3variables"} правильные шесть чисел в правильном порядке в список, в котором он находится.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Вот блоки кода, которые тебе нужны:
 
-![notes-sprite](images/note-sprite.png)
+![ноты-спрайт](images/note-sprite.png)
 
 ```blocks3
 delete (all v) of [notes v]
@@ -34,9 +34,9 @@ delete (all v) of [times v]
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Так должен выглядеть твой код:
 
-![notes-sprite](images/note-sprite.png)
+![ноты-спрайт](images/note-sprite.png)
 
 ```blocks3
 define load 'happy birthday'
@@ -60,9 +60,9 @@ add [9] to [times v]
 
 \--- task \---
 
-Test your new block by running it at the start of your project.
+Проверь новый блок, запустив его в начале проекта.
 
-![notes-sprite](images/note-sprite.png)
+![ноты-спрайт](images/note-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,8 +71,8 @@ hide
 reset timer
 ```
 
-Each of your lists should now contain six numbers.
+Каждый из списков теперь должен содержать шесть чисел.
 
-![Lists of notes and times](images/lists-add.png)
+![Списки нот и времени](images/lists-add.png)
 
 \--- /task \---
