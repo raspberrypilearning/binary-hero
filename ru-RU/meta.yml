@@ -1,30 +1,30 @@
 ---
-title: Binary hero
+title: Двоичный герой
 hero_image: images/banner.png
-description: Score points by playing the notes of a song as they scroll past
+description: Набирай очки, играя ноты песни
 listed: true
 copyedit: true
 version: 4.1.0
 last_tested: 2018-11-02
 steps:
   - 
-    title: Introduction
+    title: Введение
   - 
-    title: Key presses
+    title: Использование клавиш
   - 
-    title: Binary notes
+    title: Двоичные ноты
   - 
-    title: Play notes
+    title: Воспроизведи ноты
   - 
-    title: Scrolling notes
+    title: Прокрутка нот
   - 
-    title: Store your song
+    title: Сохрани свою песню
   - 
-    title: More custom blocks
+    title: Больше пользовательских блоков
   - 
-    title: Keep a score
+    title: Веди счет
   - 
-    title: "Challenge: take it further"
+    title: "Задача: продолжай улучшать"
     challenge: true
   - 
-    title: "What next?"
+    title: "Что дальше?"
