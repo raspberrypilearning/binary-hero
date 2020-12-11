@@ -1,10 +1,10 @@
-## Scrolling notes
+## Прокрутка нот
 
-You need to make notes scroll down the Stage so that the player knows which keys to press and when to press them.
+Тебе нужно заставить ноты опускаться по сцене вниз, чтобы игрок понимал, какие клавиши и когда нажимать.
 
 \--- task \---
 
-Create two lists called `notes`{:class="block3variables"} and `times`{:class="block3variables"}.
+Создай два новых списка с именами `ноты`{:class="block3variables"} и `время`{:class="block3variables"}.
 
 [[[generic-scratch3-make-list]]]
 
@@ -12,61 +12,61 @@ Create two lists called `notes`{:class="block3variables"} and `times`{:class="bl
 
 \--- task \---
 
-Add the following numbers to your `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists. Note: make sure to **add these exact numbers in the right order**.
+Добавьте следующие числа к спискам `ноты` {:class="block3variables"} и `время`{:class="block3variables"}. Примечание: убедись, что ты ** добавишь эти числа в правильном порядке **.
 
-![Add notes and times to lists](images/lists-add-annotated.png)
-
-\--- /task \---
-
-Here's how songs are stored in your game:
-
-+ The `notes`{:class="block3variables"} list stores the notes of the song (from 1 to 15), in order
-+ The `times`{:class="block3variables"} list stores the times when the notes should be played in the song
-
-![Explaining lists](images/lists-explain.png)
-
-So with the two new lists:
-
-+ Note 1 (middle C) should be played at 5 seconds
-+ Note 1 should be played again at 5.5 seconds
-+ Note 3 should be played at 6 seconds
-+ etc...
-
-\--- task \---
-
-Click on the 'note' sprite and then click on **show**.
-
-![Show the bar sprite](images/note-show-annotated.png)
-
-Then click on **Costumes**.
-
-![Bar sprite costumes](images/note-costumes.png)
+![Добавь ноты и время в списки](images/lists-add-annotated.png)
 
 \--- /task \---
 
-You should see that the 'note' sprite has 15 different costume, one for each different note from 1 to 15.
+Вот как хранятся песни в твоей игре:
+
++ Список `ноты`{:class="block3variables"} хранит ноты песни (от 1 до 15) в порядке
++ Список `время`{:class="block3variables"} хранит время, когда ноты должны быть проиграны в песне
+
+![Объяснение списков](images/lists-explain.png)
+
+Итак, с двумя новыми списками:
+
++ Нота 1 (середняя С) должна воспроизводиться 5 секунд
++ Нота 1 должна быть воспроизведена снова на 5,5 секунде
++ Нота 3 должна воспроизводиться на 6 секунде
++ и т. д...
 
 \--- task \---
 
-Add code to create a 'note' sprite clone for every note stored in `notes`{:class="block3variables"}. Each clone should be created at the correct time stored in `times`{:class="block3variables"}. Each clone should be created two seconds before its note needs to be played. This gives the clone two seconds to move down the screen. You'll create the code to move your clones in a little bit!
+Нажми на спрайт ноты, а затем нажми на **показать**.
 
-![Testing clones](images/clones-test.png)
+![Показать спрайт панели](images/note-show-annotated.png)
+
+Затем нажмите на **Костюмы**.
+
+![Костюмы спрайтов панели](images/note-costumes.png)
+
+\--- /task \---
+
+Ты должен увидеть, что у спрайта «нота» 15 разных костюмов, по одному на каждую отдельную ноту от 1 до 15.
+
+\--- task \---
+
+Добавь код, чтобы создать клон спрайта 'нота' для каждой ноты, хранящейся в списке `ноты`{:class="block3variables"}. Каждый клон должен быть создан в правильное время, сохраненное в переменной `время`{:class="block3variables"}. Каждый клон должен быть создан за две секунды до воспроизведения его ноты. Благодаря этому у клона есть две секунды, чтобы спуститься вниз по экрану. Ты создашь код для перемещения клонов!
+
+![Тестирование клонов](images/clones-test.png)
 
 \--- hints \--- \--- hint \---
 
-![note](images/note-sprite.png) When the `flag is clicked`{:class="block3events"}, the 'note' sprite should `hide`{:class="block3looks"}, and the `timer`{:class="block3variables"} should be `reset`{:class="block3variables"}.
+![нота](images/note-sprite.png) Когда `зелёный флаг нажат`{:class="block3events"}, спрайт 'нота' нужно `скрыть`{:class="block3looks"}, и `таймер`{:class="block3variables"} должен `перезапуститься`{:class="block3variables"}.
 
-The script should then `wait until`{:class="block3control"} the value of `timer`{:class="block3variables"} is `greater than`{:class="block3operators"} the next note to be played, which will be the `time`{:class="block3variables"} at the `start of the list`{:class="block3variables"} (`minus 2 seconds`{:class="block3operators"}).
+Скрипт должен тогда `ждать пока`{:class="block3control"} значение `таймера`{:class="block3variables"} будет `больше, чем`{:class="block3operators"} у следующей воспроизведенной ноты, а это будет `время`{:class="block3variables"} в `начале списка`{:class="block3variables"} (`минус 2 секунды`{:class="block3operators"}).
 
-The costume for the 'note' sprite should then be set to the next `note`{:class="block3variables"} to be played (the `note`{:class="block3variables"} at the start of the list), before a `clone`{:class="block3events"} of the 'note' sprite is created.
+Костюм для спрайта 'нота' должен быть установлен на воспроизведение следующей `ноты`{:class="block3variables"} (`нота`{:class="block3variables"} из начала списка), до создания ` клона`{:class="block3events"} спрайта 'нота'.
 
-The items at the start of the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists should then be `deleted`{:class="block3variables"}, and the entire process should be `repeated until`{:class="block3control"} there are no items left in the `notes`{:class="block3variables"} list.
+Элементы в начале списков `ноты`{:class="block3variables"} и `время`{:class="block3variables"} должны быть затем `удалены`{:class="block3variables"}, и весь процесс должен `повторяться до`{:class="block3control"} тех пор, пока не останется элементов в списке `ноты`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Вот блоки кода, которые тебе нужны:
 
-![note](images/note-sprite.png)
+![нота](images/note-sprite.png)
 
 ```blocks3
 wait until <>
@@ -94,9 +94,9 @@ delete (1 v) of [notes v]
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Так должен выглядеть твой код:
 
-![note](images/note-sprite.png)
+![нота](images/note-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -113,13 +113,13 @@ end
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-When you test your code now, nothing seems to happen, because the 'note' sprite is hidden. If you show (or don't hide) the sprite, then you should see clones being created on top of each other.
+Когда ты сейчас протестируешь код, будет казаться, что ничего не происходит, потому, что спрайт «ноты» скрыт. Если ты покажешь (или не скроешь) спрайт, то должен увидеть, как клоны создаются друг на друге.
 
 \--- task \---
 
-Add code to make each 'note' clone glide from the top to the bottom of the Stage before being deleted.
+Добавь код, чтобы каждый клон «ноты» скользил от верхней части к нижней части сцены перед тем, как удалялся.
 
-![note](images/note-sprite.png)
+![нота](images/note-sprite.png)
 
 ```blocks3
 when I start as a clone
