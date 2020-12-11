@@ -1,15 +1,15 @@
-note
+nota
 
-note change
+cambio de nota
 
-notes
+notas
 
-times
+tiempos
 
 load 'happy birthday'
 
 clear song
 
-score
+puntaje
 
-correct
+correcto
