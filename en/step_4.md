@@ -100,7 +100,7 @@ Test your code. Can you hear that a note is repeatedly played when you hold down
 
 --- task ---
 
-Add code so that the **all** the key sprites only play a note **once** when a key is held down?
+Add code so that the **all** the key sprites only play a note **once** when a key is held down.
 
 ![1 sprite](images/1.png)
 
