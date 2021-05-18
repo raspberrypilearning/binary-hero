@@ -10,8 +10,8 @@
 
 ```blocks3
 define clear song
-delete (all v) of [notes v]
-delete (all v) of [times v]
+delete all of [notes v]
+delete all of [times v]
 ```
 
 Когда тестируешь код, он должен работать так же, как и раньше.
