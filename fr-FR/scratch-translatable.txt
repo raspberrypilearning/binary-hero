@@ -1,14 +1,14 @@
 note
 
-note change
+changer de note
 
 notes
 
-times
+temps
 
-load 'happy birthday'
+charger "joyeux anniversaire"
 
-clear song
+effacer la chanson
 
 score
 
