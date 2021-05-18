@@ -48,7 +48,7 @@ Je zou moeten zien dat de 'noot' sprite 15 verschillende uiterlijken heeft, éé
 
 \--- task \---
 
-Voeg code toe om een 'noot' sprite kloon te maken voor elke noot die is opgeslagen in `noten`{:class="block3variables"}. Elke kloon moet op het juiste tijdstip worden gemaakt, opgeslagen in `tijden`{:class="block3variables"}. Elke kloon moet twee seconden worden gemaakt voordat de noot moet worden gespeeld. Dit geeft de kloon twee seconden om in het scherm omlaag te gaan. Je maakt de code om je klonen een klein beetje te verplaatsen!
+Voeg code toe om een 'noot' sprite kloon te maken voor elke noot die is opgeslagen in `noten`{:class="block3variables"}. Elke kloon moet op het juiste tijdstip worden gemaakt, zoals opgeslagen in `tijden`{:class="block3variables"}. Elke kloon moet twee seconden worden gemaakt voordat de noot moet worden gespeeld. Dit geeft de kloon twee seconden om in het scherm omlaag te gaan. Je maakt de code om je klonen een klein beetje te verplaatsen!
 
 ![Klonen testen](images/clones-test.png)
 
