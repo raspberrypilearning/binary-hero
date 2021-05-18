@@ -95,7 +95,7 @@ play note ((59) + (note :: variables)) for (1) beats
 
 \--- task \---
 
-Добавь код так, чтобы **все** спрайты клавиш воспроизводили ноту только**один раз**, когда клавиша удерживается.
+Add code so that the **all** the key sprites only play a note **once** when a key is held down.
 
 ![1 спрайт](images/1.png)
 
