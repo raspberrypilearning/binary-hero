@@ -1,16 +1,16 @@
 ## Bewaar je liedje
 
-Op dit moment worden noten uit de lijsten verwijderd nadat ze zijn gespeeld, dus je hebt nog lege lijsten over:
+Op dit moment worden noten uit de lijsten verwijderd nadat ze zijn gespeeld, je lijsten zijn nu dus leeg:
 
 ![Lege lijsten](images/empty-lists.png)
 
-Je gaat nu code toevoegen om liedjes in je project op te slaan, zodat je niet elke keer aan je lijsten hoeft toe te voegen.
+Je gaat nu code toevoegen om liedjes in je project op te slaan, zodat je niet elke keer de lijsten hoeft te vullen.
 
 ![Voeg noten en tijden toe aan lijsten](images/lists-add-annotated.png)
 
 \--- task \---
 
-Maak een nieuw blok met de naam `laad 'happy birthday'`{:class="block3myblocks"} dat zowel de `noten`{:class="block3variables"} als `tijden`{:class="block3variables"} lijsten wist, en voegt vervolgens de juiste getallen toe aan beide lijsten. [[[generic-scratch3-make-block]]]
+Maak een nieuw blok met de naam `laad 'happy birthday'`{:class="block3myblocks"} dat zowel de `noten`{:class="block3variables"} als `tijden`{:class="block3variables"} lijsten wist en vervolgens de juiste getallen aan beide lijsten toevoegt. [[[generic-scratch3-make-block]]]
 
 \--- hints \--- \--- hint \---
 
@@ -71,7 +71,7 @@ verdwijn
 zet klok op 0
 ```
 
-Elk van je lijsten zou nu zes nummers moeten bevatten.
+Elk van je lijsten zou nu zes getallen moeten bevatten.
 
 ![Lijsten met noten en tijden](images/lists-add.png)
 
