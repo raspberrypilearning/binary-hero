@@ -1,10 +1,10 @@
-## More custom blocks
+## Plus de blocs personnalisés
 
-The newest section of code is difficult to read, so you're going to use more custom blocks to make it simpler.
+La nouvelle section de code est difficile à lire, donc tu vas utiliser plus de blocs personnalisés pour la rendre plus simple.
 
 \--- task \---
 
-Make another block called `clear song`{:class="block3myblocks"} that deletes all items from both lists. Use this block before adding numbers back intothe lists.
+Fais un autre bloc appelé `effacer la chanson`{:class="block3myblocks"} qui supprime tous les éléments des deux listes. Utilise ce bloc avant d'ajouter des numéros dans les listes.
 
 ![note-sprite](images/note-sprite.png)
 
@@ -14,7 +14,7 @@ delete (all v) of [notes v]
 delete (all v) of [times v]
 ```
 
-When you test your code, it should work just as it did before.
+Lorsque tu testes ton code, il devrait fonctionner comme avant.
 
 ```blocks3
 define load 'happy birthday'
@@ -27,17 +27,17 @@ add [5] to [notes v]
 
 \--- task \---
 
-So that your code is even easier to read, make another block that allows you to specify a note to be played and a time to play the note at.
+Pour que ton code soit encore plus facile à lire, fais un autre bloc qui te permet de spécifier une note à jouer et un temps pour jouer la note.
 
 [[[generic-scratch3-make-block-parameters]]]
 
 \--- hints \--- \--- hint \---
 
-Make a block that takes a number as `note`{:class="block3variables"} and a number as `time`{:class="block3variables"} and `adds`{:class="block3variables"} each number to the correct list.
+Fais un bloc qui prend un numéro en tant que `note`{:class="block3variables"} et un numéro comme `temps`{:class="block3variables"} et `ajoute`{:class="block3variables"} chaque numéro à la liste correcte.
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Voici à quoi ton code devrait ressembler :
 
 ```blocks3
 define Add note (note) at (time) secs
