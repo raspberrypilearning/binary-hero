@@ -1,10 +1,10 @@
-## Scrolling notes
+## Notes qui défilent
 
-You need to make notes scroll down the Stage so that the player knows which keys to press and when to press them.
+Tu dois faire défiler les notes vers le bas pour que le joueur sache quelles touches appuyer et quand les appuyer.
 
 \--- task \---
 
-Create two lists called `notes`{:class="block3variables"} and `times`{:class="block3variables"}.
+Crée deux listes appelées `notes`{:class="block3variables"} et `temps`{:class="block3variables"}.
 
 [[[generic-scratch3-make-list]]]
 
@@ -12,59 +12,59 @@ Create two lists called `notes`{:class="block3variables"} and `times`{:class="bl
 
 \--- task \---
 
-Add the following numbers to your `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists. Note: make sure to **add these exact numbers in the right order**.
+Ajoute les nombres suivants à tes listes `notes`{:class="block3variables"} et `temps`{:class="block3variables"}. Remarque : assure-toi d' **ajouter ces nombres exacts dans le bon ordre**.
 
-![Add notes and times to lists](images/lists-add-annotated.png)
+![Ajouter des notes et des temps aux listes](images/lists-add-annotated.png)
 
 \--- /task \---
 
-Here's how songs are stored in your game:
+Voici comment les chansons sont stockées dans ton jeu :
 
-+ The `notes`{:class="block3variables"} list stores the notes of the song (from 1 to 15), in order
-+ The `times`{:class="block3variables"} list stores the times when the notes should be played in the song
++ La liste des `notes`{:class="block3variables"} stocke les notes de la chanson (de 1 à 15), dans l'ordre
++ La liste `temps`{:class="block3variables"} stocke les temps où les notes doivent être jouées dans la chanson
 
-![Explaining lists](images/lists-explain.png)
+![Listes explicatives](images/lists-explain.png)
 
-So with the two new lists:
+Donc, avec les deux nouvelles listes :
 
-+ Note 1 (middle C) should be played at 5 seconds
-+ Note 1 should be played again at 5.5 seconds
-+ Note 3 should be played at 6 seconds
++ La note 1 (C moyen) doit être jouée à 5 secondes
++ La note 1 devrait être jouée à nouveau à 5,5 secondes
++ La note 3 doit être jouée à 6 secondes
 + etc...
 
 \--- task \---
 
-Click on the 'note' sprite and then click on **show**.
+Clique sur le sprite « note » puis clique sur **montrer**.
 
-![Show the bar sprite](images/note-show-annotated.png)
+![Montrer le sprite de la barre](images/note-show-annotated.png)
 
-Then click on **Costumes**.
+Puis clique sur **Costumes**.
 
-![Bar sprite costumes](images/note-costumes.png)
+![Costumes de sprite barre](images/note-costumes.png)
 
 \--- /task \---
 
-You should see that the 'note' sprite has 15 different costume, one for each different note from 1 to 15.
+Tu devrais voir que le sprite « note » a 15 costumes différents, un pour chaque note différente de 1 à 15.
 
 \--- task \---
 
-Add code to create a 'note' sprite clone for every note stored in `notes`{:class="block3variables"}. Each clone should be created at the correct time stored in `times`{:class="block3variables"}. Each clone should be created two seconds before its note needs to be played. This gives the clone two seconds to move down the screen. You'll create the code to move your clones in a little bit!
+Ajoute du code pour créer un clone du sprite « note » pour chaque note stockée dans `notes`{:class="block3variables"}. Chaque clone doit être créé au temps correct stocké dans `temps`{:class="block3variables"}. Chaque clone doit être créé deux secondes avant que sa note ne soit jouée. Cela donne au clone deux secondes pour descendre l'écran. Tu vas créer le code pour déplacer un peu tes clones !
 
-![Testing clones](images/clones-test.png)
+![Test des clones](images/clones-test.png)
 
 \--- hints \--- \--- hint \---
 
-![note](images/note-sprite.png) When the `flag is clicked`{:class="block3events"}, the 'note' sprite should `hide`{:class="block3looks"}, and the `timer`{:class="block3variables"} should be `reset`{:class="block3variables"}.
+![note](images/note-sprite.png) Quand le `drapeau vert est cliqué`{:class="block3events"}, le sprite « note » devrait `cacher`{:class="block3looks"}, et le `chronomètre`{:class="block3variables"} devrait être `réinitialisé`{:class="block3variables"}.
 
-The script should then `wait until`{:class="block3control"} the value of `timer`{:class="block3variables"} is `greater than`{:class="block3operators"} the next note to be played, which will be the `time`{:class="block3variables"} at the `start of the list`{:class="block3variables"} (`minus 2 seconds`{:class="block3operators"}).
+Le script devrait alors `attendre jusqu'à ce que`{:class="block3control"} la valeur du `chronomètre`{:class="block3variables"} soit `plus grande que`{:class="block3operators"} la note suivante à jouer, qui sera le `temps`{:class="block3variables"} au `début de la liste`{:class="block3variables"} (`moins 2 secondes`{:class="block3operators"}).
 
-The costume for the 'note' sprite should then be set to the next `note`{:class="block3variables"} to be played (the `note`{:class="block3variables"} at the start of the list), before a `clone`{:class="block3events"} of the 'note' sprite is created.
+Le costume du sprite « note » devrait alors être défini sur la note `suivante`{:class="block3variables"} à jouer (la `note`{:class="block3variables"} au début de la liste), avant qu'un `clone`{:class="block3events"} du sprite « note » soit créé.
 
-The items at the start of the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists should then be `deleted`{:class="block3variables"}, and the entire process should be `repeated until`{:class="block3control"} there are no items left in the `notes`{:class="block3variables"} list.
+Les éléments au début des `notes`{:class="block3variables"} et les listes `temps`{:class="block3variables"} doivent ensuite être `supprimées`{:class="block3variables"}, et tout le processus devrait être `répété jusqu'à ce qu'`{:class="block3control"} il n'y a plus aucun élément dans la liste `notes`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Voici les blocs de code dont tu as besoin :
 
 ![note](images/note-sprite.png)
 
@@ -94,7 +94,7 @@ delete (1 v) of [notes v]
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Voici à quoi ton code devrait ressembler :
 
 ![note](images/note-sprite.png)
 
@@ -113,11 +113,11 @@ end
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-When you test your code now, nothing seems to happen, because the 'note' sprite is hidden. If you show (or don't hide) the sprite, then you should see clones being created on top of each other.
+Lorsque tu testes ton code maintenant, rien ne semble se produire, car le sprite « note » est caché. Si tu montres (ou ne caches pas) le sprite, tu devrais voir des clones créés les uns sur les autres.
 
 \--- task \---
 
-Add code to make each 'note' clone glide from the top to the bottom of the Stage before being deleted.
+Ajoute du code pour que chaque clone « note » glisse du haut vers le bas de la scène avant d'être supprimé.
 
 ![note](images/note-sprite.png)
 
