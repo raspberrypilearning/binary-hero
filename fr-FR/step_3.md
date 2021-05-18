@@ -1,51 +1,51 @@
-## Binary numbers
+## Nombres binaires
 
-You will use different combinations of pressing the four keys to play different notes. Each of the keys is either on (pressed) or off (not pressed). This means that you can think of each combination of keys as a **binary number**.
+Tu utiliseras différentes combinaisons d'appui sur les quatre touches pour jouer différentes notes. Chacune des touches est allumée (enfoncée) ou éteinte (non enfoncée). Cela signifie que tu peux considérer chaque combinaison de touches comme un **nombre binaire**.
 
-Moving from right to left the keys double in value: `1`, `2`, `4`, and `8`. By adding up the numbers above the keys that are pressed, you can work out the value of the note.
+En se déplaçant de droite à gauche, la valeur des touches double : `1`, `2`, `4` et `8`. En ajoutant les nombres au-dessus des touches pressées, tu peux calculer la valeur de la note.
 
-![Note value examples](images/note-values.png)
+![Exemples de valeur de note](images/note-values.png)
 
-There are 2<sup>4</sup> = **16 combinations** of pressing the four keys. This means that you can play 15 different notes, as `0` will mean that no note plays.
+Il y a 2<sup>4</sup> = **16 combinaisons** d'appui sur les quatre touches. Cela signifie que tu peux jouer 15 notes différentes, car `0` signifie qu'aucune note n'est jouée.
 
 \--- task \---
 
-Create a new variable called `note`{:class="block3variables"}, and drag it next to the four note sprites.
+Crée une nouvelle variable appelée `note`{:class="block3variables"}, et fais-la glisser à côté des quatre sprites de notes.
 
-![Note variable](images/note-create.png)
+![Variable de note](images/note-create.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-`note`{:class="block3variables"} will store the value of the note that should be played.
+`note`{:class="block3variables"} stockera la valeur de la note à jouer.
 
 \--- task \---
 
-Add code to the Stage to use the combination of pressed keys to calculate the value of `note`{:class="block3variables"}.
+Ajoute du code à la scène pour utiliser la combinaison de touches pressées pour calculer la valeur de la `note`{:class="block3variables"}.
 
-For example, when `c` and `v` are pressed, the value of `note`{:class="block3variables"} should be `3`.
+Par exemple, lorsque les touches `c` et `v` sont pressées, la valeur de `note`{:class="block3variables"} doit être `3`.
 
-![Testing the note variable](images/note-test.png)
+![Test de la variable note](images/note-test.png)
 
 \--- hints \--- \--- hint \---
 
-![stage](images/stage.png)
+![scène](images/stage.png)
 
-When the `flag is clicked`{:class="block3events"}, the `note`{:class="block3variables"} variable should be `set`{:class="block3variables"} to `0`{:class="block3variables"}.
+Quand le `drapeau vert est cliqué`{:class="block3events"}, la variable `note`{:class="block3variables"} doit être `définie`{:class="block3variables"} à `0`{:class="block3variables"}.
 
-+ `if`{:class="block3control"} the `v key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 1`{:class="block3variables"}
-+ `if`{:class="block3control"} the `c key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 2`{:class="block3variables"}
-+ `if`{:class="block3control"} the `x key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 4`{:class="block3variables"}
-+ `if`{:class="block3control"} the `z key is pressed`{:class="block3sensing"}, the `note`{:class="block3variables"} should be `changed by 8`{:class="block3variables"}
++ `si`{:class="block3control"} la `touche v est pressée`{:class="block3sensing"}, la `note`{:class="block3variables"} doit être `modifiée par 1`{:class="block3variables"}
++ `si`{:class="block3control"} la `touche c est pressée`{:class="block3sensing"}, la `note`{:class="block3variables"} doit être `modifiée par 2`{:class="block3variables"}
++ `si`{:class="block3control"} la `touche x est pressée`{:class="block3sensing"}, la `note`{:class="block3variables"} doit être `modifiée par 4`{:class="block3variables"}
++ `si`{:class="block3control"} la `touche z est pressée`{:class="block3sensing"}, la `note`{:class="block3variables"} doit être `modifiée par 8`{:class="block3variables"}
 
-All of this code should be repeated `forever`{:class="block3control"}.
+Tout ce code doit être répété `indéfiniment`{:class="block3control"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need, and you have to add some of them more than once:
+Voici les blocs de code dont tu as besoin, et tu devras ajouter certains d'entre eux plus d'une fois :
 
-![stage](images/stage.png)
+![scène](images/stage.png)
 
 ```blocks3
 forever
@@ -63,9 +63,9 @@ when flag clicked
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Voici à quoi ton code devrait ressembler :
 
-![stage](images/stage.png)
+![scène](images/stage.png)
 
 ```blocks3
 when flag clicked
