@@ -23,13 +23,13 @@ Dit zijn de codeblokken die je nodig hebt:
 ![noten sprite](images/note-sprite.png)
 
 ```blocks3
-verwijder (alle v) van [noten v]
+delete all of [notes v]
 
-definieer laad 'happy birthday'
+define load 'happy birthday'
 
-voeg [1] toe aan [noten v]
+add [1] to [notes v]
 
-verwijder (alle v) van [tijden v]
+delete all of [times v]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -39,21 +39,21 @@ Dit is hoe je code eruit zou moeten zien:
 ![noten sprite](images/note-sprite.png)
 
 ```blocks3
-definieer laad 'happy birthday'
-verwijder (alle v) van [noten v]
-verwijder (alle v) van [tijden v]
-voeg [1] toe aan [noten v]
-voeg [5] toe aan [tijden v]
-voeg [1] toe aan [noten v]
-voeg [5.5] toe aan [tijden v]
-voeg [3] toe aan [noten v]
-voeg [6] toe aan [tijden v]
-voeg [1] toe aan [noten v]
-voeg [7] toe aan [tijden v]
-voeg [6] toe aan [noten v]
-voeg [8] toe aan [tijden v]
-voeg [5] toe aan [noten v]
-voeg [9] toe aan [tijden v]
+define load 'happy birthday'
+delete all of [notes v]
+delete all of [times v]
+add [1] to [notes v]
+add [5] to [times v]
+add [1] to [notes v]
+add [5.5] to [times v]
+add [3] to [notes v]
+add [6] to [times v]
+add [1] to [notes v]
+add [7] to [times v]
+add [6] to [notes v]
+add [8] to [times v]
+add [5] to [notes v]
+add [9] to [times v]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
