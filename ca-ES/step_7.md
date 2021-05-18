@@ -10,8 +10,8 @@ Make another block called `clear song`{:class="block3myblocks"} that deletes all
 
 ```blocks3
 define clear song
-delete (all v) of [notes v]
-delete (all v) of [times v]
+delete all of [notes v]
+delete all of [times v]
 ```
 
 When you test your code, it should work just as it did before.
