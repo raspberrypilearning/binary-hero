@@ -1,24 +1,24 @@
-## Store your song
+## Stocker ta chanson
 
-At the moment, notes are removed from the lists after being played, so you're left with empty lists:
+Pour le moment, les notes sont supprimées des listes après avoir été jouées, donc tu te retrouves avec des listes vides :
 
-![Empty lists](images/empty-lists.png)
+![Listes vides](images/empty-lists.png)
 
-You're now going to add code to store songs in your project, so that you don't have to add to your lists each time.
+Tu vas maintenant ajouter du code pour stocker des chansons dans ton projet, afin de ne pas avoir à les ajouter à tes listes à chaque fois.
 
-![Add notes and times to lists](images/lists-add-annotated.png)
+![Ajouter des notes et des temps aux listes](images/lists-add-annotated.png)
 
 \--- task \---
 
-Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists. [[[generic-scratch3-make-block]]]
+Fais un nouveau bloc appelé `charger "joyeux anniversaire"`{:class="block3myblocks"} qui efface les listes de `notes`{:class="block3variables"} et `temps`{:class="block3variables"}, puis ajoute les bons nombres dans les deux listes. [[[generic-scratch3-make-block]]]
 
 \--- hints \--- \--- hint \---
 
-The `load 'happy birthday'`{:class="block3myblocks"} block should `delete all`{:class="block3variables"} items from both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists and then `add`{:class="block3variables"} the correct six numbers to the list they belong in, in the correct order.
+Le bloc `charger "joyeux anniversaire"`{:class="block3myblocks"} devrait `supprimer tous les éléments`{:class="block3variables"} à la fois des `notes`{:class="block3variables"} et `temps`{:class="block3variables"} puis `ajouter`{:class="block3variables"} les six nombres corrects dans la liste dans laquelle ils appartiennent, dans l'ordre correct.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Voici les blocs de code dont tu as besoin :
 
 ![notes-sprite](images/note-sprite.png)
 
@@ -34,7 +34,7 @@ delete (all v) of [times v]
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Voici à quoi ton code devrait ressembler :
 
 ![notes-sprite](images/note-sprite.png)
 
@@ -60,7 +60,7 @@ add [9] to [times v]
 
 \--- task \---
 
-Test your new block by running it at the start of your project.
+Teste ton nouveau bloc en l'exécutant au début de ton projet.
 
 ![notes-sprite](images/note-sprite.png)
 
@@ -71,8 +71,8 @@ hide
 reset timer
 ```
 
-Each of your lists should now contain six numbers.
+Chacune de tes listes devrait maintenant contenir six nombres.
 
-![Lists of notes and times](images/lists-add.png)
+![Listes de notes et de temps](images/lists-add.png)
 
 \--- /task \---
