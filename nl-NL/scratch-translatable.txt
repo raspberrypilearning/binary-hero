@@ -1,3 +1,7 @@
+on
+
+off
+
 noot
 
 verandering noot
@@ -6,6 +10,8 @@ noten
 
 tijden
 
+time
+
 laad 'happy birthday'
 
 wis song
@@ -13,3 +19,7 @@ wis song
 score
 
 correct
+
+correct
+
+normal
