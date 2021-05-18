@@ -10,8 +10,8 @@ Fais un autre bloc appelé `effacer la chanson`{:class="block3myblocks"} qui sup
 
 ```blocks3
 define clear song
-delete (all v) of [notes v]
-delete (all v) of [times v]
+delete all of [notes v]
+delete all of [times v]
 ```
 
 Lorsque tu testes ton code, il devrait fonctionner comme avant.
