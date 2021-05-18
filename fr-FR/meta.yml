@@ -1,7 +1,7 @@
 ---
-title: Binary hero
+title: Virtuose du binaire
 hero_image: images/banner.png
-description: Score points by playing the notes of a song as they scroll past
+description: Marquer des points en jouant les notes d'une chanson quand elles défilent
 listed: true
 copyedit: true
 version: 4.1.0
@@ -10,21 +10,21 @@ steps:
   - 
     title: Introduction
   - 
-    title: Key presses
+    title: Touches pressées
   - 
-    title: Binary notes
+    title: Notes binaires
   - 
-    title: Play notes
+    title: Jouer des notes
   - 
-    title: Scrolling notes
+    title: Notes qui défilent
   - 
-    title: Store your song
+    title: Stocker ta chanson
   - 
-    title: More custom blocks
+    title: Plus de blocs personnalisés
   - 
-    title: Keep a score
+    title: Garder un score
   - 
-    title: "Challenge: take it further"
+    title: "Défi : Aller plus loin"
     challenge: true
   - 
-    title: "What next?"
+    title: "Et ensuite ?"
