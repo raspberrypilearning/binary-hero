@@ -95,7 +95,7 @@ Teste ton code. Entends-tu qu'une note est répétée lorsque tu maintiens une t
 
 \--- task \---
 
-Add code so that the **all** the key sprites only play a note **once** when a key is held down.
+Ajoute du code pour que **tous** les sprites de touche ne jouent une note **qu'une fois** quand une touche est enfoncée.
 
 ![1 sprite](images/1.png)
 
