@@ -1,3 +1,7 @@
+on
+
+off
+
 note
 
 note change
@@ -6,6 +10,8 @@ notes
 
 times
 
+time
+
 load 'happy birthday'
 
 clear song
@@ -13,3 +19,7 @@ clear song
 score
 
 correct
+
+correct
+
+normal
