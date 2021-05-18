@@ -4,7 +4,7 @@ Speel noten wanneer de toetsen worden ingedrukt.
 
 \--- task \---
 
-Voeg de extensie Muziek toe aan je project.
+Voeg de Muziek-uitbreiding toe aan je project.
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -95,7 +95,7 @@ Test je code. Hoor je dat een noot herhaaldelijk wordt gespeeld als je een toets
 
 \--- task \---
 
-Voeg code toe zodat **alle** toets sprites een noot slechts **eenmaal** spelen als een toets continu wordt ingedrukt?
+Add code so that the **all** the key sprites only play a note **once** when a key is held down.
 
 ![1 sprite](images/1.png)
 
