@@ -23,13 +23,13 @@ Voici les blocs de code dont tu as besoin :
 ![notes-sprite](images/note-sprite.png)
 
 ```blocks3
-delete (all v) of [notes v]
+delete all of [notes v]
 
 define load 'happy birthday'
 
 add [1] to [notes v]
 
-delete (all v) of [times v]
+delete all of [times v]
 ```
 
 \--- /hint \--- \--- hint \---
@@ -40,8 +40,8 @@ Voici à quoi ton code devrait ressembler :
 
 ```blocks3
 define load 'happy birthday'
-delete (all v) of [notes v]
-delete (all v) of [times v]
+delete all of [notes v]
+delete all of [times v]
 add [1] to [notes v]
 add [5] to [times v]
 add [1] to [notes v]
