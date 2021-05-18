@@ -1,10 +1,10 @@
-## Play notes
+## Jouer des notes
 
-Play notes when the keys are pressed.
+Jouer des notes lorsque les touches sont pressées.
 
 \--- task \---
 
-Add the Music extension to your project.
+Ajoute l'extension « Musique » à ton projet.
 
 [[[generic-scratch3-add-music-extension]]]
 
@@ -12,7 +12,7 @@ Add the Music extension to your project.
 
 \--- task \---
 
-Broadcast a 'note change' message whenever **any of the four keys** is pressed.
+Diffuser un message de changement de note chaque fois que **l'une des quatre touches** est pressée.
 
 ![sprite 1](images/1.png)
 
@@ -31,9 +31,9 @@ end
 
 \--- task \---
 
-Add code to the Stage to play a note when a combination of keys is pressed.
+Ajoute du code à la scène pour jouer une note lorsqu'une combinaison de touches est pressée.
 
-Your notes should start at middle C, which is note 60.
+Tes notes devraient commencer au C moyen, ce qui est la note 60.
 
 ```blocks3
 play note (60) for (1) beats
@@ -43,18 +43,18 @@ play note (60) for (1) beats
 
 ![1 sprite](images/stage.png)
 
-When your stage `receives`{:class="block3events"} the 'change note' broadcast, it should `stop all sounds`{:class="block3sound"} before `playing a note`{:class="block3sound"} based on the value of the`note`{:class="block3variables"} variable.
+Lorsque ta scène `reçoit`{:class="block3events"} la diffusion "changer de note", il devrait `arrêter tous les sons`{:class="block3sound"} avant de `jouer une note`{:class="block3sound"} en fonction de la valeur de la variable `note`{:class="block3variables"}.
 
-+ When the `note`{:class="block3variables"} variable is `1`{:class="block3variables"}, note 60 should play
-+ When the `note`{:class="block3variables"} variable is `2`{:class="block3variables"}, note 61 should play
-+ When the `note`{:class="block3variables"} variable is `3`{:class="block3variables"}, note 62 should play
++ Lorsque la variable `note`{:class="block3variables"} est `1`{:class="block3variables"}, la note 60 devrait jouer
++ Lorsque la variable `note`{:class="block3variables"} est `2`{:class="block3variables"}, la note 61 devrait jouer
++ Lorsque la variable `note`{:class="block3variables"} est `3`{:class="block3variables"}, la note 62 devrait jouer
 + etc...
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Voici les blocs de code dont tu as besoin :
 
-![stage](images/stage.png)
+![scène](images/stage.png)
 
 ```blocks3
 play note (60) for (1) beats
@@ -66,9 +66,9 @@ stop all sounds
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Voici à quoi ton code devrait ressembler :
 
-![stage](images/stage.png)
+![scène](images/stage.png)
 
 ```blocks3
 when I receive [note change v]
@@ -80,13 +80,13 @@ play note ((59) + (note :: variables)) for (1) beats
 
 \--- task \---
 
-Test your code. Can you hear that a note is repeatedly played when you hold down a key?
+Teste ton code. Entends-tu qu'une note est répétée lorsque tu maintiens une touche enfoncée ?
 
 \--- no-print \---
 
 <video width="400" controls>
   <source src="images/play-note-bug.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
+  Ton navigateur ne supporte pas la vidéo HTML5.
 </video>
 
 \--- /no-print \---
@@ -95,7 +95,7 @@ Test your code. Can you hear that a note is repeatedly played when you hold down
 
 \--- task \---
 
-Add code so that the **all** the key sprites only play a note **once** when a key is held down?
+Add code so that the **all** the key sprites only play a note **once** when a key is held down.
 
 ![1 sprite](images/1.png)
 
