@@ -95,7 +95,7 @@ Prueba tu código. Can you hear that a note is repeatedly played when you hold d
 
 \--- task \---
 
-Add code so that the **all** the key sprites only play a note **once** when a key is held down?
+Add code so that the **all** the key sprites only play a note **once** when a key is held down.
 
 ![1 objeto](images/1.png)
 
