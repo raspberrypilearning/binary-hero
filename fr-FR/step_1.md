@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
+Ceci est la version **Scratch 3** du projet. Il existe également une version [Scratch 2 du projet](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
 
 \--- /no-print \---
 
 ## Introduction
 
-In this project you will make a game in which you play the notes of a song as they scroll down the Stage.
+Dans ce projet, tu vas créer un jeu dans lequel tu joues les notes d'une chanson pendant qu'elles défilent sur la scène.
 
-### What you will make
+### Ce que tu feras
 
 \--- no-print \---
 
-Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd>, and <kbd>v</kbd> keys to play the correct notes when these reach the bottom of the Stage. You'll score ten points for every correct note you play.
+Clique sur le drapeau vert pour commencer la partie. Utilise les touches <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd>, et <kbd>v</kbd> pour jouer les bonnes notes lorsque celles-ci atteignent le bas de la scène. Tu marqueras dix points pour chaque note que tu joueras.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259028053/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,47 +22,47 @@ Click the green flag to start the game. Use the <kbd>z</kbd>, <kbd>x</kbd>, <kbd
 
 \--- print-only \---
 
-The notes will fall from above, and you will have to press keys to "catch" and play the notes. ![showcase](images/showcase.png)
+Les notes tomberont d'en haut, et tu devras appuyer sur des touches pour les « attraper » et les jouer.![démonstration](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Ce que tu vas apprendre
 
-+ How to use lists to store sequences of notes and timings
-+ How to use custom blocks with inputs
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will need
-
-### Hardware
-
-+ A computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
-
-### Downloads
-
-+ [Offline starter project](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
++ Comment utiliser des listes pour stocker des séquences de notes et de temps
++ Comment utiliser des blocs personnalisés avec des entrées
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Ce dont tu auras besoin
+
+### Matériel informatique
+
++ Un ordinateur capable d'exécuter Scratch 3
+
+### Logiciel
+
++ Scratch 3 (soit [en ligne](http://rpf.io/scratchon){:target="_blank"} ou [hors ligne](http://rpf.io/scratchoff){:target="_blank"})
+
+### Téléchargements
+
++ [Projet de démarrage hors connexion](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## titre: Notes supplémentaires pour les éducateurs
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/binary-hero/print).
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/binary-hero/print).
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/binary-hero-get){:target="_blank"}.
+Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/binary-hero-get){:target="_blank"}.
 
 \--- /collapse \---
