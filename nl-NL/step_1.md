@@ -12,7 +12,7 @@ In dit project maak je een game waarin je de noten van een nummer speelt terwijl
 
 \--- no-print \---
 
-Klik op de groene vlag om het spel te starten. Gebruik de toetsen <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd> en <kbd>v</kbd> om de juiste noten te spelen wanneer deze de onderkant van het speelveld bereiken. Je scoort tien punten voor elke juiste noot die je speelt.
+Klik op de groene vlag om het spel te starten. Gebruik de toetsen <kbd>z</kbd>, <kbd>x</kbd>, <kbd>c</kbd> en <kbd>v</kbd> om de juiste noten te spelen wanneer deze de onderkant van het speelveld bereiken. Je scoort een punt voor elke juiste noot die je speelt.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/259028053/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -63,6 +63,6 @@ Als u dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](ht
 
 \--- /no-print \---
 
-Je kunt het [voltooide project hier](http://rpf.io/p/en/binary-hero-get)"{:target="_blank"} vinden.
+Je kunt het [voltooide project hier](http://rpf.io/p/en/binary-hero-get){:target="_blank"} vinden.
 
 \--- /collapse \---
