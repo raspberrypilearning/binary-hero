@@ -9,9 +9,9 @@ Maak nog een blok met de naam `wis liedje`{:class="block3myblocks"} dat alle ite
 ![noten sprite](images/note-sprite.png)
 
 ```blocks3
-definieer wis liedje
-verwijder (alle v) of [noten v]
-verwijder (alle v) of [tijden v]
+define clear song
+delete all of [notes v]
+delete all of [times v]
 ```
 
 Wanneer je de code test, zou deze net zo moeten werken als voorheen.
