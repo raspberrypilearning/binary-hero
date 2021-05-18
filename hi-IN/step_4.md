@@ -95,7 +95,7 @@ play note ((59) + (note :: variables)) for (1) beats
 
 \--- task \---
 
-कोड जोड़ें ताकि जब कोई चाबी दबाई जाए तो **सभी** चाबी स्प्राइट किसी स्वर को केवल **एक बार** बजाते हैं?
+Add code so that the **all** the key sprites only play a note **once** when a key is held down.
 
 ![1 स्प्राइट](images/1.png)
 
