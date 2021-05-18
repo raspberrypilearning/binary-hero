@@ -1,26 +1,26 @@
-## Keep a score
+## Garder un score
 
-Improve your game by giving the player points for playing the correct note.
+Améliore ton jeu en donnant aux joueurs des points à chaque bonne note jouée.
 
 \--- task \---
 
-Create a new variable called `score`{:class="block3variables"}, and place it at the top of your Stage.
+Crée une nouvelle variable appelée `score`{:class="block3variables"}, et place-la en haut de ta scène.
 
-![Add a score](images/add-score.png)
+![Ajouter un score](images/add-score.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add to `score`{:class="block3variables"} whenever the player plays the correct note at the correct time. Remember to set `score`{:class="block3variables"} to `0`{:class="block3variables"} at the start of the game.
+Ajoute au `score`{:class="block3variables"} chaque fois que le joueur joue la bonne note au bon moment. N'oublie pas de définir le `score`{:class="block3variables"} à `0`{:class="block3variables"} au début du jeu.
 
 \--- hints \--- \--- hint \---
 
-`Before each clone is deleted`{:class="block3control"}, it should check to see `if`{:class="block3control"} the `note`{:class="block3variables"} is `equal to`{:class="block3operators"} the `costume number`{:class="block3looks"}, and in that case, the score should be `changed`{:class="block3variables"}.
+`Avant que chaque clone soit supprimé`{:class="block3control"}, il devrait vérifier pour voir `si`{:class="block3control"} la `note`{:class="block3variables"} est `égale au`{:class="block3operators"} numéro de costume ``{:class="block3looks"}, et dans ce cas, le score devrait être `modifié`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Voici les blocs de code dont tu as besoin :
 
 ![note](images/note-sprite.png)
 
@@ -37,7 +37,7 @@ end
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Voici à quoi ton code devrait ressembler:
 
 ![note](images/note-sprite.png)
 
@@ -56,7 +56,7 @@ delete this clone
 
 \--- task \---
 
-Broadcast a message called 'correct' when the correct note is played.
+Diffuse un message appelé « correct » lorsque la bonne note est jouée.
 
 ![note](images/note-sprite.png)
 
@@ -76,20 +76,20 @@ delete this clone
 
 \--- task \---
 
-![Correct stage background](images/correct-costume.png)
+![Arrière-plan de la bonne scène](images/correct-costume.png)
 
-Add code to your Stage to briefly change the backdrop when the player plays the correct note. The project already contains a second backdrop for this.
+Ajoute du code à ta scène pour changer brièvement l'arrière-plan lorsque le joueur joue la bonne note. Le projet contient déjà un deuxième arrière-plan pour cela.
 
-![stage](images/stage.png)
+![scène](images/stage.png)
 
 ```blocks3
-when flag clicked
-switch backdrop to (normal v)
+quand le drapeau vert est cliqué
+basculer sur l'arrière-plan (normal v)
 
-when I receive [correct v]
-switch backdrop to (correct v)
-wait (0.3) seconds
-switch backdrop to (normal v)
+quand je reçois [correct v]
+basculer sur l'arrière-plan (correct v)
+attendre (0.3) secondes
+basculer sur l'arrière-plan (normal v)
 ```
 
 \--- /task \---
