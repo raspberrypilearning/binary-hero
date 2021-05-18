@@ -43,7 +43,7 @@ Al deze code moet `altijd worden herhaald`{:class="block3control"}.
 
 \--- /hint \--- \--- hint \---
 
-Hier zijn de codeblokken die je nodig hebt en je moet er enkele meerdere keren toevoegen:
+Hier zijn de codeblokken die je nodig hebt en sommige moet je meerdere keren gebruiken:
 
 ![speelveld](images/stage.png)
 
