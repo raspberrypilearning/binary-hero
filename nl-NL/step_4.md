@@ -95,7 +95,7 @@ Test je code. Hoor je dat een noot herhaaldelijk wordt gespeeld als je een toets
 
 \--- task \---
 
-Add code so that the **all** the key sprites only play a note **once** when a key is held down.
+Voeg code toe zodat **alle** toets sprites een noot slechts **eenmaal** spelen als een toets continu wordt ingedrukt?
 
 ![1 sprite](images/1.png)
 
