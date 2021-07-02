@@ -4,7 +4,7 @@ Hoeveel noten kun je met vier toetsen spelen? Het is misschien meer dan je denkt
 
 \--- task \---
 
-Open het 'Binary hero' Scratch startproject.
+Open het 'Binaire held' Scratch startproject.
 
 **Online:** open het startproject op [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_ blank"}. Als je een Scratch account hebt, kun je klikken op **Remix** in de rechterbovenhoek om een kopie van het project op te slaan in je account.
 
