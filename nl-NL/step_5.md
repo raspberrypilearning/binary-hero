@@ -1,4 +1,4 @@
-## Rollende noten
+## Scrollende noten
 
 Je moet noten in het speelveld maken zodat de speler weet welke toetsen hij moet indrukken en wanneer hij erop moet drukken.
 
