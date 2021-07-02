@@ -43,7 +43,7 @@ speel noot (60) gedurende (1) maten
 
 ![1 sprite](images/stage.png)
 
-Als het speeldveld ``{:class="block3events"} het signaal 'noot verandering' ontvangt, moet deze `alle geluiden stoppen`{:class="block3sound"} voordat `een noot`{:class="block3sound"} gespeeld wordt gebaseerd op de waarde van de variabele `noot`{:class="block3variables"}.
+Als het `speeldveld`{:class="block3events"} het signaal 'noot veranderen' ontvangt, moet deze `alle geluiden stoppen`{:class="block3sound"} voordat `een noot`{:class="block3sound"} gespeeld wordt gebaseerd op de waarde van de variabele `noot`{:class="block3variables"}.
 
 + Als de variabele `noot`{:class="block3variables"} `1`{:class="block3variables"} is, moet noot 60 spelen
 + Als de variabele `noot`{:class="block3variables"} `2`{:class="block3variables"} is, moet noot 61 spelen
