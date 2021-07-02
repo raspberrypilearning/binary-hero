@@ -4,7 +4,7 @@ Speel noten wanneer de toetsen worden ingedrukt.
 
 --- task ---
 
-Voeg de extensie Muziek toe aan je project.
+Voeg de Muziek-uitbreiding toe aan je project.
 
 [[[generic-scratch3-add-music-extension]]]
 
