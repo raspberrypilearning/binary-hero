@@ -8,8 +8,8 @@ version: 4.1.0
 last_tested: 2018-11-02
 steps:
   - title: Inleiding
-  - title: Toets indrukken
-  - title: Binaire noten
+  - title: Toetsaanslagen
+  - title: Binaire getallen
   - title: Speel noten
   - title: Scrollende noten
   - title: Bewaar je liedje
