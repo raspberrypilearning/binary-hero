@@ -1,6 +1,6 @@
-on
+allumé
 
-off
+éteint
 
 note
 
@@ -10,7 +10,7 @@ notes
 
 temps
 
-time
+temps
 
 charger "joyeux anniversaire"
 
