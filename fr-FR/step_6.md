@@ -10,7 +10,8 @@ Tu vas maintenant ajouter du code pour stocker des chansons dans ton projet, afi
 
 --- task ---
 
-Fais un nouveau bloc appelé `charger "joyeux anniversaire"`{:class="block3myblocks"} qui efface les listes de `notes`{:class="block3variables"} et `temps`{:class="block3variables"}, puis ajoute les bons nombres dans les deux listes. [[[generic-scratch3-make-block]]]
+Fais un nouveau bloc appelé `charger "joyeux anniversaire"`{:class="block3myblocks"} qui efface les listes de `notes`{:class="block3variables"} et `temps`{:class="block3variables"}, puis ajoute les bons nombres dans les deux listes. 
+[[[generic-scratch3-make-block]]]
 
 --- hints ---
 --- hint ---
@@ -62,6 +63,7 @@ add [9] to [temps v]
 --- /hint ---
 --- /hints ---
 --- /task ---
+
 
 --- task ---
 
