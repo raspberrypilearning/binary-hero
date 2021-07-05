@@ -13,11 +13,12 @@ Tu vas maintenant ajouter du code pour stocker des chansons dans ton projet, afi
 Fais un nouveau bloc appelé `charger "joyeux anniversaire"`{:class="block3myblocks"} qui efface les listes de `notes`{:class="block3variables"} et `temps`{:class="block3variables"}, puis ajoute les bons nombres dans les deux listes. [[[generic-scratch3-make-block]]]
 
 --- hints ---
- --- hint ---
+--- hint ---
 
 Le bloc `charger "joyeux anniversaire"`{:class="block3myblocks"} devrait `supprimer tous les éléments`{:class="block3variables"} à la fois des `notes`{:class="block3variables"} et `temps`{:class="block3variables"} puis `ajouter`{:class="block3variables"} les six nombres corrects dans la liste dans laquelle ils appartiennent, dans l'ordre correct.
 
---- /hint --- --- hint ---
+--- /hint ---
+--- hint ---
 
 Voici les blocs de code dont tu as besoin :
 
@@ -33,7 +34,8 @@ add [1] to [notes v]
 delete all of [temps v]
 ```
 
---- /hint --- --- hint ---
+--- /hint ---
+--- hint ---
 
 Voici à quoi ton code devrait ressembler :
 
@@ -57,7 +59,9 @@ add [5] to [notes v]
 add [9] to [temps v]
 ```
 
---- /hint ------ /hints --- --- /task ---
+--- /hint ---
+--- /hints ---
+--- /task ---
 
 --- task ---
 
