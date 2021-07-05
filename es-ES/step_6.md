@@ -10,7 +10,9 @@ You're now going to add code to store songs in your project, so that you don't h
 
 \--- task \---
 
-Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists. [[[generic-scratch3-make-block]]]
+Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists.
+
+[[[generic-scratch3-make-block]]]
 
 \--- hints \--- \--- hint \---
 
