@@ -10,17 +10,19 @@
 
 \--- task \---
 
-Создай новый блок с именем `загрузить 'с днем рожденья'`{:class="block3myblocks"}, который очищает оба списка `ноты`{:class="block3variables"} и `время`{:class="block3variables"}, а затем добавляет правильные числа обратно в оба списка. [[[generic-scratch3-make-block]]]
+Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists.
+
+[[[generic-scratch3-make-block]]]
 
 \--- hints \--- \--- hint \---
 
-Блок `загрузить 'с днем рождения'`{:class="block3myblocks"} должен `удалить все`{:class="block3variables"} элементы из обоих списков `ноты`{:class="block3variables"} и `время`{:class="block3variables"} и затем `добавляет`{:class="block3variables"} правильные шесть чисел в правильном порядке в список, в котором он находится.
+The `load 'happy birthday'`{:class="block3myblocks"} block should `delete all`{:class="block3variables"} items from both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists and then `add`{:class="block3variables"} the correct six numbers to the list they belong in, in the correct order.
 
 \--- /hint \--- \--- hint \---
 
-Вот блоки кода, которые тебе нужны:
+Here are the code blocks you need:
 
-![ноты-спрайт](images/note-sprite.png)
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 delete all of [notes v]
@@ -34,9 +36,9 @@ delete all of [times v]
 
 \--- /hint \--- \--- hint \---
 
-Так должен выглядеть твой код:
+This is what your code should look like:
 
-![ноты-спрайт](images/note-sprite.png)
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 define load 'happy birthday'
@@ -60,9 +62,9 @@ add [9] to [times v]
 
 \--- task \---
 
-Проверь новый блок, запустив его в начале проекта.
+Test your new block by running it at the start of your project.
 
-![ноты-спрайт](images/note-sprite.png)
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,8 +73,8 @@ hide
 reset timer
 ```
 
-Каждый из списков теперь должен содержать шесть чисел.
+Each of your lists should now contain six numbers.
 
-![Списки нот и времени](images/lists-add.png)
+![Lists of notes and times](images/lists-add.png)
 
 \--- /task \---
