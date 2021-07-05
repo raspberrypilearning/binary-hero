@@ -41,7 +41,7 @@ Fais un bloc qui prend un numéro en tant que `note`{:class="block3variables"} e
 Voici à quoi ton code devrait ressembler :
 
 ```blocks3
-define Ajouter note (note) at (temps) secs
+define Ajouter note (note) at (temps :: variables) secs
 add (note :: custom-arg) to [notes v]
 add (temps :: custom-arg) to [temps v]
 
