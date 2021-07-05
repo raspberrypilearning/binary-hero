@@ -10,17 +10,19 @@ Je gaat nu code toevoegen om liedjes in je project op te slaan, zodat je niet el
 
 \--- task \---
 
-Maak een nieuw blok met de naam `laad 'happy birthday'`{:class="block3myblocks"} dat zowel de `noten`{:class="block3variables"} als `tijden`{:class="block3variables"} lijsten wist en vervolgens de juiste getallen aan beide lijsten toevoegt. [[[generic-scratch3-make-block]]]
+Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists.
+
+[[[generic-scratch3-make-block]]]
 
 \--- hints \--- \--- hint \---
 
-Het `laad 'happy birthday'`{:class="block3myblocks"} blok moet `alle`{:class="block3variables"} items verwijderen uit zowel de `noten`{:class="block3variables"} als de `tijden`{:class="block3variables"} lijsten en vervolgens de juiste zes nummers aan de lijst `toevoegen`{:class="block3variables"} waar ze in horen, in de juiste volgorde.
+The `load 'happy birthday'`{:class="block3myblocks"} block should `delete all`{:class="block3variables"} items from both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists and then `add`{:class="block3variables"} the correct six numbers to the list they belong in, in the correct order.
 
 \--- /hint \--- \--- hint \---
 
-Dit zijn de codeblokken die je nodig hebt:
+Here are the code blocks you need:
 
-![noten sprite](images/note-sprite.png)
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 delete all of [notes v]
@@ -34,9 +36,9 @@ delete all of [times v]
 
 \--- /hint \--- \--- hint \---
 
-Dit is hoe je code eruit zou moeten zien:
+This is what your code should look like:
 
-![noten sprite](images/note-sprite.png)
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 define load 'happy birthday'
@@ -60,9 +62,9 @@ add [9] to [times v]
 
 \--- task \---
 
-Test je nieuwe blok door het aan het begin van je project uit te voeren.
+Test your new block by running it at the start of your project.
 
-![noten sprite](images/note-sprite.png)
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 wanneer op de groene vlag wordt geklikt
@@ -71,8 +73,8 @@ verdwijn
 zet klok op 0
 ```
 
-Elk van je lijsten zou nu zes getallen moeten bevatten.
+Each of your lists should now contain six numbers.
 
-![Lijsten met noten en tijden](images/lists-add.png)
+![Lists of notes and times](images/lists-add.png)
 
 \--- /task \---
