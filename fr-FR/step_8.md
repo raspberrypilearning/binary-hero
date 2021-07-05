@@ -16,7 +16,7 @@ Ajoute au `score`{:class="block3variables"} chaque fois que le joueur joue la bo
 
 \--- hints \--- \--- hint \---
 
-`Avant que chaque clone soit supprimé`{:class="block3control"}, il devrait vérifier pour voir `si`{:class="block3control"} la `note`{:class="block3variables"} est `égale au`{:class="block3operators"} numéro de costume ``{:class="block3looks"}, et dans ce cas, le score devrait être `modifié`{:class="block3variables"}.
+`Avant que chaque clone soit supprimé`{:class="block3control"}, il devrait vérifier pour voir `si`{:class="block3control"} la `note`{:class="block3variables"} est `égale au`{:class="block3operators"} `numéro de costume`{:class="block3looks"}, et dans ce cas, le score devrait être `modifié`{:class="block3variables"}.
 
 \--- /hint \--- \--- hint \---
 
@@ -83,13 +83,13 @@ Ajoute du code à ta scène pour changer brièvement l'arrière-plan lorsque le 
 ![scène](images/stage.png)
 
 ```blocks3
-quand le drapeau vert est cliqué
-basculer sur l'arrière-plan (normal v)
+when flag clicked
+switch backdrop to (normal v)
 
-quand je reçois [correct v]
-basculer sur l'arrière-plan (correct v)
-attendre (0.3) secondes
-basculer sur l'arrière-plan (normal v)
+when I receive [correct v]
+switch backdrop to (correct v)
+wait (0.3) seconds
+switch backdrop to (normal v)
 ```
 
 \--- /task \---
