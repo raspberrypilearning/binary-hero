@@ -10,17 +10,19 @@
 
 \--- task \---
 
-नामक एक नया ब्लॉक बनाएँ जो `load 'happy birthday'`{:class="block3myblocks"}दोनों सूचियों को साफ कर देता है`notes`{:class="block3variables"} और `times`{:class="block3variables"} सूचियों, और फिर सही स्वरों को दोनों सूचियों में वापस जोड़ता है। [[[generic-scratch3-make-block]]]
+Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists.
+
+[[[generic-scratch3-make-block]]]
 
 \--- hints \--- \--- hint \---
 
-यह `load 'happy birthday'`{:class="block3myblocks"} ब्लॉक को `notes`{:class="block3variables"} और `times`{:class="block3variables"} दोनों सूचियों में से सभी आइटमों को `delete all`{:class="block3variables"} और फिर < 0>add</code>{:class="block3variables"} उन सही छह स्वरों को सही क्रम में उस सूची में जोड़ देना चाहिए जिस सूची में से वे हैं।
+The `load 'happy birthday'`{:class="block3myblocks"} block should `delete all`{:class="block3variables"} items from both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists and then `add`{:class="block3variables"} the correct six numbers to the list they belong in, in the correct order.
 
 \--- /hint \--- \--- hint \---
 
-आपको इन कोड ब्लॉक्स की ज़रुरत पड़ेगी:
+Here are the code blocks you need:
 
-![टिप्पणियाँ-स्प्राइट](images/note-sprite.png)
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 delete all of [notes v]
@@ -34,9 +36,9 @@ delete all of [times v]
 
 \--- /hint \--- \--- hint \---
 
-आपका कोड ऐसा दिखना चाहिए:
+This is what your code should look like:
 
-![टिप्पणियाँ-स्प्राइट](images/note-sprite.png)
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 define load 'happy birthday'
@@ -60,9 +62,9 @@ add [9] to [times v]
 
 \--- task \---
 
-अपने नए ब्लॉक को प्रोजेक्ट के प्रारंभ में चलाकर इसका परीक्षण करें।
+Test your new block by running it at the start of your project.
 
-![टिप्पणियाँ-स्प्राइट](images/note-sprite.png)
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,8 +73,8 @@ hide
 reset timer
 ```
 
-आपकी प्रत्येक सूची में अब छह स्वर होने चाहिए।
+Each of your lists should now contain six numbers.
 
-![स्वरों और समयों की सूची](images/lists-add.png)
+![Lists of notes and times](images/lists-add.png)
 
 \--- /task \---
