@@ -10,17 +10,19 @@ Ahora vas a agregar código para guardar las canciones en tu proyecto, para que 
 
 \--- task \---
 
-Crea un nuevo bloque que se llame `carga «feliz cumpleaños»`{:class="block3myblocks"} que borre las listas `notas`{:class="block3variables"} y `tiempos`{:class="block3variables"}, y luego añade los números correctos a ambas listas. [[[generic-scratch3-make-block]]]
+Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists.
+
+[[[generic-scratch3-make-block]]]
 
 \--- hints \--- \--- hint \---
 
-El bloque `cargar «feliz cumpleaños»`{:class="block3myblocks"} debería `eliminar todos`{:class="block3variables"} los elementos de las listas `notas`{:class="block3variables"} y `tiempos`{:class="block3variables"} y, a continuación, `añadir`{:class="block3variables"} los seis números correctos de la lista en la que pertenecen, en el orden correcto.
+The `load 'happy birthday'`{:class="block3myblocks"} block should `delete all`{:class="block3variables"} items from both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists and then `add`{:class="block3variables"} the correct six numbers to the list they belong in, in the correct order.
 
 \--- /hint \--- \--- hint \---
 
-Aquí están los bloques de código que necesitas:
+Here are the code blocks you need:
 
-![objetos nota](images/note-sprite.png)
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 delete all of [notes v]
@@ -36,7 +38,7 @@ delete all of [times v]
 
 This is what your code should look like:
 
-![objetos nota](images/note-sprite.png)
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 define load 'happy birthday'
@@ -60,9 +62,9 @@ add [9] to [times v]
 
 \--- task \---
 
-Prueba tu nuevo bloque ejecutándolo al inicio de tu proyecto.
+Test your new block by running it at the start of your project.
 
-![objetos nota](images/note-sprite.png)
+![notes-sprite](images/note-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,8 +73,8 @@ hide
 reset timer
 ```
 
-Ahora, cada una de tus listas debe contener seis números.
+Each of your lists should now contain six numbers.
 
-![Listas de notas y tiempos](images/lists-add.png)
+![Lists of notes and times](images/lists-add.png)
 
 \--- /task \---
