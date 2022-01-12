@@ -1,20 +1,23 @@
 ---
 title: बाइनरी हीरो
 hero_image: images/banner.png
-description: जैसे ही वे स्क्रॉल करके निकलते हैं, किसी गाने के स्वर चलाकर अंक प्राप्त करें
+description: जैसे ही वे स्क्रॉल करके निकलते हैं, किसी गाने के स्वर चलाकर अंक प्राप्त
+  करें
 listed: true
 copyedit: true
 version: 4.1.0
 last_tested: 2018-11-02
 steps:
-  - title: परिचय
-  - title: कुंजी दबाना
-  - title: बाइनरी संख्याएँ
-  - title: स्वर बजाना
-  - title: स्वरों को स्क्रॉल करना
-  - title: अपना गाना संगृहीत करें
-  - title: अधिक कस्टम ब्लॉक्स
-  - title: सस्कोर रखिए
-  - title: "चुनौती: इसे आगे बढ़ाएँ"
-    challenge: true
-  - title: "आगे क्या?"
+- title: परिचय
+  completion: engaged
+- title: कुंजी दबाना
+- title: बाइनरी संख्याएँ
+- title: स्वर बजाना
+- title: स्वरों को स्क्रॉल करना
+- title: अपना गाना संगृहीत करें
+- title: अधिक कस्टम ब्लॉक्स
+  completion: internal
+- title: सस्कोर रखिए
+- title: 'चुनौती: इसे आगे बढ़ाएँ'
+  challenge: true
+- title: आगे क्या?

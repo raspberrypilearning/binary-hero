@@ -7,14 +7,16 @@ copyedit: true
 version: 4.1.0
 last_tested: 2018-11-02
 steps:
-  - title: Введение
-  - title: Использование клавиш
-  - title: Двоичные ноты
-  - title: Воспроизведи ноты
-  - title: Прокрутка нот
-  - title: Сохрани свою песню
-  - title: Больше пользовательских блоков
-  - title: Веди счет
-  - title: "Задача: продолжай улучшать"
-    challenge: true
-  - title: "Что дальше?"
+- title: Введение
+  completion: engaged
+- title: Использование клавиш
+- title: Двоичные ноты
+- title: Воспроизведи ноты
+- title: Прокрутка нот
+- title: Сохрани свою песню
+- title: Больше пользовательских блоков
+  completion: internal
+- title: Веди счет
+- title: 'Задача: продолжай улучшать'
+  challenge: true
+- title: Что дальше?
