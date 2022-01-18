@@ -8,7 +8,7 @@ Open het 'Binaire held' Scratch startproject.
 
 **Online** open het start project op [scratch.mit.edu/projects/550142911](https://scratch.mit.edu/projects/550142911){:target="_blank"}. Als je een Scratch account hebt, kun je klikken op **Remix** in de rechterbovenhoek om een kopie van het project op te slaan in je account.
 
-**Offline:** open het [startproject](http://rpf.io/p/nl-NL/binary-hero-go){:target="_blank"} in de offline editor. Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** open het [startproject](https://rpf.io/p/nl-NL/binary-hero-go){:target="_blank"} in de offline editor. Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
