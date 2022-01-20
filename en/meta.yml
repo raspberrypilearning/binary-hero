@@ -1,3 +1,4 @@
+---
 title: Binary hero
 hero_image: images/banner.png
 description: Score points by playing the notes of a song as they scroll past
@@ -5,15 +6,17 @@ listed: true
 copyedit: true
 version: 4.1.0
 last_tested: 2018-11-02
-steps: 
+steps:
 - title: Introduction
+  completion: engaged
 - title: Key presses
 - title: Binary notes
 - title: Play notes
 - title: Scrolling notes
 - title: Store your song
 - title: More custom blocks
+  completion: internal
 - title: Keep a score
-- title: "Challenge: take it further"
+- title: 'Challenge: take it further'
   challenge: true
-- title: "What next?"
+- title: What next?
