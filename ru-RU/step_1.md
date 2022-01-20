@@ -47,11 +47,11 @@ title: Что тебе понадобится
 
 ### Программное обеспечение
 
-+ Scratch 3 (либо [онлайн-редактор](http://rpf.io/scratchon){:target="_blank"}, либо [автономный редактор (без подключения к Интернету)](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (либо [онлайн-редактор](https://rpf.io/scratchon){:target="_blank"}, либо [автономный редактор (без подключения к Интернету)](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Загрузки
 
-+ [Автономный стартовый проект](http://rpf.io/p/ru-RU/binary-hero-go){:target="_blank"}
++ [Автономный стартовый проект](https://rpf.io/p/ru-RU/binary-hero-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ title: Дополнительные примечания для педагого
 
 --- /no-print ---
 
-Здесь ты можешь найти [завершённый проект](http://rpf.io/p/ru-RU/binary-hero-get){:target="_blank"}.
+Здесь ты можешь найти [завершённый проект](https://rpf.io/p/ru-RU/binary-hero-get){:target="_blank"}.
 
 --- /collapse ---

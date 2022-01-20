@@ -47,11 +47,11 @@ title: Wat je nodig hebt
 
 ### Software
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} of [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [Offline startproject](http://rpf.io/p/nl-NL/binary-hero-go){:target="_blank"}
++ [Offline startproject](https://rpf.io/p/nl-NL/binary-hero-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ Als u dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](ht
 
 --- /no-print ---
 
-Je kunt het [voltooide project hier](http://rpf.io/p/nl-NL/binary-hero-get){:target="_blank"} vinden.
+Je kunt het [voltooide project hier](https://rpf.io/p/nl-NL/binary-hero-get){:target="_blank"} vinden.
 
 --- /collapse ---

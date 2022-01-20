@@ -6,9 +6,9 @@
 
 'बाइनरी हीरो' स्क्रैच स्टार्टर प्रोजेक्ट खोलें।
 
-**Online:** : स्टार्टर प्रोजेक्ट खोलें [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_blank"}. यदि आपके पास एक स्क्रैच खाता है, तो आप यहाँ पर क्लिक कर सकते हैं **Remix**परियोजना की एक प्रति सहेजने के लिए ऊपरी दाएँ हाथ के कोने में।
+**Online:** : स्टार्टर प्रोजेक्ट खोलें [rpf.io/binary-hero-on](https://rpf.io/binary-hero-on){:target="_blank"}. यदि आपके पास एक स्क्रैच खाता है, तो आप यहाँ पर क्लिक कर सकते हैं **Remix**परियोजना की एक प्रति सहेजने के लिए ऊपरी दाएँ हाथ के कोने में।
 
-**Offline:** ऑफ़लाइन संपादक में खोलो [starter project](http://rpf.io/p/hi-IN/binary-hero-go){:target="_blank"} । यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे पा सकते हैं [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** ऑफ़लाइन संपादक में खोलो [starter project](https://rpf.io/p/hi-IN/binary-hero-go){:target="_blank"} । यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे पा सकते हैं [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 

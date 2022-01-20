@@ -46,11 +46,11 @@ title: आपको किन चीज़ों की आवश्यकता �
 
 ### सॉफ्टवेयर
 
-+ Scratch 3 (या तो [online](http://rpf.io/scratchon){:target="_blank"} या [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (या तो [online](https://rpf.io/scratchon){:target="_blank"} या [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### डाउनलोड
 
-+ [ऑफ़लाइन स्टार्टर प्रोजेक्ट](http://rpf.io/p/hi-IN/binary-hero-go){:target="_blank"}
++ [ऑफ़लाइन स्टार्टर प्रोजेक्ट](https://rpf.io/p/hi-IN/binary-hero-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -64,6 +64,6 @@ title: शिक्षकों के लिए अतिरिक्त टि
 
 --- /no-print ---
 
-आप यहां [पूर्ण की गई परियोजना पा सकते हैं](http://rpf.io/p/hi-IN/binary-hero-get){:target="_blank"}.
+आप यहां [पूर्ण की गई परियोजना पा सकते हैं](https://rpf.io/p/hi-IN/binary-hero-get){:target="_blank"}.
 
 --- /collapse ---
