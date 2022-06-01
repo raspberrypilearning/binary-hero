@@ -8,15 +8,17 @@ version: 4.1.0
 last_tested: 2018-11-02
 steps:
 - title: Introduction
-  completion: engaged
 - title: Touches pressées
 - title: Notes binaires
+  completion:
+  - engaged
 - title: Jouer des notes
 - title: Notes qui défilent
 - title: Stocker ta chanson
 - title: Plus de blocs personnalisés
-  completion: internal
 - title: Garder un score
+  completion:
+  - internal
 - title: 'Défi : Aller plus loin'
   challenge: true
 - title: Et ensuite ?
