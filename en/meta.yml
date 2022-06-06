@@ -8,15 +8,17 @@ version: 4.1.0
 last_tested: 2018-11-02
 steps:
 - title: Introduction
-  completion: engaged
 - title: Key presses
 - title: Binary notes
+  completion:
+  - engaged
 - title: Play notes
 - title: Scrolling notes
 - title: Store your song
 - title: More custom blocks
-  completion: internal
 - title: Keep a score
+  completion:
+  - internal
 - title: 'Challenge: take it further'
   challenge: true
 - title: What next?

@@ -9,15 +9,17 @@ version: 4.1.0
 last_tested: 2018-11-02
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Toetsaanslagen
 - title: Binaire getallen
+  completion:
+  - engaged
 - title: Speel noten
 - title: Scrollende noten
 - title: Bewaar je liedje
 - title: Meer aangepaste blokken
-  completion: internal
 - title: Houd een score bij
+  completion:
+  - internal
 - title: 'Uitdaging: ga verder'
   challenge: true
 - title: Wat kun je verder nog doen?
