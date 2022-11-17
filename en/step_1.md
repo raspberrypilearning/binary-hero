@@ -1,6 +1,6 @@
 --- no-print ---
 
-<p style="border-color: #41a6c4; padding: 10px; border-radius: 10px;">
+<p style="border: 4px solid #41a6c4; padding: 10px; border-radius: 10px;">
 Try our new [More Scratch path](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"} to gain badges, design your own projects and create something unique.
 </p>
 
