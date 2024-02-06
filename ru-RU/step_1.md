@@ -1,6 +1,8 @@
 \--- no-print \---
 
-Это версия проекта для **Scratch 3**. Есть также [версия для Scratch 2](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
+<p style="border: 4px solid #41a6c4; padding: 10px; border-radius: 10px;">
+Try our new [More Scratch path](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"} to gain badges, design your own projects and create something unique.
+</p>
 
 \--- /no-print \---
 
@@ -45,11 +47,11 @@
 
 ### Программное обеспечение
 
-+ Scratch 3 (либо [онлайн-редактор](http://rpf.io/scratchon){:target="_blank"}, либо [автономный редактор (без подключения к Интернету)](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Загрузки
 
-+ [Автономный стартовый проект](http://rpf.io/p/en/binary-hero-go){:target="_ blank"}
++ [Offline starter project](https://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -63,6 +65,6 @@
 
 \--- /no-print \---
 
-Здесь ты можешь найти [завершённый проект](http://rpf.io/p/en/binary-hero-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/binary-hero-get){:target="_blank"}.
 
 \--- /collapse \---
