@@ -13,6 +13,8 @@ steps:
     title: Presionar teclas
   - 
     title: Notas binarias
+    completion:
+      - engaged
   - 
     title: Reproducir notas
   - 
@@ -23,8 +25,10 @@ steps:
     title: Más bloques personalizados
   - 
     title: Keep a score
+    completion:
+      - internal
   - 
-    title: "Desafío: ve más allá"
+    title: 'Desafío: ve más allá'
     challenge: true
   - 
-    title: "¿Qué sigue?"
+    title: '¿Qué sigue?'
