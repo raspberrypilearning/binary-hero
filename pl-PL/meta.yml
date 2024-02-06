@@ -13,6 +13,8 @@ steps:
     title: Key presses
   - 
     title: Binary notes
+    completion:
+      - engaged
   - 
     title: Play notes
   - 
@@ -23,8 +25,10 @@ steps:
     title: More custom blocks
   - 
     title: Keep a score
+    completion:
+      - internal
   - 
-    title: "Challenge: take it further"
+    title: 'Challenge: take it further'
     challenge: true
   - 
-    title: "What next?"
+    title: What next?
