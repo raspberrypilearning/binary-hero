@@ -13,6 +13,8 @@ steps:
     title: कुंजी दबाना
   - 
     title: बाइनरी नोट
+    completion:
+      - engaged
   - 
     title: स्वर बजाना
   - 
@@ -23,8 +25,10 @@ steps:
     title: अधिक कस्टम ब्लॉक्स
   - 
     title: स्कोर रखें
+    completion:
+      - internal
   - 
-    title: "चुनौती: इसे आगे बढ़ाएँ"
+    title: 'चुनौती: इसे आगे बढ़ाएँ'
     challenge: true
   - 
-    title: "आगे क्या?"
+    title: आगे क्या?
