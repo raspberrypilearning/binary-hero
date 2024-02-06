@@ -6,9 +6,9 @@ Hoeveel noten kun je met vier toetsen spelen? Het is misschien meer dan je denkt
 
 Open het 'Binaire held' Scratch startproject.
 
-**Online:** open het startproject op [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_ blank"}. Als je een Scratch account hebt, kun je klikken op **Remix** in de rechterbovenhoek om een kopie van het project op te slaan in je account.
+**Online:** open the starter project at [rpf.io/binary-hero-on](https://rpf.io/binary-hero-on){:target="_blank"}. Als je een Scratch account hebt, kun je klikken op **Remix** in de rechterbovenhoek om een kopie van het project op te slaan in je account.
 
-**Offline:** open het [startproject](http://rpf.io/p/en/binary-hero-go){:target="_ blank"} in de offline editor. Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** open the [starter project](https://rpf.io/p/en/binary-hero-go){:target="_blank"}in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
