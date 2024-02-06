@@ -1,6 +1,8 @@
 \--- no-print \---
 
-यह इस प्रोजेक्ट का **Scratch 3** संस्करण है। [इस प्रोजेक्ट का Scratch 2 संस्करण](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2) भी है।
+<p style="border: 4px solid #41a6c4; padding: 10px; border-radius: 10px;">
+Try our new [More Scratch path](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"} to gain badges, design your own projects and create something unique.
+</p>
 
 \--- /no-print \---
 
@@ -45,11 +47,11 @@
 
 ### सॉफ्टवेयर
 
-+ Scratch 3 (या तो [online](http://rpf.io/scratchon){:target="_blank"} या [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### डाउनलोड
 
-+ [ऑफ़लाइन स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
++ [Offline starter project](https://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -63,6 +65,6 @@
 
 \--- /no-print \---
 
-आप यहां [ पूर्ण की गई परियोजना पा सकते हैं ](http://rpf.io/p/en/binary-hero-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/binary-hero-get){:target="_blank"}.
 
 \--- /collapse \---
