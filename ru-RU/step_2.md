@@ -6,9 +6,9 @@
 
 Открой стартовый проект "Двоичный герой".
 
-**Онлайн:** открой стартовый проект по адресу [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_blank"}. Если у тебя есть аккаунт в Scratch, ты можешь нажать на **Ремикс** в правом верхнем углу, чтобы сохранить копию проекта.
+**Online:** open the starter project at [rpf.io/binary-hero-on](https://rpf.io/binary-hero-on){:target="_blank"}. Если у тебя есть аккаунт в Scratch, ты можешь нажать на **Ремикс** в правом верхнем углу, чтобы сохранить копию проекта.
 
-**Оффлайн**: открой [стартовый проект](http://rpf.io/p/en/binary-hero-go){:target="_blank"} в оффлайн-редакторе. Если тебе нужно скачать и установить оффлайн редактор Scratch, ты можешь найти его по адресу [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** open the [starter project](https://rpf.io/p/en/binary-hero-go){:target="_blank"}in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
