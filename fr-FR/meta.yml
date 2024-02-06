@@ -13,6 +13,8 @@ steps:
     title: Touches pressées
   - 
     title: Notes binaires
+    completion:
+      - engaged
   - 
     title: Jouer des notes
   - 
@@ -23,8 +25,10 @@ steps:
     title: Plus de blocs personnalisés
   - 
     title: Garder un score
+    completion:
+      - internal
   - 
-    title: "Défi : Aller plus loin"
+    title: 'Défi : Aller plus loin'
     challenge: true
   - 
-    title: "Et ensuite ?"
+    title: Et ensuite ?
