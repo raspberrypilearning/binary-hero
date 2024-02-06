@@ -13,6 +13,8 @@ steps:
     title: Toetsaanslagen
   - 
     title: Binaire getallen
+    completion:
+      - engaged
   - 
     title: Speel noten
   - 
@@ -23,8 +25,10 @@ steps:
     title: Meer aangepaste blokken
   - 
     title: Houd een score bij
+    completion:
+      - internal
   - 
-    title: "Uitdaging: ga verder"
+    title: 'Uitdaging: ga verder'
     challenge: true
   - 
-    title: "Wat kun je verder nog doen?"
+    title: Wat kun je verder nog doen?
