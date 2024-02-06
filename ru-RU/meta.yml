@@ -13,6 +13,8 @@ steps:
     title: Использование клавиш
   - 
     title: Двоичные ноты
+    completion:
+      - engaged
   - 
     title: Воспроизведи ноты
   - 
@@ -23,8 +25,10 @@ steps:
     title: Больше пользовательских блоков
   - 
     title: Веди счет
+    completion:
+      - internal
   - 
-    title: "Задача: продолжай улучшать"
+    title: 'Задача: продолжай улучшать'
     challenge: true
   - 
-    title: "Что дальше?"
+    title: Что дальше?
