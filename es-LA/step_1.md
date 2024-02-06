@@ -1,6 +1,8 @@
 \--- no-print \---
 
-Esta es la versión **Scratch 3** del proyecto. También hay una [versión Scratch 2 del proyecto](https://projects.raspberrypi.org/en/projects/binary-hero-scratch2).
+<p style="border: 4px solid #41a6c4; padding: 10px; border-radius: 10px;">
+Try our new [More Scratch path](https://projects.raspberrypi.org/en/pathways/more-scratch){:target="_blank"} to gain badges, design your own projects and create something unique.
+</p>
 
 \--- /no-print \---
 
@@ -45,11 +47,11 @@ Las notas caerán desde arriba y tendrás que presionar las teclas para «captur
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descargas
 
-+ [Iniciar proyecto sin conexión](http://rpf.io/p/en/binary-hero-go){:target="_blank"}
++ [Offline starter project](https://rpf.io/p/en/binary-hero-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -63,6 +65,6 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 \--- /no-print \---
 
-Puedes encontrar el [ proyecto completo aquí ](http://rpf.io/p/en/binary-hero-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/binary-hero-get){:target="_blank"}.
 
 \--- /collapse \---
