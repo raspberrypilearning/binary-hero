@@ -10,17 +10,17 @@ Tu vas maintenant ajouter du code pour stocker des chansons dans ton projet, afi
 
 \--- task \---
 
-Make a new block called `load 'happy birthday'`{:class="block3myblocks"} that clears both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists, and then adds the correct numbers back into both lists.
+Crée un nouveau bloc appelé `charger 'bon anniversaire'`{:class="block3myblocks"} qui efface à la fois les listes `notes` et {:class="block3variables"} `temps` {:class="block3variables"}, et ajoute ensuite les numéros corrects dans les deux listes.
 
 [[[generic-scratch3-make-block]]]
 
 \--- hints \--- \--- hint \---
 
-The `load 'happy birthday'`{:class="block3myblocks"} block should `delete all`{:class="block3variables"} items from both the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists and then `add`{:class="block3variables"} the correct six numbers to the list they belong in, in the correct order.
+Le bloc `charger 'joyeux anniversaire'`{:class="block3myblocks"} doit `supprimer tous les`éléments {:class="block3variables"} des `notes`{:class="block3variables"} et `temps`{ :class="block3variables"} répertorie puis `ajoute`{:class="block3variables"} les six nombres corrects à la liste à laquelle ils appartiennent, dans le bon ordre.
 
 \--- /hint \--- \--- hint \---
 
-Here are the code blocks you need:
+Voici les blocs de code dont tu auras besoin :
 
 ![notes-sprite](images/note-sprite.png)
 
@@ -36,7 +36,7 @@ delete all of [times v]
 
 \--- /hint \--- \--- hint \---
 
-This is what your code should look like:
+Voici à quoi ton code devrait ressembler :
 
 ![notes-sprite](images/note-sprite.png)
 
@@ -62,7 +62,7 @@ add [9] to [times v]
 
 \--- task \---
 
-Test your new block by running it at the start of your project.
+Teste ton nouveau bloc en l'exécutant au début de ton projet.
 
 ![notes-sprite](images/note-sprite.png)
 
@@ -73,8 +73,8 @@ hide
 reset timer
 ```
 
-Each of your lists should now contain six numbers.
+Chacune de tes listes devrait maintenant contenir six numéros.
 
-![Lists of notes and times](images/lists-add.png)
+![Listes de notes et de temps](images/lists-add.png)
 
 \--- /task \---
