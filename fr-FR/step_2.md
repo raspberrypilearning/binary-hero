@@ -6,9 +6,9 @@ Combien de notes peux-tu jouer avec quatre touches ? Cela pourrait être plus qu
 
 Ouvre le projet de démarrage Scratch « Virtuose du binaire ».
 
-**En ligne :** ouvre le projet de démarrage sur [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_ blank"}. Si tu as un compte Scratch, tu peux cliquer sur **Remix** dans le coin supérieur droit pour enregistrer une copie du projet.
+**Online:** open the starter project at [rpf.io/binary-hero-on](https://rpf.io/binary-hero-on){:target="_blank"}. Si tu as un compte Scratch, tu peux cliquer sur **Remix** dans le coin supérieur droit pour enregistrer une copie du projet.
 
-**Hors ligne :** ouvre le [projet de démarrage](http://rpf.io/p/en/binary-hero-go){:target="_blank"} de l'éditeur hors ligne. Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver sur [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** open the [starter project](https://rpf.io/p/en/binary-hero-go){:target="_blank"}in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
