@@ -6,9 +6,9 @@
 
 Open the 'Binary hero' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/binary-hero-on](http://rpf.io/binary-hero-on){:target="_blank"}. Si tienes una cuenta de Scratch, puedes guardar una copia del proyecto al hacer clic en **Remix**, en la esquina superior derecha.
+**Online:** open the starter project at [rpf.io/binary-hero-on](https://rpf.io/binary-hero-on){:target="_blank"}. Si tienes una cuenta de Scratch, puedes guardar una copia del proyecto al hacer clic en **Remix**, en la esquina superior derecha.
 
-**Sin conexión**: abre el [proyecto inicial](http://rpf.io/p/en/binary-hero-go){:target=_blank"} en el editor sin conexión. Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** open the [starter project](https://rpf.io/p/en/binary-hero-go){:target="_blank"}in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
