@@ -34,11 +34,6 @@ So that your code is even easier to read, make another block that allows you to 
 --- hints ---
 --- hint ---
 
-Make a block that takes a number as `note`{:class="block3variables"} and a number as `time`{:class="block3variables"} and `adds`{:class="block3variables"} each number to the correct list.
-
---- /hint ---
---- hint ---
-
 This is what your code should look like:
 
 ```blocks3
@@ -58,5 +53,6 @@ clear song ::custom
 
 --- /hint ---
 --- /hints ---
+
 
 --- /task ---

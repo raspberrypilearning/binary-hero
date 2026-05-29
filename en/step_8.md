@@ -17,29 +17,6 @@ Add to `score`{:class="block3variables"} whenever the player plays the correct n
 --- hints ---
 --- hint ---
 
-`Before each clone is deleted`{:class="block3control"}, it should check to see `if`{:class="block3control"} the `note`{:class="block3variables"} is `equal to`{:class="block3operators"} the `costume number`{:class="block3looks"}, and in that case, the score should be `changed`{:class="block3variables"}.
-
---- /hint ---
---- hint ---
-
-Here are the code blocks you need:
-
-![note](images/note-sprite.png)
-
-```blocks3
-[ ] = [ ]
-(costume [number v])
-(note)
-change [score v] by (1)
-
-if <> then
-else
-end
-```
-
---- /hint ---
---- hint ---
-
 This is what your code should look like:
 
 ![note](images/note-sprite.png)
@@ -57,6 +34,7 @@ delete this clone
 
 --- /hint ---
 --- /hints ---
+
 --- /task ---
 
 --- task ---

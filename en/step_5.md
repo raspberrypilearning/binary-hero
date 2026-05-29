@@ -55,49 +55,6 @@ Add code to create a 'note' sprite clone for every note stored in `notes`{:class
 --- hints ---
 --- hint ---
 
-![note](images/note-sprite.png)
-When the `flag is clicked`{:class="block3events"}, the 'note' sprite should `hide`{:class="block3looks"}, and the `timer`{:class="block3variables"} should be `reset`{:class="block3variables"}.
-
-The script should then `wait until`{:class="block3control"} the value of `timer`{:class="block3variables"} is `greater than`{:class="block3operators"} the next note to be played, which will be the `time`{:class="block3variables"} at the `start of the list`{:class="block3variables"} (`minus 2 seconds`{:class="block3operators"}).
-
-The costume for the 'note' sprite should then be set to the next `note`{:class="block3variables"} to be played (the `note`{:class="block3variables"} at the start of the list), before a `clone`{:class="block3events"} of the 'note' sprite is created.
-
-The items at the start of the `notes`{:class="block3variables"} and `times`{:class="block3variables"} lists should then be `deleted`{:class="block3variables"}, and the entire process should be `repeated until`{:class="block3control"} there are no items left in the `notes`{:class="block3variables"} list.
-
---- /hint ---
---- hint ---
-
-Here are the code blocks you need:
-
-![note](images/note-sprite.png)
-
-```blocks3
-wait until <>
-when flag clicked
-length of [notes v]
-
-create clone of (myself v)
-
-reset timer
-item (1 v) of [times v]
-hide
-
-repeat until <>
-end
-[] > []
-item (1 v) of [notes v]
-() - ()
-switch costume to ( v)
-[] = []
-timer
-delete (1 v) of [times v]
-
-delete (1 v) of [notes v]
-```
-
---- /hint ---
---- hint ---
-
 This is what your code should look like:
 
 ![note](images/note-sprite.png)
@@ -117,6 +74,7 @@ end
 
 --- /hint ---
 --- /hints ---
+
 --- /task ---
 
 When you test your code now, nothing seems to happen, because the 'note' sprite is hidden. If you show (or don't hide) the sprite, then you should see clones being created on top of each other.
